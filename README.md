@@ -1,8 +1,8 @@
 # FIN 67110 — Week 2 | Checkpoint 1: The desk runs
 
-**Status: the Lab 02 data-only runs for COST and WMT were saved on 2026-10-28 UTC, and the partner-selected PEP fallback report was saved on 2026-10-29 UTC after the configured API account reported no remaining credits. Zainab Fashola (ZF) recorded the required two partner checks (#9 and #11), and student AD accepted all 11 core claims on 2026-10-29 (0 errors; 0 missing). The GitHub submission remains incomplete.** This is not a claim that the assignment has been submitted.
+**Repository status (2026-11-02):** the COST and WMT data-only runs and the partner-selected PEP fallback report are present in `runs/` and published in this GitHub repository. Zainab Fashola (ZF) recorded the required two partner checks (#9 and #11), and student AD accepted all 11 core claims on 2026-10-29 (0 errors; 0 missing). **GitHub publication is complete; this does not establish that the commit permalink was submitted in Brightspace.** The PEP price is corroborated by secondary market-data sources, but the original date-specific LSEG record is not included; see the PEP report and audit.
 
-Week 2, Lab 02 (seven SEC data steps) + Lab 03 (four model roles, five-part report, human audit, partner company), are one checkpoint. **Due Thursday October 29, 2026, 11:59 PM Eastern in Brightspace, by an immutable GitHub commit link.** Instructor references: [Week 2](https://cinderzhang.github.io/FIN67110-Fall2026/week-02/index.html), [report audit](https://cinderzhang.github.io/FIN67110-Fall2026/reference/audit-checklist.html), [grading](https://cinderzhang.github.io/FIN67110-Fall2026/grading.html), [schedule](https://cinderzhang.github.io/FIN67110-Fall2026/schedule.html).
+Week 2, Lab 02 (seven SEC data steps) + Lab 03 (four model roles, five-part report, human audit, partner company), are one checkpoint. The listed due date was **Thursday, October 29, 2026, 11:59 PM Eastern in Brightspace**. This repository's GitHub publication does not confirm a Brightspace submission or its acceptance. Instructor references: [Week 2](https://cinderzhang.github.io/FIN67110-Fall2026/week-02/index.html), [report audit](https://cinderzhang.github.io/FIN67110-Fall2026/reference/audit-checklist.html), [grading](https://cinderzhang.github.io/FIN67110-Fall2026/grading.html), [schedule](https://cinderzhang.github.io/FIN67110-Fall2026/schedule.html).
 
 ## Set up locally (Windows, VS Code terminal)
 
@@ -76,14 +76,14 @@ Replace placeholders with the actual ticker, appropriate peers, and an official 
 
 ## Push to your PUBLIC GitHub repo
 
-Copy generated output folders `runs/` into your work repository; the ZIP does not contain them because live SEC/model runs were not accessible in this environment. Check that `runs` contains filings/facts, Costco report, and **partner report**, and that the correct audits are present. Then:
+The current repository already contains the saved `runs/` output folders, including the COST and WMT filing data and the PEP partner report. For later changes, review the staged files and publish the update:
 
 ```powershell
 git status --short
 git check-ignore .env
-git add desk.py sec_desk.py roles.py check_env.py requirements.txt README.md .gitignore .env.example tests audits MANUAL_CHECKLIST.md runs
-git commit -m "Week 2: SEC seven-step desk, four-role reports and audits"
-git push
+git add -A
+git commit -m "Describe your update"
+git push origin main
 # prints full permanent hash of the commit:
 git rev-parse HEAD
 ```
@@ -92,7 +92,7 @@ Do not run `git add .env`; check `git status` and GitHub after pushing to verify
 
 `https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/tree/YOUR_FULL_COMMIT_SHA`
 
-Paste that link in **Brightspace → Checkpoint 1**. The project page shows this same commit-permalink pattern. `CHECKPOINT1_SUBMISSION.txt` is a placeholder to fill, not a final link. Use incognito to confirm the commit and the partner report open publicly.
+GitHub publication and course submission are separate steps. If the course portal still accepts the checkpoint, paste the full commit link in **Brightspace → Checkpoint 1** and verify the submission there. `CHECKPOINT1_SUBMISSION.txt` is a placeholder to fill, not a final link. Use incognito to confirm the commit and partner report open publicly.
 
 ## If the API is down or the desk fails
 
