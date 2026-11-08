@@ -1,0 +1,215 @@
+{
+  "investment_recommendation": "Hold provisional based on the fiscal year 2026 GAAP diluted EPS of $20.76 per share [C:diluted_eps] combined with a price-to-earnings ratio of 43.58 [C:price_to_earnings], which is elevated relative to peers. Although Costco demonstrates strong profitability with an operating margin of 3.85% and return on equity of 28.4%, its margin is below peer retailers such as Walmart (4.18%) and Target (4.88%), reflecting a tradeoff between competitive pricing via membership and margin compression. This mixed signal on valuation and margin sustainability suggests holding the position pending clearer margin expansion or valuation re-rating.",
+  "claims": [
+    {
+      "id": "diluted_eps",
+      "label": "Fiscal Year 2026 GAAP Diluted EPS",
+      "value": 20.76,
+      "display": "$20.76 per share",
+      "source": {
+        "kind": "xbrl",
+        "field": "EarningsPerShareDiluted",
+        "period": "2026-08-30",
+        "tag": "EarningsPerShareDiluted",
+        "end": "2026-08-30",
+        "accession": "0000909832-26-000093"
+      }
+    },
+    {
+      "id": "price_to_earnings",
+      "label": "Price to Earnings Ratio",
+      "value": 43.58,
+      "display": "43.58",
+      "source": {
+        "kind": "ratio",
+        "formula": "price / diluted_eps",
+        "definition": "Price to earnings ratio using price and diluted EPS",
+        "inputs": {
+          "price": {
+            "value": "904.7",
+            "source": {
+              "kind": "external",
+              "field": "Stock Price",
+              "period": "2026-09-23"
+            }
+          },
+          "diluted_eps": {
+            "value": "20.76",
+            "source": {
+              "kind": "xbrl",
+              "field": "EarningsPerShareDiluted",
+              "period": "2026-08-30",
+              "tag": "EarningsPerShareDiluted",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "operating_margin",
+      "label": "Operating Margin Fiscal Year 2026",
+      "value": 0.0385,
+      "display": "3.85%",
+      "source": {
+        "kind": "ratio",
+        "formula": "operating_income / revenue",
+        "definition": "Operating margin based on operating income and total revenue",
+        "inputs": {
+          "operating_income": {
+            "value": "11685000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-08-30",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "revenue": {
+            "value": "303154000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "wmt_operating_margin",
+      "label": "Walmart Operating Margin Fiscal Year 2026",
+      "value": 0.0418,
+      "display": "4.18%",
+      "source": {
+        "kind": "ratio",
+        "formula": "operating_income / revenue",
+        "definition": "Walmart operating margin for FY2026",
+        "inputs": {
+          "operating_income": {
+            "value": "29825000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-01-31",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-01-31",
+              "accession": "0000104169-26-000055"
+            }
+          },
+          "revenue": {
+            "value": "713163000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "Revenues",
+              "period": "2026-01-31",
+              "tag": "Revenues",
+              "end": "2026-01-31",
+              "accession": "0000104169-26-000055"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "tgt_operating_margin",
+      "label": "Target Operating Margin Fiscal Year 2026",
+      "value": 0.0488,
+      "display": "4.88%",
+      "source": {
+        "kind": "ratio",
+        "formula": "operating_income / revenue",
+        "definition": "Target operating margin for FY2026",
+        "inputs": {
+          "operating_income": {
+            "value": "5117000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-01-31",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-01-31",
+              "accession": "0000027419-26-000016"
+            }
+          },
+          "revenue": {
+            "value": "104780000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-01-31",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-01-31",
+              "accession": "0000027419-26-000016"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "return_on_average_equity",
+      "label": "Return on Average Equity Fiscal Year 2026",
+      "value": 0.284,
+      "display": "28.40%",
+      "source": {
+        "kind": "ratio",
+        "formula": "net_income / ((equity_current + equity_prior) / 2)",
+        "definition": "Return on average equity",
+        "inputs": {
+          "net_income": {
+            "value": "9226000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "NetIncomeLoss",
+              "period": "2026-08-30",
+              "tag": "NetIncomeLoss",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "equity_current": {
+            "value": "35803000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "StockholdersEquity",
+              "period": "2026-08-30",
+              "tag": "StockholdersEquity",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "equity_prior": {
+            "value": "29164000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "StockholdersEquity",
+              "period": "2025-08-31",
+              "tag": "StockholdersEquity",
+              "end": "2025-08-31",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "insight_investment_advisor",
+      "label": "Investment Advisor Insight",
+      "value": "Costco’s membership renewal rates show a durable competitive edge, with a strong 92.3% rate in the U.S. and Canada in 2026, underpinning a large, stable recurring revenue base that supports consistent profitability despite narrower margins compared to peers [10-K accession 0000909832-26-000093 lines L000783-L000784].",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 783,
+        "quote": "Our member renewal rate was 92.3% in the U.S. and Canada and 89.8% worldwide at the end of 2026.",
+        "period": "2026-08-30",
+        "definition": "Membership renewal rate"
+      }
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "overview": "Costco Wholesale Corporation operates membership warehouses and e-commerce sites worldwide, selling a limited selection of nationally-branded and private-label products across core categories including food, fresh foods, non-foods, and ancillary services such as gasoline and pharmacy. The business model focuses on offering low prices on a limited assortment to drive high sales volume and rapid inventory turnover, supported by volume purchasing, efficient distribution, and a no-frills, self-service warehouse format averaging approximately 148,000 square feet per warehouse. Membership fees provide a recurring revenue stream with multiple tiers, including Executive memberships that offer rewards. E-commerce operations complement physical warehouses by offering a broader selection and convenience. Warehouses totaled 939 worldwide at fiscal year-end 2026, operating in numerous countries including the U.S., Canada, Mexico, Japan, U.K., Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland, and New Zealand [10-K accession 0000909832-26-000093 lines L000733-L000744] and [EX-99.1 accession 0000909832-26-000093 lines L000021].",
+  "market_positioning_and_growth_outlook": "Costco positions itself as a low-price warehouse club retailer with a membership model that promotes customer loyalty and recurring revenue. Each warehouse carries less than 4,000 active SKUs, focusing on fast-selling models to maintain turnover, distinguishing Costco from broader-line retailers [10-K lines L000744]. Ancillary services, such as 774 gas stations (11% of total net sales) located near warehouses, enhance customer value and promote frequent visits [10-K lines L000764; L000773]. Member renewal rates remain high at 92.3% in U.S. and Canada and 89.8% globally as of fiscal 2026, supporting stable revenues [10-K lines L000783; L000784]. The company reported a 10.1% increase in net sales year-over-year to $297.2 billion for fiscal 2026, with digitally-enabled sales growing approximately 20.9% annually, reflecting strong e-commerce momentum [EX-99.1 lines L000010, L000018].",
+  "future_developments_and_strategic_recommendations": "Future growth hinges on continued warehouse expansions in both existing and new markets, alongside enhancement of e-commerce capabilities. Risks to consider include challenges acquiring real estate, local regulatory restrictions, and competitive pressures as Costco enters new markets. Leveraging its efficient supply chain and private label products will help maintain low costs and value to members. Ecommerce growth and expansion of ancillary services like gasoline and pharmacy should continue to support top-line growth and customer engagement. Given geographic concentration risk (86% of net sales from U.S. and Canada, with 26% of U.S. net sales from California), diversifying geographic exposure and increasing penetration in underdeveloped markets can mitigate risk. Maintaining high employee retention and strict cost controls will remain critical given that labor is the largest expense after merchandise costs [10-K lines L000836-L000841; L000737-L000742; L000787-L000793].",
+  "claims": [
+    {
+      "id": "claim_1",
+      "label": "Number of warehouses worldwide",
+      "value": 939,
+      "display": "939 warehouses",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 734,
+        "quote": "Costco operated 939 warehouses worldwide at August 30, 2026",
+        "period": "2026-08-30",
+        "definition": "Total number of warehouses operated worldwide"
+      }
+    },
+    {
+      "id": "claim_2",
+      "label": "Fiscal 2026 net sales",
+      "value": 297.2,
+      "display": "$297.2 billion",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 10,
+        "quote": "Net sales for the fiscal year increased 10.1 percent, to $297.2 billion",
+        "period": "2026-08-30",
+        "definition": "Total net sales for fiscal year 2026"
+      }
+    },
+    {
+      "id": "claim_3",
+      "label": "Digitally-enabled sales growth",
+      "value": 20.9,
+      "display": "20.9% growth in digital sales",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 18,
+        "quote": "Digitally-Enabled sales growth... 20.9%",
+        "period": "2026-08-30",
+        "definition": "Year-over-year digitally enabled sales growth"
+      }
+    },
+    {
+      "id": "claim_4",
+      "label": "Gasoline stations operated",
+      "value": 774,
+      "display": "774 gas stations",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "We operated 774 gas stations at the end of 2026",
+        "period": "2026-08-30",
+        "definition": "Number of gasoline service stations operated"
+      }
+    },
+    {
+      "id": "claim_5",
+      "label": "Gasoline business percentage of total net sales",
+      "value": 11,
+      "display": "Gasoline business represented 11% of total net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "Our gasoline business represented 11% of total net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Percentage of total net sales from gasoline business"
+      }
+    },
+    {
+      "id": "claim_6",
+      "label": "Membership renewal rate US & Canada",
+      "value": 92.3,
+      "display": "92.3% renewal rate in U.S. & Canada",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 783,
+        "quote": "Our member renewal rate was 92.3% in the U.S. and Canada... at the end of 2026",
+        "period": "2026-08-30",
+        "definition": "Membership renewal rate for U.S. and Canada"
+      }
+    },
+    {
+      "id": "claim_7",
+      "label": "Total employees worldwide",
+      "value": 355000,
+      "display": "355,000 employees",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 789,
+        "quote": "At the end of 2026, we employed 355,000 employees worldwide",
+        "period": "2026-08-30",
+        "definition": "Total worldwide employees"
+      }
+    },
+    {
+      "id": "claim_8",
+      "label": "Fiscal year 2026 net income",
+      "value": 9.226,
+      "display": "$9.226 billion net income",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 49,
+        "quote": "Net income for the fiscal year was $9.226 billion",
+        "period": "2026-08-30",
+        "definition": "Net income fiscal year 2026"
+      }
+    },
+    {
+      "id": "claim_9",
+      "label": "Fiscal year 2026 diluted EPS",
+      "value": 20.76,
+      "display": "$20.76 diluted EPS",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 52,
+        "quote": "Diluted earnings per share was $20.76",
+        "period": "2026-08-30",
+        "definition": "Diluted earnings per share for fiscal year 2026"
+      }
+    },
+    {
+      "id": "claim_10",
+      "label": "Average warehouse size",
+      "value": 148000,
+      "display": "148,000 square feet average warehouse space",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 742,
+        "quote": "Our average warehouse space is approximately 148,000 square feet",
+        "period": "2026-08-30",
+        "definition": "Average size of warehouse locations"
+      }
+    },
+    {
+      "id": "claim_11",
+      "label": "SKU count per warehouse",
+      "value": 4000,
+      "display": "less than 4,000 active SKUs per warehouse",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 744,
+        "quote": "We carry less than 4,000 active stock keeping units (SKUs) per warehouse",
+        "period": "2026-08-30",
+        "definition": "SKU assortment per warehouse"
+      }
+    },
+    {
+      "id": "claim_12",
+      "label": "Insight: California market sales concentration",
+      "value": null,
+      "display": "California operations comprised 26% of U.S. net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 837,
+        "quote": "Within the U.S., we are highly dependent on our California operations, which comprised 26% of U.S. net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Revenue concentration from California operations"
+      }
+    }
+  ],
+  "Insight": "Costco's significant revenue concentration in California, accounting for 26% of U.S. net sales in 2026, reveals a geographic concentration risk beyond the broad U.S. and Canadian market dependency, which is not emphasized in the earnings release [10-K accession 0000909832-26-000093 line L000837]."
+}

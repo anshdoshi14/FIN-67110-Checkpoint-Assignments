@@ -1,0 +1,281 @@
+{
+  "task": "Check five sections, numerical evidence, and three independent Insight lines. Issue one retry per failing role at most.",
+  "context": {
+    "ticker": "AAPL",
+    "sections": {
+      "Overview": "Apple Inc. designs, manufactures, and markets a broad range of consumer technology products including smartphones, personal computers, tablets, wearables, and accessories, alongside related services. The product lines include the iPhone (notably iPhone Duo, iPhone 18 Pro, and others), Mac (laptops like MacBook Neo, MacBook Air, MacBook Pro, and desktops such as iMac, Mac mini, and Mac Studio), iPad (including iPad Pro, iPad Air, and iPad mini), and Wearables, Home and Accessories (including Apple Watch Series 12 and Ultra 4, AirPods line, Apple Vision Pro spatial computer, and Apple TV 4K). Apple's six software platforms (iOS, iPadOS, macOS, watchOS, visionOS, and tvOS) underpin these products, providing integrated user experiences and supporting Apple’s services ecosystem, including the App Store, Apple Music, Apple Pay, iCloud, and Apple TV [10-K accession 0000320193-26-000026 lines L000851-L000912, L000913, L000919].\n\nInsight: The 10-K identifies industry-wide supply-demand imbalances, especially on advanced semiconductors, memory, and storage components, as intensifying headwinds that could impact costs and demand, thus representing a critical risk to the company's operational performance beyond headline revenue and profit growth [10-K line L001231] [C:132175].",
+      "Market Positioning and Growth Outlook": "Apple maintains a strong market position leveraging its integrated hardware-software ecosystem, a diverse product lineup, and an expanding services segment. Its active installed base of devices reached a new all-time high, fueling consistent services revenue growth, driven primarily by advertising and cloud services. The company’s geographic segments all reported net sales increases year over year, with Greater China and Europe showing especially strong growth aided by currency effects. Product segment growth was led by iPhone sales (notably Pro models) and Mac laptops, while iPad and Wearables, Home and Accessories sales were relatively flat year over year. The company faces macroeconomic challenges, including supply constraints and tariff impacts, but expects to navigate these via pricing and operational measures, though risks to demand are noted [10-K lines L001238-L001275].",
+      "Valuation Insights": "Apple's fiscal 2026 annual total revenue reached $478.834 billion [C:revenue_cy] compared to $416.161 billion in fiscal 2025 [C:revenue_py], indicating a revenue growth of approximately 15.06% [C:revenue_growth]. The operating income for 2026 was $158.063 billion [C:operating_income_cy], yielding an operating margin of 33.01% [C:operating_margin]. Net income attributable to the company was $132.175 billion [C:net_income_cy]. GAAP diluted earnings per share (EPS) stood at $8.98 [C:diluted_eps_cy]. Return on average equity, calculated from net income divided by the average of start and end equity, was 142.26% [C:roae]. Apple reported a debt-to-equity ratio including current portion of debt of 0.697 [C:debt_to_equity]. Free cash flow, computed as net cash provided by operating activities less capital expenditures, was $136.056 billion [C:free_cash_flow]. For the latest reported quarter, Apple achieved revenue of $114.477 billion [C:quarterly_revenue], with a 12% growth compared to the same quarter last year [C:quarterly_revenue_growth]. Latest quarter GAAP diluted EPS was $2.10 [C:quarterly_diluted_eps]. Using the closing price of $344.63 on October 30, 2026, the price-to-earnings ratio (P/E) based on annual GAAP diluted EPS was approximately 38.38 [C:pe_ratio]. For peer comparison on operating margins, Microsoft reported 46.78% [C:msft_op_margin], Alphabet 32.03% [C:goog_op_margin], and Oracle 30.59% [C:orcl_op_margin] using consistent total revenues and operating income from their latest 10-Ks. Apple's operating margin of 33.01% is below Microsoft but above Oracle and Alphabet, acknowledging differing fiscal periods across peers.\n\nInsight: Apple Inc.'s operating cash flow increased notably to $145.097 billion in fiscal 2026 from $111.482 billion the prior year, supporting substantial free cash flow of $136.056 billion even with reduced capital expenditures [C:free_cash_flow]. This highlights strong cash-generation capability amid stable investment levels, as detailed in 10-K FY2026 (L000123).",
+      "Future Developments and Strategic Recommendations": "Apple announced a highly ambitious and diverse product refresh for fiscal 2026, including new iPhone models (iPhone Duo, iPhone 18 Pro and Pro Max), MacBook laptops (14-inch MacBook Pro, MacBook Neo, MacBook Air, MacBook Pro), iPad models (iPad Pro, iPad Air), wearables (Apple Watch Series 12, Apple Watch Ultra 4, AirPods 5), and new software releases including iOS 27 and visionOS 27, along with the Siri AI update. These launches are intended to drive continued revenue growth and device ecosystem expansion. Strategic focus should remain on mitigating supply chain risks, monitoring tariff developments, nurturing services growth, and sustaining competitive advantage via innovation in hardware-software integration and artificial intelligence enhancements [10-K lines L001197-L001228; EX-99.1 lines L000013-L000014].",
+      "Investment Recommendation": "Provisional Buy based on fiscal 2026 Total Revenue of $478.834 billion [C:revenue_cy]\n\nInsight: The 10-K FY2026 reveals that Apple’s operating cash flow rose significantly to $145.097 billion, enabling strong free cash flow generation of $136.056 billion despite stable capital expenditures, evidencing robust cash generation and investment discipline [C:free_cash_flow] (10-K FY2026 L000123)."
+    },
+    "first_release_paragraph": "EX-99.1\n2\na8-kex991q4202609262026.htm\nEX-99.1\nDocument\nExhibit 99.1\nApple reports fourth quarter results\nSeptember quarter records for total company revenue, iPhone revenue, and EPS\nServices revenue reaches new all-time high\nCUPERTINO, CALIFORNIA — Apple\n®\ntoday announced financial results for its fiscal 2026 fourth quarter ended September 26, 2026. The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year. Company gross margin was 47.9 percent, including a favorable impact of approximately 1 percentage point from tariff refunds. Diluted earnings per share was $2.10, up 14 percent year over year, and included a favorable impact of $0.05 from tariff refunds.\n“Today, Apple is proud to report a September quarter revenue record of $114.5 billion, up 12 percent from a year ago, with iPhone reaching a September quarter record and Services reaching an all-time high, capping off our best fiscal year ever,” said John Ternus, Apple’s CEO. “We’re closing the year with our most ambitious lineup yet. That includes the iPhone Duo, the most transformational iPhone since the original, alongside iPhone 18 Pro and iPhone 18 Pro Max, our most powerful iPhones yet. We also just introduced a whole new generation of hardware for the home and brought Touch to Mac for the first time. Together with the all-new Siri AI, it’s an incredible lineup to carry us into the holiday season.”\n“Apple delivered September quarter records for net income and EPS. Our record September quarter capped off a strong fiscal 2026, with all-time record revenue of $479 billion and double-digit EPS growth,” said Kevan Parekh, Apple’s CFO. “We generated $28 billion in operating cash flow during the quarter, allowing us to return $28 billion to shareholders. Thanks to our very high levels of customer satisfaction and loyalty, our installed base of active devices reached a new all-time high across all major product categories and geographic segments.”\nApple’s board of directors has declared a cash dividend of $0.27 per share of the Company’s common stock. The dividend is payable on November 16, 2026, to shareholders of record as of the close of business on November 12, 2026.\nApple will provide live streaming of its Q4 2026 financial results conference call beginning at 2:00 p.m. PT on November 2, 2026, at apple.com/investor/earnings-call. The webcast will be available for replay for approximately two weeks thereafter.\nApple periodically provides information for investors on its corporate website, apple.com, and its investor relations website, investor.apple.com. This includes press releases and other information about financial performance, reports filed or furnished with the SEC, information on corporate governance, and details related to its annual meeting of shareholders.\nThis press release contains forward-looking statements, within the meaning of the Private Securities Litigation Reform Act of 1995. These forward-looking statements include without limitation those about payment of the Company’s quarterly dividend and future business plans. These statements involve risks and uncertainties, and actual results may differ materially from any future results expressed or implied by the forward-looking statements. Risks and uncertainties include without limitation: effects of global and regional economic conditions, including as a result of government policies, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, and public health issues; risks relating to the design, manufacture, introduction, and transition of products, services and technologies in highly competitive and rapidly changing markets, including from reliance on third parties for components, technology, manufacturing, applications, services, support, compute, storage, and content; risks relating to information technology system failures, network disruptions, and failure to protect, loss of, or unauthorized access to, or release of, data; and effects of unfavorable legal proceedings, government investigations, and complex and changing laws and regulations. More information on these risks and other potential factors that could affect the Company’s business, reputation, results of operations, financial condition, and stock price is included in the Company’s filings with the SEC, including in the “Risk Factors” and “Management’s Discussion and Analysis of Financial Condition and Results of Operations” sections of the Company’s most recently filed periodic reports on Form 10-K and Form 10-Q and subsequent filings. The Company assumes no obligation to update any forward-looking statements, which speak only as of the date they are made.\nApple revolutionized personal technology with the introduction of the Macintosh in 1984. Today, Apple leads the world in innovation with iPhone, iPad, Mac, AirPods, Apple Watch, and Apple Vision Pro. Apple’s six software platforms — iOS, iPadOS, macOS, watchOS, visionOS, and tvOS — provide seamless experiences across all Apple devices and empower people with breakthrough services including the App Store, Apple Music, Apple Pay, iCloud, and Apple TV. Apple’s more than 150,000 employees are dedicated to making the best products on earth and to leaving the world better than we found it.\nPress Contact:\nNick Leahy\nApple\nnleahy@apple.com\n(408) 862-5012\nInvestor Relations Contact:\nSuhasini Chandramouli\nApple\nsuhasini@apple.com\n(408) 974-3123\nNOTE TO EDITORS: For additional information visit Apple Newsroom (www.apple.com/newsroom), or email Apple’s Media Helpline at media.help@apple.com.\n© 2026 Apple Inc. All rights reserved. Apple and the Apple logo are trademarks of Apple. Other company and product names may be trademarks of their respective owners.\nApple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF OPERATIONS (Unaudited)\n(In millions, except number of shares, which are reflected in thousands, and per-share amounts)\n| Three Months Ended |  | Twelve Months Ended\n| September 26, 2026 |  | September 27, 2025 |  | September 26, 2026 |  | September 27, 2025\nNet sales: |  |  |  |  |  |  |\nProducts | $ | 82,904 |  |  | $ | 73,716 |  |  | $ | 355,533 |  |  | $ | 307,003 |\nServices | 31,573 |  |  | 28,750 |  |  | 123,301 |  |  | 109,158 |\nTotal net sales (1) | 114,477 |  |  | 102,466 |  |  | 478,834 |  |  | 416,161 |\nCost of sales: |  |  |  |  |  |  |\nProducts | 52,064 |  |  | 47,019 |  |  | 215,874 |  |  | 194,116 |\nServices | 7,593 |  |  | 7,106 |  |  | 29,358 |  |  | 26,844 |\nTotal cost of sales | 59,657 |  |  | 54,125 |  |  | 245,232 |  |  | 220,960 |\nGross margin | 54,820 |  |  | 48,341 |  |  | 233,602 |  |  | 195,201 |\nOperating expenses: |  |  |  |  |  |  |\nResearch and development | 11,730 |  |  | 8,866 |  |  | 45,765 |  |  | 34,550 |\nSelling, general and administrative | 7,459 |  |  | 7,048 |  |  | 29,774 |  |  | 27,601 |\nTotal operating expenses | 19,189 |  |  | 15,914 |  |  | 75,539 |  |  | 62,151 |\nOperating income | 35,631 |  |  | 32,427 |  |  | 158,063 |  |  | 133,050 |\nOther income/(expense), net | 504 |  |  | 377 |  |  | 1,174 |  |  | (321) |\nIncome before provision for income taxes | 36,135 |  |  | 32,804 |  |  | 159,237 |  |  | 132,729 |\nProvision for income taxes | 5,424 |  |  | 5,338 |  |  | 27,062 |  |  | 20,719 |\nNet income | $ | 30,711 |  |  | $ | 27,466 |  |  | $ | 132,175 |  |  | $ | 112,010 |\nEarnings per share: |  |  |  |  |  |  |\nBasic | $ | 2.11 |  |  | $ | 1.85 |  |  | $ | 9.01 |  |  | $ | 7.49 |\nDiluted | $ | 2.10 |  |  | $ | 1.85 |  |  | $ | 8.98 |  |  | $ | 7.46 |\nShares used in computing earnings per share: |  |  |  |  |  |  |\nBasic | 14,570,195 |  |  | 14,815,307 |  |  | 14,661,935 |  |  | 14,948,500 |\nDiluted | 14,630,318 |  |  | 14,863,609 |  |  | 14,720,306 |  |  | 15,004,697 |\n(1) Net sales by reportable segment: |  |  |  |  |  |  |\nAmericas | $ | 48,680 |  |  | $ | 44,192 |  |  | $ | 198,083 |  |  | $ | 178,353 |\nEurope | 32,008 |  |  | 28,703 |  |  | 127,604 |  |  | 111,032 |\nGreater China | 17,539 |  |  | 14,493 |  |  | 82,378 |  |  | 64,377 |\nJapan | 6,540 |  |  | 6,636 |  |  | 30,908 |  |  | 28,703 |\nRest of Asia Pacific | 9,710 |  |  | 8,442 |  |  | 39,861 |  |  | 33,696 |\nTotal net sales | $ | 114,477 |  |  | $ | 102,466 |  |  | $ | 478,834 |  |  | $ | 416,161 |\n(1) Net sales by category: |  |  |  |  |  |  |\niPhone | $ | 57,583 |  |  | $ | 49,025 |  |  | $ | 254,098 |  |  | $ | 209,586 |\nMac | 10,792 |  |  | 8,726 |  |  | 37,929 |  |  | 33,708 |\niPad | 6,229 |  |  | 6,952 |  |  | 27,929 |  |  | 28,023 |\nWearables, Home and Accessories | 8,300 |  |  | 9,013 |  |  | 35,577 |  |  | 35,686 |\nServices | 31,573 |  |  | 28,750 |  |  | 123,301 |  |  | 109,158 |\nTotal net sales | $ | 114,477 |  |  | $ | 102,466 |  |  | $ | 478,834 |  |  | $ | 416,161 |\nApple Inc.\nCONDENSED CONSOLIDATED BALANCE SHEETS (Unaudited)\n(In millions, except number of shares, which are reflected in thousands, and par value)\n| September 26, 2026 |  | September 27, 2025\nASSETS:\nCurrent assets: |  |  |\nCash and cash equivalents | $ | 36,305 |  |  | $ | 35,934 |\nMarketable securities | 20,417 |  |  | 18,763 |\nAccounts receivable, net | 43,817 |  |  | 39,777 |\nVendor non-trade receivables | 39,896 |  |  | 33,180 |\nInventories | 14,541 |  |  | 5,718 |\nOther current assets | 18,881 |  |  | 14,585 |\nTotal current assets | 173,857 |  |  | 147,957 |\nNon-current assets: |  |  |\nMarketable securities | 80,213 |  |  | 77,723 |\nProperty, plant and equipment, net | 52,084 |  |  | 49,834 |\nIntangible assets, net | 20,278 |  |  | 11,093 |\nOther non-current assets | 78,116 |  |  | 72,634 |\nTotal non-current assets | 230,691 |  |  | 211,284 |\nTotal assets | $ | 404,548 |  |  | $ | 359,241 |\nLIABILITIES AND SHAREHOLDERS’ EQUITY:\nCurrent liabilities: |  |  |\nAccounts payable | $ | 82,252 |  |  | $ | 69,860 |\nOther current liabilities | 66,124 |  |  | 66,387 |\nDeferred revenue | 9,636 |  |  | 9,055 |\nCommercial paper | 1,997 |  |  | 7,979 |\nTerm debt | 9,906 |  |  | 12,350 |\nTotal current liabilities | 169,915 |  |  | 165,631 |\nNon-current liabilities: |  |  |\nTerm debt | 68,208 |  |  | 78,328 |\nOther non-current liabilities | 54,332 |  |  | 41,549 |\nTotal non-current liabilities | 122,540 |  |  | 119,877 |\nTotal liabilities | 292,455 |  |  | 285,508 |\nCommitments and contingencies |  |  |\nShareholders’ equity: |  |  |\nCommon stock and additional paid-in capital, $0.00001 par value: 50,400,000 shares authorized; 14,532,259 and 14,773,260 shares issued and outstanding, respectively | 104,815 |  |  | 93,568 |\nRetained earnings/(Accumulated deficit) | 13,700 |  |  | (14,264) |\nAccumulated other comprehensive loss | (6,422) |  |  | (5,571) |\nTotal shareholders’ equity | 112,093 |  |  | 73,733 |\nTotal liabilities and shareholders’ equity | $ | 404,548 |  |  | $ | 359,241 |\nApple Inc.\nCONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS (Unaudited)\n(In millions)\n| Twelve Months Ended\n| September 26, 2026 |  | September 27, 2025\nCash, cash equivalents, and restricted cash and cash equivalents, beginning balances | $ | 35,934 |  |  | $ | 29,943 |\nOperating activities: |  |  |\nNet income | 132,175 |  |  | 112,010 |\nAdjustments to reconcile net income to cash generated by operating activities: |  |  |\nDepreciation and amortization | 13,423 |  |  | 11,698 |\nShare-based compensation expense | 13,789 |  |  | 12,863 |\nOther | 568 |  |  | (89) |\nChanges in operating assets and liabilities: |  |  |\nAccounts receivable, net | (3,994) |  |  | (6,682) |\nVendor non-trade receivables | (6,716) |  |  | (347) |\nInventories | (8,905) |  |  | 1,400 |\nOther current and non-current assets | (21,117) |  |  | (9,197) |\nAccounts payable | 12,171 |  |  | 902 |\nOther current and non-current liabilities | 13,703 |  |  | (11,076) |\nCash generated by operating activities | 145,097 |  |  | 111,482 |\nInvesting activities: |  |  |\nPurchases of marketable securities | (54,945) |  |  | (24,407) |\nProceeds from maturities of marketable securities | 34,815 |  |  | 40,907 |\nProceeds from sales of marketable securities | 14,280 |  |  | 12,890 |\nPayments for acquisition of property, plant and equipment | (9,041) |  |  | (12,715) |\nOther | (2,389) |  |  | (1,480) |\nCash generated by/(used in) investing activities | (17,280) |  |  | 15,195 |\nFinancing activities: |  |  |\nPayments for taxes related to net share settlement of equity awards | (6,793) |  |  | (5,960) |\nPayments for dividends and dividend equivalents | (15,721) |  |  | (15,421) |\nRepurchases of common stock | (86,390) |  |  | (90,711) |\nProceeds from issuance of term debt, net | — |  |  | 4,481 |\nRepayments of term debt | (12,396) |  |  | (10,932) |\nRepayments of commercial paper, net | (5,911) |  |  | (2,032) |\nOther | (235) |  |  | (111) |\nCash used in financing activities | (127,446) |  |  | (120,686) |\nIncrease in cash, cash equivalents, and restricted cash and cash equivalents | 371 |  |  | 5,991 |\nCash, cash equivalents, and restricted cash and cash equivalents, ending balances | $ | 36,305 |  |  | $ | 35,934 |",
+    "facts": {
+      "fiscal_year_end": "2026-09-26",
+      "prior_fiscal_year_end": "2025-09-27",
+      "ten_k_accession": "0000320193-26-000026",
+      "fields": {
+        "revenue": {
+          "current": {
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "value": 478834000000,
+            "unit": "USD",
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2026"
+          },
+          "prior": {
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "value": 416161000000,
+            "unit": "USD",
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2025"
+          }
+        },
+        "operating_income": {
+          "current": {
+            "tag": "OperatingIncomeLoss",
+            "value": 158063000000,
+            "unit": "USD",
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2026"
+          },
+          "prior": {
+            "tag": "OperatingIncomeLoss",
+            "value": 133050000000,
+            "unit": "USD",
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2025"
+          }
+        },
+        "net_income": {
+          "current": {
+            "tag": "NetIncomeLoss",
+            "value": 132175000000,
+            "unit": "USD",
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2026"
+          },
+          "prior": {
+            "tag": "NetIncomeLoss",
+            "value": 112010000000,
+            "unit": "USD",
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2025"
+          }
+        },
+        "diluted_eps": {
+          "current": {
+            "tag": "EarningsPerShareDiluted",
+            "value": 8.98,
+            "unit": "USD/shares",
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2026"
+          },
+          "prior": {
+            "tag": "EarningsPerShareDiluted",
+            "value": 7.46,
+            "unit": "USD/shares",
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2025"
+          }
+        },
+        "equity": {
+          "current": {
+            "tag": "StockholdersEquity",
+            "value": 112093000000,
+            "unit": "USD",
+            "start": null,
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2026Q3I"
+          },
+          "prior": {
+            "tag": "StockholdersEquity",
+            "value": 73733000000,
+            "unit": "USD",
+            "start": null,
+            "end": "2025-09-27",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2025Q3I"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "current": {
+            "tag": "LongTermDebtNoncurrent",
+            "value": 68208000000,
+            "unit": "USD",
+            "start": null,
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2026Q3I"
+          },
+          "prior": {
+            "tag": "LongTermDebtNoncurrent",
+            "value": 78328000000,
+            "unit": "USD",
+            "start": null,
+            "end": "2025-09-27",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2025Q3I"
+          }
+        },
+        "long_term_debt_current": {
+          "current": {
+            "tag": "LongTermDebtCurrent",
+            "value": 9906000000,
+            "unit": "USD",
+            "start": null,
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2026Q3I"
+          },
+          "prior": {
+            "tag": "LongTermDebtCurrent",
+            "value": 12350000000,
+            "unit": "USD",
+            "start": null,
+            "end": "2025-09-27",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2025Q3I"
+          }
+        },
+        "cash_from_operations": {
+          "current": {
+            "tag": "NetCashProvidedByUsedInOperatingActivities",
+            "value": 145097000000,
+            "unit": "USD",
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2026"
+          },
+          "prior": {
+            "tag": "NetCashProvidedByUsedInOperatingActivities",
+            "value": 111482000000,
+            "unit": "USD",
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2025"
+          }
+        },
+        "capex": {
+          "current": {
+            "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "value": 9041000000,
+            "unit": "USD",
+            "start": "2025-09-28",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2026"
+          },
+          "prior": {
+            "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "value": 12715000000,
+            "unit": "USD",
+            "start": "2024-09-29",
+            "end": "2025-09-27",
+            "accession": "0000320193-26-000026",
+            "filed": "2026-11-03",
+            "form": "10-K",
+            "frame": "CY2025"
+          }
+        }
+      },
+      "cautions": [
+        "Revenue uses contract-sales tag; verify it includes total revenue (e.g. membership/other income), not net sales only."
+      ]
+    },
+    "ratios": {
+      "revenue_growth": {
+        "value": 0.1505979656911628,
+        "arithmetic": "(478834000000 - 416161000000) / 416161000000",
+        "unit": "fraction"
+      },
+      "operating_margin": {
+        "value": 0.3300997840587761,
+        "arithmetic": "158063000000 / 478834000000",
+        "unit": "fraction"
+      },
+      "return_on_average_equity": {
+        "value": 1.4225673479491567,
+        "arithmetic": "132175000000 / ((112093000000 + 73733000000) / 2)",
+        "unit": "fraction"
+      },
+      "debt_to_equity": {
+        "value": 0.6968677794331493,
+        "arithmetic": "(68208000000 + 9906000000) / 112093000000",
+        "unit": "ratio"
+      },
+      "free_cash_flow": {
+        "value": 136056000000,
+        "arithmetic": "145097000000 - 9041000000",
+        "unit": "USD"
+      },
+      "price_to_earnings": {
+        "value": 38.37750556792873,
+        "arithmetic": "344.63 / 8.98",
+        "unit": "ratio"
+      }
+    }
+  },
+  "expected_output": {
+    "status": "PASS or REVISE",
+    "issues": [
+      {
+        "role": "one analyst role",
+        "reason": "brief error"
+      }
+    ]
+  }
+}

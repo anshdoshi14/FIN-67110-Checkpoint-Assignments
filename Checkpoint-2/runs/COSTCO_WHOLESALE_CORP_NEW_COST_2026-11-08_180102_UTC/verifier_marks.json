@@ -1,0 +1,412 @@
+{
+  "counts": {
+    "correct": 16,
+    "wrong": 0,
+    "unsupported": 27
+  },
+  "marks": [
+    {
+      "id": "registry-size",
+      "claim": "Registry coverage",
+      "reported": 24,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "Parsed embedded evidence-json",
+      "reason": ""
+    },
+    {
+      "id": "warehouse_count",
+      "claim": "Number of warehouses worldwide",
+      "reported": 939,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L734: Costco Wholesale Corporation and its subsidiaries (Costco or the Company) began operations in 1983, in Seattle, Washington. We are principally engaged in the operation of membership warehouses in the United States (U.S.) and Puerto Rico, Canada, Mexico, Japan, the United Kingdom (U.K.), Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland, and New Zealand. Costco operated 939, 914, and 890 warehouses worldwide at August 30, 2026, August 31, 2025, and September 1, 2024. The Company operates e-commerce sites in the U.S., Canada, Mexico, the U.K., Korea, Taiwan, Japan, Australia, and China. Our common stock trades on the NASDAQ Global Select Market, under the symbol “COST.”",
+      "reason": "The line explicitly states that Costco operated 939 warehouses worldwide at August 30, 2026, matching the claimed value and period for the number of warehouses operated worldwide."
+    },
+    {
+      "id": "warehouse_average_size",
+      "claim": "Average warehouse size in square feet",
+      "reported": 148000,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L742: Our average warehouse space is approximately 148,000 square feet, with newer units being slightly larger. Floor plans are designed for efficiency in the use of selling space, the handling of merchandise, and the control of inventory. Because shoppers are attracted principally by the quality of merchandise and low prices, our warehouses are not elaborate. By strictly controlling the entrances and exits and using a membership format, we believe our inventory losses (shrinkage) are well below those of typical retail operations.",
+      "reason": "The filing line explicitly states 'Our average warehouse space is approximately 148,000 square feet,' which directly supports the claimed average warehouse size of 148,000 square feet for the specified period and definition."
+    },
+    {
+      "id": "member_renewal_rate_us_canada",
+      "claim": "Membership renewal rate in U.S. and Canada",
+      "reported": 92.3,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L783: Our member renewal rate was 92.3% in the U.S. and Canada and 89.8% worldwide at the end of 2026. This rate is a trailing calculation that captures renewals during the period seven to eighteen months prior to the reporting date. Memberships that have an expiration date in the six months prior to the end of our reporting period are excluded from this calculation, regardless of whether or not they have been renewed. Although most members renew prior to expiration, the vast majority of those who renew late do so within six months of expiration. The timing of renewal after expiration is impacted by a variety of factors, such as warehouse openings and promotional activity.",
+      "reason": "The line explicitly states: 'Our member renewal rate was 92.3% in the U.S. and Canada ... at the end of 2026,' matching the claimed numeric value, period, and definition."
+    },
+    {
+      "id": "us_canada_sales_percentage",
+      "claim": "Percentage of net sales from U.S. and Canadian operations",
+      "reported": 86,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L837: Our financial and operational performance is highly dependent on our U.S. and Canadian operations, which comprised 86% and 83% of net sales and operating income in 2026. Within the U.S., we are highly dependent on our California operations, which comprised 26% of U.S. net sales in 2026. Our California market, in general, has a larger percentage of higher volume warehouses as compared to our other domestic markets. Any substantial slowing or sustained decline in these operations could materially adversely affect our business and financial results. Declines in financial performance of our U.S. operations, particularly in California, and our Canadian operations could arise from, among other things: slow growth or declines in comparable warehouse sales (comparable sales); negative trends in operating expenses, including increased labor, healthcare, and energy costs; failing to meet targets for warehouse openings; cannibalizing existing locations with new warehouses; shifts in sales mix toward lower gross margin products; changes or uncertainties in economic conditions in our markets, including higher levels of unemployment and depressed home values; and failing to consistently provide high quality and innovative new products.",
+      "reason": "The line explicitly states that U.S. and Canadian operations comprised 86% of net sales in 2026, directly supporting the claimed value and period for the percentage of net sales from U.S. and Canadian operations."
+    },
+    {
+      "id": "Insight_region_sales_dependency",
+      "claim": "Dependency on U.S. and Canadian markets",
+      "reported": 86,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L837: Our financial and operational performance is highly dependent on our U.S. and Canadian operations, which comprised 86% and 83% of net sales and operating income in 2026. Within the U.S., we are highly dependent on our California operations, which comprised 26% of U.S. net sales in 2026. Our California market, in general, has a larger percentage of higher volume warehouses as compared to our other domestic markets. Any substantial slowing or sustained decline in these operations could materially adversely affect our business and financial results. Declines in financial performance of our U.S. operations, particularly in California, and our Canadian operations could arise from, among other things: slow growth or declines in comparable warehouse sales (comparable sales); negative trends in operating expenses, including increased labor, healthcare, and energy costs; failing to meet targets for warehouse openings; cannibalizing existing locations with new warehouses; shifts in sales mix toward lower gross margin products; changes or uncertainties in economic conditions in our markets, including higher levels of unemployment and depressed home values; and failing to consistently provide high quality and innovative new products.",
+      "reason": "The filing line states that U.S. and Canadian operations comprised 86% of net sales in 2026, matching the claimed value and period exactly."
+    },
+    {
+      "id": "revenue_current",
+      "claim": "Annual total revenue current",
+      "reported": 303154000000,
+      "status": "correct",
+      "corrected": "303154000000",
+      "evidence": "10-K 0000909832-26-000093, RevenueFromContractWithCustomerExcludingAssessedTax, 2026-08-30: 303154000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "revenue_prior",
+      "claim": "Annual total revenue prior",
+      "reported": 275235000000,
+      "status": "correct",
+      "corrected": "275235000000",
+      "evidence": "10-K 0000909832-26-000093, RevenueFromContractWithCustomerExcludingAssessedTax, 2025-08-31: 275235000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "revenue_growth",
+      "claim": "Annual total revenue growth",
+      "reported": 0.10143695387577888,
+      "status": "correct",
+      "corrected": "10.14",
+      "evidence": "(a - b) / b = 0.1014369538757788798662960743; definition: Revenue growth percentage; sourced inputs: a=303154000000, b=275235000000",
+      "reason": ""
+    },
+    {
+      "id": "operating_income_current",
+      "claim": "Operating income current",
+      "reported": 11685000000,
+      "status": "correct",
+      "corrected": "11685000000",
+      "evidence": "10-K 0000909832-26-000093, OperatingIncomeLoss, 2026-08-30: 11685000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "operating_margin",
+      "claim": "Operating margin",
+      "reported": 0.03854476602650798,
+      "status": "correct",
+      "corrected": "3.85",
+      "evidence": "a / b = 0.03854476602650797944279145253; definition: Operating margin ratio on total revenue; sourced inputs: a=11685000000, b=303154000000",
+      "reason": ""
+    },
+    {
+      "id": "net_income_current",
+      "claim": "Net income attributable to company",
+      "reported": 9226000000,
+      "status": "correct",
+      "corrected": "9226000000",
+      "evidence": "10-K 0000909832-26-000093, NetIncomeLoss, 2026-08-30: 9226000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "diluted_eps_current",
+      "claim": "GAAP Diluted EPS current",
+      "reported": 20.76,
+      "status": "correct",
+      "corrected": "20.76",
+      "evidence": "10-K 0000909832-26-000093, EarningsPerShareDiluted, 2026-08-30: 20.76 USD/shares",
+      "reason": ""
+    },
+    {
+      "id": "return_on_average_equity",
+      "claim": "Return on average equity",
+      "reported": 0.284021118413964,
+      "status": "correct",
+      "corrected": "28.40",
+      "evidence": "a / ((c + b) / 2) = 0.2840211184139640124986531624; definition: Return on average equity; sourced inputs: a=9226000000, b=29164000000, c=35803000000",
+      "reason": ""
+    },
+    {
+      "id": "debt_to_equity",
+      "claim": "Debt to equity ratio including current portion",
+      "reported": 0.17210848252939698,
+      "status": "correct",
+      "corrected": "0.17",
+      "evidence": "(a + b) / c = 0.1721084825293969779068793118; definition: Debt to equity ratio including current portion; sourced inputs: a=3914000000, b=2248000000, c=35803000000",
+      "reason": ""
+    },
+    {
+      "id": "free_cash_flow",
+      "claim": "Free cash flow",
+      "reported": 9382000000,
+      "status": "correct",
+      "corrected": "9382000000.00",
+      "evidence": "a - b = 9382000000; definition: Free cash flow = Net cash from operations minus capital expenditures; sourced inputs: a=15817000000, b=6435000000",
+      "reason": ""
+    },
+    {
+      "id": "quarterly_sales_current",
+      "claim": "Latest quarter net sales",
+      "reported": 93873000000,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No saved 8-K Earnings release line 10"
+    },
+    {
+      "id": "quarterly_sales_prior",
+      "claim": "Quarterly net sales prior year",
+      "reported": 84432000000,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No saved 8-K Earnings release line 10"
+    },
+    {
+      "id": "quarterly_sales_growth",
+      "claim": "Latest quarter net sales growth",
+      "reported": 0.112,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input a missing verifiable XBRL source"
+    },
+    {
+      "id": "latest_quarter_eps",
+      "claim": "Latest quarter GAAP diluted EPS",
+      "reported": 6.75,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No saved 8-K Earnings release line 20"
+    },
+    {
+      "id": "price_to_earnings",
+      "claim": "Price to Earnings (P/E) ratio",
+      "reported": 43.578998073217726,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input closing_price missing verifiable XBRL source"
+    },
+    {
+      "id": "peer_wmt_operating_margin",
+      "claim": "Walmart operating margin",
+      "reported": 0.041820733829433104,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input a does not match its cited fact"
+    },
+    {
+      "id": "peer_tgt_operating_margin",
+      "claim": "Target operating margin",
+      "reported": 0.048835655659477,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input a does not match its cited fact"
+    },
+    {
+      "id": "peer_bj_operating_margin",
+      "claim": "BJ's Wholesale Club operating margin",
+      "reported": 0.03805721080879146,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input a does not match its cited fact"
+    },
+    {
+      "id": "long_term_debt_current_noncurrent",
+      "claim": "Long-term debt excluding current portion",
+      "reported": 3914000000,
+      "status": "correct",
+      "corrected": "3914000000",
+      "evidence": "10-K 0000909832-26-000093, LongTermDebtNoncurrent, 2026-08-30: 3914000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "unregistered-L11-949",
+      "claim": "Unregistered numeric statement L11",
+      "reported": "$65",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L11-1005",
+      "claim": "Unregistered numeric statement L11",
+      "reported": "92.3%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L11-1038",
+      "claim": "Unregistered numeric statement L11",
+      "reported": "89.8%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L11-1382",
+      "claim": "Unregistered numeric statement L11",
+      "reported": "92.3%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L11-1415",
+      "claim": "Unregistered numeric statement L11",
+      "reported": "89.8%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L13-131",
+      "claim": "Unregistered numeric statement L13",
+      "reported": "86%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L13-152",
+      "claim": "Unregistered numeric statement L13",
+      "reported": "83%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L17-1234",
+      "claim": "Unregistered numeric statement L17",
+      "reported": "86%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L17-1592",
+      "claim": "Unregistered numeric statement L17",
+      "reported": "86%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L21-62",
+      "claim": "Unregistered numeric statement L21",
+      "reported": "$303.154",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L21-268",
+      "claim": "Unregistered numeric statement L21",
+      "reported": "$11.685",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L21-418",
+      "claim": "Unregistered numeric statement L21",
+      "reported": "$9.226",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L21-827",
+      "claim": "Unregistered numeric statement L21",
+      "reported": "$9.382",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L23-62",
+      "claim": "Unregistered numeric statement L23",
+      "reported": "$93.9",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L23-81",
+      "claim": "Unregistered numeric statement L23",
+      "reported": "$84.4",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L27-30",
+      "claim": "Unregistered numeric statement L27",
+      "reported": "$904.7",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L31-72",
+      "claim": "Unregistered numeric statement L31",
+      "reported": "$3.914",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L31-112",
+      "claim": "Unregistered numeric statement L31",
+      "reported": "$5.713",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L41-147",
+      "claim": "Unregistered numeric statement L41",
+      "reported": "83%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    }
+  ],
+  "semantic_model_requested": true,
+  "filing_sources": [
+    "10-K",
+    "10-Q",
+    "earnings_8-K",
+    "release_EX-99.1"
+  ]
+}

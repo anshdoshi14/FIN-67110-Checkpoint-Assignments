@@ -1,0 +1,20 @@
+{
+  "investment_recommendation": "Hold provisional: The deciding metric is the operating margin at 3.85% [C:operating_margin], which is slightly below peer leaders Walmart and Target (4.18% and 4.88%, respectively), indicating only moderate operating efficiency and profit expansion. This margin position, combined with strong revenue growth of 10.14% [C:revenue_growth] but a high P/E ratio of 43.58 [C:price_to_earnings], suggests valuation premium with limited margin improvement visibility. Therefore, with moderate margin and elevated valuation, the evidence supports a Hold stance until next filings clarify margin trajectory or valuation justification.",
+  "insight": "Insight: Costco’s long-term debt excluding the current portion decreased to $3.914 billion at August 30, 2026, from $5.713 billion at August 31, 2025, indicating a reduction in longer-term leverage risk [C:long_term_debt_current_noncurrent], 10-K 0000909832-26-000093 L000123.",
+  "claims": [
+    {
+      "id": "long_term_debt_current_noncurrent",
+      "label": "Long-term debt excluding current portion",
+      "value": 3914000000,
+      "display": "$3,914,000,000",
+      "source": {
+        "kind": "xbrl",
+        "field": "LongTermDebtNoncurrent",
+        "period": "2026-08-30",
+        "tag": "LongTermDebtNoncurrent",
+        "end": "2026-08-30",
+        "accession": "0000909832-26-000093"
+      }
+    }
+  ]
+}

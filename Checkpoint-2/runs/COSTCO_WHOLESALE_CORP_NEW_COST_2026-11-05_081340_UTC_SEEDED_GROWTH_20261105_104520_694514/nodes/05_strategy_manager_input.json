@@ -1,0 +1,281 @@
+{
+  "task": "Check five sections, numerical evidence, and three independent Insight lines. Issue one retry per failing role at most.",
+  "context": {
+    "ticker": "COST",
+    "sections": {
+      "Overview": "Costco Wholesale Corporation operates membership warehouses globally, selling a limited selection of nationally-branded and private-label products across food, fresh foods, non-foods, and ancillary services such as gasoline and pharmacy. The business model focuses on high sales volume and rapid inventory turnover driven by low prices and efficient operations through direct supplier purchasing and streamlined distribution. Warehouses average approximately 148,000 square feet and employ a no-frills, self-service format to maintain low costs. Membership fees are a key revenue component, with multiple membership tiers including Executive memberships that offer rewards. E-commerce complements warehouse sales, offering a wider selection and convenience.\n\nSupported by the excerpt: \"We operate membership warehouses and e-commerce sites based on the concept that offering low prices on a limited selection of nationally-branded and private-label products in a wide range of categories will produce high sales volumes and rapid inventory turnover\" and \"Our average warehouse space is approximately 148,000 square feet\" [10-K accession 0000909832-26-000093 lines L000733-L000744].",
+      "Market Positioning and Growth Outlook": "Costco positions itself as a low-price retailer with a membership model that fosters customer loyalty and recurring revenue. The limited SKU assortment of less than 4,000 active SKUs per warehouse allows focus on fast-selling goods, distinguishing it from broadline retailers. Ancillary businesses located near warehouses such as gas stations (774 at year-end 2026) and various service offerings encourage frequent visits and enhance customer value. Growth is driven by expanding the warehouse footprint, including in new and existing markets, supported by strong member renewal rates above 89% globally and 92.3% in North America. The company reported net sales growth of 10.1% year over year to $297.2 billion in fiscal 2026, with digitally-enabled sales growing over 20% annually, demonstrating strong e-commerce momentum.\n\nSupported by: \"We carry less than 4,000 active stock keeping units (SKUs) per warehouse\"; \"Our gasoline business represented 11% of total net sales in 2026\"; \"Our member renewal rate was 92.3% in the U.S. and Canada and 89.8% worldwide at the end of 2026\"; and \"Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year\" [10-K lines L000744-L000764, L000773-L000784; Earnings Release lines L000010, L000018, L000021].",
+      "Valuation Insights": "Costco Wholesale Corporation's fiscal 2026 total revenue was reported at $303.154 billion [C:revenue_current], representing a year-over-year growth of 10.14% [C:revenue_growth]. The operating income for the year was $11.685 billion, yielding an operating margin of approximately 3.85% [C:operating_income_current][C:operating_margin]. Net income attributable to the company reached $9.226 billion, supported by a GAAP diluted EPS of $20.76 [C:net_income_current][C:diluted_eps_current]. The company exhibited a strong return on average equity of roughly 28.40%, highlighting efficient equity utilization [C:return_on_average_equity]. Its debt-to-equity ratio remained conservative at 0.172, inclusive of current long-term debt [C:debt_to_equity]. Free cash flow was robust at $9.382 billion, signaling strong cash generation capacity beyond capital expenditures [C:free_cash_flow]. \n\nFor the latest fiscal quarter (16 weeks ended August 30, 2026), net sales increased 11.2% to $93.9 billion compared to the same period last year, indicating positive momentum [C:quarterly_revenue_growth]. The GAAP diluted EPS for this quarter was $6.75 [C:quarterly_diluted_eps]. Given the current stock price of $904.7, the price-to-earnings ratio stands at approximately 43.58, suggesting market optimism or premium valuation [C:price_to_earnings]. \n\nComparing Costco's operating margin of 3.85% with peers—Walmart at 4.18%, Target at 4.88%, and BJ's Wholesale Club at 3.81%—Costco's margin is slightly below Target and Walmart but marginally ahead of BJ's, indicating competitive profitability in the wholesale club retail sector [C:peer_operating_margins]. \n\nInsight: Costco Wholesale Corporation strategically expanded to 939 warehouses globally by fiscal year-end 2026, operating in 15 countries including significant presence in the U.S., Canada, Mexico, Japan, and several European and Asian markets, bolstering its international footprint and e-commerce platforms [L:10-K, line 21].",
+      "Future Developments and Strategic Recommendations": "Costco's future growth depends on continued expansion through new warehouse openings and enhancing e-commerce capabilities, while managing risks related to real estate acquisition, local regulations, and competitive entry into new markets. The company should continue leveraging its efficient supply chain and private label manufacturing to maintain low costs and member value. Enhancing digital sales channels and ancillary services will support top-line growth and customer engagement. Risks remain from heavy reliance on U.S. and Canadian markets (86% of net sales) and competition in new geographies; thus, diversifying geographic exposure and increasing penetration in underdeveloped markets could mitigate concentration risk. Maintaining high employee retention and cost control remains crucial given labor is the largest expense after merchandise cost.\n\nBased on Risk Factors excerpt: \"We are highly dependent on the financial performance of our U.S. and Canadian operations\" and growth strategy excerpt: \"Our growth is dependent, in part, on our ability to acquire property and build or lease new warehouses and depots\" plus the operational benefits of merchandising and distribution strategy [10-K lines L000836-L000841, L000737-L000742, L000787-L000793].",
+      "Investment Recommendation": "### Provisional Buy\nThe strong fiscal 2026 GAAP diluted EPS of $20.76 is the key supported figure driving this provisional Buy recommendation, indicative of solid profitability and shareholder earnings power [EX-99.1 line 52].\n\nInsight: Costco's material revenue concentration in California, representing 26% of U.S. net sales in 2026, indicates notable geographic risk exposure that should be monitored alongside growth strategies [10-K line L000837]."
+    },
+    "first_release_paragraph": "EX-99.1\n2\ncostex9918-k92426.htm\nEX-99.1\nDocument\nExhibit 99.1\nPress Release\nCOSTCO WHOLESALE CORPORATION REPORTS FOURTH QUARTER AND FISCAL YEAR 2026 OPERATING RESULTS\nISSAQUAH, Wash., September 24, 2026 - Costco Wholesale Corporation (“Costco” or the “Company”) (Nasdaq: COST) today announced its operating results for the 16-week fourth quarter and the 52-week fiscal year ended August 30, 2026.\nNet sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.\nComparable sales for the fourth quarter and fiscal year were as follows:\n| 16 Weeks |  | 16 Weeks |  | 52 Weeks |  | 52 Weeks\n|  |  | Adjusted* |  |  |  | Adjusted*\nU.S. | 10.7% |  | 7.2% |  | 8.2% |  | 6.6%\nCanada | 5.0% |  | 4.6% |  | 7.8% |  | 6.7%\nOther International | 7.0% |  | 6.2% |  | 9.8% |  | 6.5%\nTotal Company | 9.4% |  | 6.7% |  | 8.4% |  | 6.6%\nDigitally-Enabled | 19.5% |  | 19.8% |  | 20.9% |  | 20.7%\n*Excluding the impacts from changes in gasoline prices and foreign exchange.\nNet income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values. Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.\nCostco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand. Costco also operates e-commerce sites in the U.S., Canada, the U.K., Mexico, Korea, Taiwan, Japan, Australia, and China.\nA conference call to discuss these results is scheduled for 2:00 p.m. (PT) today, September 24, 2026, and will be available via a webcast on investor.costco.com (click “Events & Presentations”).\nPress Release\nCertain statements contained in this document constitute forward-looking statements within the meaning of the Private Securities Litigation Reform Act of 1995. For these purposes, forward-looking statements are statements that address activities, events, conditions or developments that the Company expects or anticipates may occur in the future. In some cases forward-looking statements can be identified because they contain words such as “anticipate,” “believe,” “continue,” “could,” “estimate,” “expect,” “intend,” “likely,” “may,” “might,” “plan,” “potential,” “predict,” “project,” “seek,” “should,” “target,” “will,” “would,” or similar expressions and the negatives of those terms. Such forward-looking statements involve risks and uncertainties that may cause actual events, results or performance to differ materially from those indicated by such statements. These risks and uncertainties include, but are not limited to, domestic and international economic conditions, including exchange rates, inflation or deflation, the effects of competition and regulation, uncertainties in the financial markets, consumer and small business spending patterns and debt levels, breaches of security or privacy of member or business information, conditions affecting the acquisition, development, ownership or use of real estate, capital spending, actions of vendors, rising costs associated with employees (generally including health-care costs and wages), workforce interruptions, energy and certain commodities, geopolitical conditions (including tariffs and global conflicts), the ability to maintain effective internal control over financial reporting, regulatory and other impacts related to environmental and social matters, public-health related factors, and other risks identified from time to time in the Company’s public statements and reports filed with the Securities and Exchange Commission. Forward-looking statements speak only as of the date they are made, and the Company does not undertake to update these statements, except as required by law. Comparable sales and comparable sales excluding impacts from changes in gasoline prices and foreign exchange are intended as supplemental information and are not a substitute for net sales presented in accordance with U.S. GAAP.\nCONTACTS:    Costco Wholesale Corporation\nJosh Dahmen, 425/313-8254\nAndrew Yoon, 425/313-6305\nBryan Starnes, 425/427-7403\nCOST-Earn\nPress Release\nCOSTCO WHOLESALE CORPORATION\nCONSOLIDATED STATEMENTS OF INCOME\n(dollars in millions, except per share data) (unaudited)\n| 16 Weeks Ended |  | 52 Weeks Ended\n| August 30, 2026 |  | August 31, 2025 |  | August 30, 2026 |  | August 31, 2025\nREVENUE |  |  |  |  |  |  |\nNet sales | $ | 93,873 |  |  | $ | 84,432 |  |  | $ | 297,247 |  |  | $ | 269,912 |\nMembership fees | 1,850 |  |  | 1,724 |  |  | 5,907 |  |  | 5,323 |\nTotal revenue | 95,723 |  |  | 86,156 |  |  | 303,154 |  |  | 275,235 |\nOPERATING EXPENSES |  |  |  |  |  |  |\nMerchandise costs | 83,531 |  |  | 75,037 |  |  | 264,279 |  |  | 239,886 |\nSelling, general and administrative | 8,391 |  |  | 7,778 |  |  | 27,190 |  |  | 24,966 |\nOperating income | 3,801 |  |  | 3,341 |  |  | 11,685 |  |  | 10,383 |\nOTHER INCOME (EXPENSE) |  |  |  |  |  |  |\nInterest expense | (45) |  |  | (46) |  |  | (145) |  |  | (154) |\nInterest income and other, net | 253 |  |  | 215 |  |  | 711 |  |  | 589 |\nINCOME BEFORE INCOME TAXES | 4,009 |  |  | 3,510 |  |  | 12,251 |  |  | 10,818 |\nProvision for income taxes | 1,011 |  |  | 900 |  |  | 3,025 |  |  | 2,719 |\nNET INCOME | $ | 2,998 |  |  | $ | 2,610 |  |  | $ | 9,226 |  |  | $ | 8,099 |\nNET INCOME PER COMMON SHARE: |  |  |  |  |  |  |\nBasic | $ | 6.75 |  |  | $ | 5.88 |  |  | $ | 20.78 |  |  | $ | 18.24 |\nDiluted | $ | 6.75 |  |  | $ | 5.87 |  |  | $ | 20.76 |  |  | $ | 18.21 |\nShares used in calculation (000's): |  |  |  |  |  |  |\nBasic | 443,975 |  |  | 444,007 |  |  | 443,953 |  |  | 443,985 |\nDiluted | 444,364 |  |  | 444,706 |  |  | 444,427 |  |  | 444,803 |\nPress Release\nCOSTCO WHOLESALE CORPORATION\nCONSOLIDATED BALANCE SHEETS\n(amounts in millions, except par value and share data) (unaudited)\nSubject to Reclassification\n| August 30, 2026 |  | August 31, 2025\nASSETS |  |  |\nCURRENT ASSETS |  |  |\nCash and cash equivalents | $ | 20,207 |  |  | $ | 14,161 |\nShort-term investments | 1,094 |  |  | 1,123 |\nReceivables, net | 3,959 |  |  | 3,203 |\nMerchandise inventories | 19,324 |  |  | 18,116 |\nOther current assets | 1,998 |  |  | 1,777 |\nTotal current assets | 46,582 |  |  | 38,380 |\nOTHER ASSETS |  |  |\nProperty and equipment, net | 35,633 |  |  | 31,909 |\nOperating lease right-of-use assets | 2,697 |  |  | 2,725 |\nOther long-term assets | 4,133 |  |  | 4,085 |\nTOTAL ASSETS | $ | 89,045 |  |  | $ | 77,099 |\nLIABILITIES AND EQUITY |  |  |\nCURRENT LIABILITIES |  |  |\nAccounts payable | $ | 22,591 |  |  | $ | 19,783 |\nAccrued salaries and benefits | 5,641 |  |  | 5,205 |\nAccrued member rewards | 3,037 |  |  | 2,677 |\nDeferred membership fees | 3,006 |  |  | 2,854 |\nCurrent portion of long-term debt | 2,248 |  |  | 75 |\nOther current liabilities | 7,429 |  |  | 6,514 |\nTotal current liabilities | 43,952 |  |  | 37,108 |\nOTHER LIABILITIES |  |  |\nLong-term debt, excluding current portion | 3,914 |  |  | 5,713 |\nLong-term operating lease liabilities | 2,414 |  |  | 2,460 |\nOther long-term liabilities | 2,962 |  |  | 2,654 |\nTOTAL LIABILITIES | 53,242 |  |  | 47,935 |\nCOMMITMENTS AND CONTINGENCIES |  |  |\nEQUITY |  |  |\nPreferred stock $0.005 par value; 100,000,000 shares authorized; no shares issued and outstanding | — |  |  | — |\nCommon stock $0.005 par value; 900,000,000 shares authorized; 443,266,000 and 443,237,000 shares issued and outstanding | 2 |  |  | 2 |\nAdditional paid-in capital | 8,830 |  |  | 8,282 |\nAccumulated other comprehensive loss | (1,620) |  |  | (1,770) |\nRetained earnings | 28,591 |  |  | 22,650 |\nTOTAL EQUITY | 35,803 |  |  | 29,164 |\nTOTAL LIABILITIES AND EQUITY | $ | 89,045 |  |  | $ | 77,099 |\nPress Release\nCOSTCO WHOLESALE CORPORATION\nCONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS\n(amounts in millions) (unaudited)\nSubject to Reclassification\n| 52 Weeks Ended\n| August 30, 2026 |  | August 31, 2025\nCASH FLOWS FROM OPERATING ACTIVITIES |  |  |\nNet income | $ | 9,226 |  |  | $ | 8,099 |\nAdjustments to reconcile net income to net cash provided by operating activities: |  |  |\nDepreciation and amortization | 2,674 |  |  | 2,426 |\nNon-cash lease expense | 318 |  |  | 303 |\nStock-based compensation | 924 |  |  | 860 |\nOther non-cash operating activities, net | 355 |  |  | (117) |\nChanges in working capital | 2,328 |  |  | 1,764 |\nNet cash provided by operating activities | 15,825 |  |  | 13,335 |\nCASH FLOWS FROM INVESTING ACTIVITIES |  |  |\nAdditions to property and equipment | (6,435) |  |  | (5,498) |\nPurchases of short-term investments | (788) |  |  | (1,028) |\nMaturities of short-term investments | 811 |  |  | 1,141 |\nOther investing activities, net | 26 |  |  | 74 |\nNet cash used in investing activities | (6,386) |  |  | (5,311) |\nCASH FLOWS FROM FINANCING ACTIVITIES |  |  |\nRepayments of short-term borrowings | (577) |  |  | (862) |\nProceeds from short-term borrowings | 553 |  |  | 816 |\nRepayments of long-term debt | (69) |  |  | (103) |\nProceeds from issuance of long-term debt | 496 |  |  | — |\nTax withholdings on stock-based awards | (361) |  |  | (393) |\nRepurchases of common stock | (848) |  |  | (903) |\nCash dividend payments | (2,458) |  |  | (2,183) |\nFinancing lease payments and other financing activities, net | (91) |  |  | (147) |\nNet cash used in financing activities | (3,355) |  |  | (3,775) |\nEFFECT OF EXCHANGE RATE CHANGES ON CASH AND CASH EQUIVALENTS | (38) |  |  | 6 |\nNet change in cash and cash equivalents | 6,046 |  |  | 4,255 |\nCASH AND CASH EQUIVALENTS BEGINNING OF YEAR | 14,161 |  |  | 9,906 |\nCASH AND CASH EQUIVALENTS END OF YEAR | $ | 20,207 |  |  | $ | 14,161 |",
+    "facts": {
+      "fiscal_year_end": "2026-08-30",
+      "prior_fiscal_year_end": "2025-08-31",
+      "ten_k_accession": "0000909832-26-000093",
+      "fields": {
+        "revenue": {
+          "current": {
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "value": 303154000000,
+            "unit": "USD",
+            "start": "2025-09-01",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2026"
+          },
+          "prior": {
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "value": 275235000000,
+            "unit": "USD",
+            "start": "2024-09-02",
+            "end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2025"
+          }
+        },
+        "operating_income": {
+          "current": {
+            "tag": "OperatingIncomeLoss",
+            "value": 11685000000,
+            "unit": "USD",
+            "start": "2025-09-01",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2026"
+          },
+          "prior": {
+            "tag": "OperatingIncomeLoss",
+            "value": 10383000000,
+            "unit": "USD",
+            "start": "2024-09-02",
+            "end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2025"
+          }
+        },
+        "net_income": {
+          "current": {
+            "tag": "NetIncomeLoss",
+            "value": 9226000000,
+            "unit": "USD",
+            "start": "2025-09-01",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2026"
+          },
+          "prior": {
+            "tag": "NetIncomeLoss",
+            "value": 8099000000,
+            "unit": "USD",
+            "start": "2024-09-02",
+            "end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2025"
+          }
+        },
+        "diluted_eps": {
+          "current": {
+            "tag": "EarningsPerShareDiluted",
+            "value": 20.76,
+            "unit": "USD/shares",
+            "start": "2025-09-01",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2026"
+          },
+          "prior": {
+            "tag": "EarningsPerShareDiluted",
+            "value": 18.21,
+            "unit": "USD/shares",
+            "start": "2024-09-02",
+            "end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2025"
+          }
+        },
+        "equity": {
+          "current": {
+            "tag": "StockholdersEquity",
+            "value": 35803000000,
+            "unit": "USD",
+            "start": null,
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2026Q3I"
+          },
+          "prior": {
+            "tag": "StockholdersEquity",
+            "value": 29164000000,
+            "unit": "USD",
+            "start": null,
+            "end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2025Q3I"
+          }
+        },
+        "long_term_debt_noncurrent": {
+          "current": {
+            "tag": "LongTermDebtNoncurrent",
+            "value": 3914000000,
+            "unit": "USD",
+            "start": null,
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2026Q3I"
+          },
+          "prior": {
+            "tag": "LongTermDebtNoncurrent",
+            "value": 5713000000,
+            "unit": "USD",
+            "start": null,
+            "end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2025Q3I"
+          }
+        },
+        "long_term_debt_current": {
+          "current": {
+            "tag": "LongTermDebtCurrent",
+            "value": 2248000000,
+            "unit": "USD",
+            "start": null,
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2026Q3I"
+          },
+          "prior": {
+            "tag": "LongTermDebtCurrent",
+            "value": 75000000,
+            "unit": "USD",
+            "start": null,
+            "end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2025Q3I"
+          }
+        },
+        "cash_from_operations": {
+          "current": {
+            "tag": "NetCashProvidedByUsedInOperatingActivities",
+            "value": 15817000000,
+            "unit": "USD",
+            "start": "2025-09-01",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2026"
+          },
+          "prior": {
+            "tag": "NetCashProvidedByUsedInOperatingActivities",
+            "value": 13335000000,
+            "unit": "USD",
+            "start": "2024-09-02",
+            "end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2025"
+          }
+        },
+        "capex": {
+          "current": {
+            "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "value": 6435000000,
+            "unit": "USD",
+            "start": "2025-09-01",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2026"
+          },
+          "prior": {
+            "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "value": 5498000000,
+            "unit": "USD",
+            "start": "2024-09-02",
+            "end": "2025-08-31",
+            "accession": "0000909832-26-000093",
+            "filed": "2026-10-07",
+            "form": "10-K",
+            "frame": "CY2025"
+          }
+        }
+      },
+      "cautions": [
+        "Revenue uses contract-sales tag; verify it includes total revenue (e.g. membership/other income), not net sales only."
+      ]
+    },
+    "ratios": {
+      "revenue_growth": {
+        "value": 0.10143695387577888,
+        "arithmetic": "(303154000000 - 275235000000) / 275235000000",
+        "unit": "fraction"
+      },
+      "operating_margin": {
+        "value": 0.03854476602650798,
+        "arithmetic": "11685000000 / 303154000000",
+        "unit": "fraction"
+      },
+      "return_on_average_equity": {
+        "value": 0.284021118413964,
+        "arithmetic": "9226000000 / ((35803000000 + 29164000000) / 2)",
+        "unit": "fraction"
+      },
+      "debt_to_equity": {
+        "value": 0.17210848252939698,
+        "arithmetic": "(3914000000 + 2248000000) / 35803000000",
+        "unit": "ratio"
+      },
+      "free_cash_flow": {
+        "value": 9382000000,
+        "arithmetic": "15817000000 - 6435000000",
+        "unit": "USD"
+      },
+      "price_to_earnings": {
+        "value": 43.578998073217726,
+        "arithmetic": "904.7 / 20.76",
+        "unit": "ratio"
+      }
+    }
+  },
+  "expected_output": {
+    "status": "PASS or REVISE",
+    "issues": [
+      {
+        "role": "one analyst role",
+        "reason": "brief error"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "overview": "Costco Wholesale Corporation operates membership warehouses and e-commerce sites principally in the United States and internationally across multiple countries including Canada, Mexico, Japan, the U.K., Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland, and New Zealand. The company operates based on a membership model where it offers a limited selection of nationally-branded and private-label products at low prices, achieving high sales volumes and rapid inventory turnover through volume purchasing and efficient distribution. Costco operates 939 warehouses as of August 30, 2026, with an average warehouse size of approximately 148,000 square feet. The product assortment in warehouses is limited to less than 4,000 SKUs, while the e-commerce platform offers 9,000 to 11,000 SKUs, providing members access to a broader selection. Ancillary businesses include gasoline stations, pharmacies, food courts, optical and hearing aids, and other services adjacent to warehouses. The company emphasizes membership satisfaction with return policies and additional services such as extended warranties on electronics. Membership fees were $65 annually in the U.S., and membership renewal rates were 92.3% in the U.S. and Canada and 89.8% worldwide as of the end of fiscal 2026. (\"We operate membership warehouses and e-commerce sites...\"; \"Costco operated 939...warehouses worldwide at August 30, 2026.\"; \"Our average warehouse space is approximately 148,000 square feet\"; \"We carry less than 4,000 active stock keeping units (SKUs) per warehouse...\"; \"Membership at the end of 2026...Paid members 84,100 [thousands]\"; \"Our member renewal rate was 92.3% in the U.S. and Canada...\") [10-K accession 0000909832-26-000093, lines L000733-L000745, L000773-L000784].",
+  "market_positioning_and_growth_outlook": "Costco’s competitive positioning is anchored on its membership warehouse model delivering high-volume sales of a limited range of quality products at low prices enabled by efficient supply chain management, including direct purchasing and a cross-docking distribution system. Its warehouse design and operational efficiencies contribute to lower labor costs and reduced shrinkage. The company leverages a broad geographic presence with warehouses in multiple countries and a growing e-commerce platform that expands product assortment beyond the physical warehouses. Executive memberships provide incentive-driven loyalty with an additional annual fee and rewards. Growth catalysts include expansion of warehouse count (939 warehouses at fiscal 2026 year-end), increasing penetration of Executive members (42,300 thousands in 2026), and ancillary business development such as gasoline stations which contributed 11% of net sales in 2026. However, the company faces risks including dependency on the U.S. and Canadian markets that comprised 86% of net sales in 2026, competitive real estate acquisition for warehouse expansion, and market entry challenges in new regions. (\"We operate membership warehouses and e-commerce sites...\"; \"Executive members represented 42,300 [thousands]...in 2026\"; \"Our gasoline business represented 11% of total net sales in 2026.\"; \"Our financial and operational performance is highly dependent on our U.S. and Canadian operations, which comprised 86%...of net sales in 2026.\") [10-K accession 0000909832-26-000093 lines L000733-L000737, L000764, L000782, L000836-L000837].",
+  "future_developments_and_strategic_recommendations": "Costco continues to pursue growth through new warehouse openings in both existing and new markets, expansion of its e-commerce platform, and ancillary services growth such as fuel stations and business centers. The company aims to increase operational efficiency by expanding supply-chain diversification and in-country production. Management acknowledges challenges including local land use restrictions for new warehouses, competitive pressures in established and new markets, and risks associated with cannibalization of sales from new warehouses. Strategic recommendations include focused execution on selective warehouse expansion in attractive markets to avoid adverse impacts on existing locations, continued enhancement of online offerings to complement physical stores, and leveraging the high renewal rates and engagement of Executive members for increased revenue capture. Monitoring risks due to heavy dependence on U.S. and Canadian markets is also critical. (\"Our growth is dependent...on our ability to acquire property and build or lease new warehouses...\"; \"We intend to continue to open warehouses in new markets...\"; \"We cannot ensure that new warehouses...\" might avoid cannibalization.) [10-K accession 0000909832-26-000093 lines L000838-L000841].",
+  "insight": "Insight: The company’s operational performance is significantly dependent on its U.S. and Canadian markets which composed 86% of net sales in 2026, posing a concentration risk that could materially affect overall results if these regions underperform [10-K accession 0000909832-26-000093 L000836]. [C: region_sales_dependency]",
+  "claims": [
+    {
+      "id": "warehouse_count",
+      "label": "Number of warehouses worldwide",
+      "value": 939,
+      "display": "939 warehouses worldwide at August 30, 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 734,
+        "quote": "Costco operated 939, 914, and 890 warehouses worldwide at August 30, 2026, August 31, 2025, and September 1, 2024.",
+        "period": "2026-08-30",
+        "definition": "Number of warehouses operated worldwide"
+      }
+    },
+    {
+      "id": "warehouse_average_size",
+      "label": "Average warehouse size in square feet",
+      "value": 148000,
+      "display": "Average warehouse space is approximately 148,000 square feet",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 742,
+        "quote": "Our average warehouse space is approximately 148,000 square feet, with newer units being slightly larger.",
+        "period": "2026-08-30",
+        "definition": "Average warehouse size"
+      }
+    },
+    {
+      "id": "paid_members_fy2026",
+      "label": "Paid members in thousands at end of fiscal 2026",
+      "value": 84100,
+      "display": "Paid members 84,100 thousands at end of 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 776,
+        "quote": "Paid members 1 | 84,100 | ... 2026 ...",
+        "period": "2026-08-30",
+        "definition": "Number of paid members in thousands"
+      }
+    },
+    {
+      "id": "member_renewal_rate_us_canada",
+      "label": "Membership renewal rate in U.S. and Canada",
+      "value": 92.3,
+      "display": "Member renewal rate was 92.3% in the U.S. and Canada",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 783,
+        "quote": "Our member renewal rate was 92.3% in the U.S. and Canada and 89.8% worldwide at the end of 2026.",
+        "period": "2026-08-30",
+        "definition": "Membership renewal rate percentage"
+      }
+    },
+    {
+      "id": "executive_members_fy2026",
+      "label": "Executive members in thousands at end of fiscal 2026",
+      "value": 42300,
+      "display": "Executive members represented 42,300 thousands in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 782,
+        "quote": "Executive members represented 42,300, 38,700, and 35,400 of total paid members in 2026, 2025, and 2024.",
+        "period": "2026-08-30",
+        "definition": "Number of Executive members in thousands"
+      }
+    },
+    {
+      "id": "gasoline_sales_share",
+      "label": "Gasoline business share of total net sales",
+      "value": 11,
+      "display": "Gasoline business represented 11% of total net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "Our gasoline business represented 11% of total net sales in 2026.",
+        "period": "2026-08-30",
+        "definition": "Percentage of net sales from gasoline business"
+      }
+    },
+    {
+      "id": "us_canada_sales_percentage",
+      "label": "Percentage of net sales from U.S. and Canadian operations",
+      "value": 86,
+      "display": "U.S. and Canadian operations comprised 86% of net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 837,
+        "quote": "Our financial and operational performance is highly dependent on our U.S. and Canadian operations, which comprised 86% and 83% of net sales and operating income in 2026.",
+        "period": "2026-08-30",
+        "definition": "Percentage of net sales from U.S. and Canadian operations"
+      }
+    },
+    {
+      "id": "Insight_region_sales_dependency",
+      "label": "Dependency on U.S. and Canadian markets",
+      "value": 86,
+      "display": "Operational performance is significantly dependent on U.S. and Canadian markets which composed 86% of net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 836,
+        "quote": "Our financial and operational performance is highly dependent on our U.S. and Canadian operations, which comprised 86% and 83% of net sales and operating income in 2026.",
+        "period": "2026-08-30",
+        "definition": "Market concentration risk in U.S. and Canadian operations"
+      }
+    }
+  ]
+}

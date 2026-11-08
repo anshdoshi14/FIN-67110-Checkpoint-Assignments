@@ -1,0 +1,20 @@
+{
+  "investment_recommendation": "Hold provisional, based on the operating margin of 3.85% [C:om1] which is lower than Walmart's 4.18% and Target's 4.88%, showing mixed margin competitiveness relative to peers.",
+  "insight": "Insight: The company's long-term debt excluding current portion decreased from $5.713 billion at August 31, 2025, to $3.914 billion at August 30, 2026, indicating a significant reduction in noncurrent liabilities over the fiscal year [C:debt_lt] as reported in the 10-K filing, line L000085 designated L000123.",
+  "claims": [
+    {
+      "id": "C:debt_lt",
+      "label": "Long-term debt excluding current portion",
+      "value": 3914000000,
+      "display": "$3.914 billion",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 85,
+        "quote": "Long-term debt, excluding current portion | 3,914 |  |  | 5,713 |",
+        "period": "2026-08-30",
+        "definition": "Long-term debt excluding current portion"
+      }
+    }
+  ]
+}

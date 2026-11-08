@@ -1,0 +1,217 @@
+{
+  "investment_recommendation": "Hold (Provisional): The decisive figure is Costco's operating margin of 3.85% for fiscal year 2026 [C:operatingmargin2026], which, while showing solid operating income growth and strong revenue expansion of 10.1%, trails key peer competitors Walmart (4.18%) and Target (4.88%) and suggests limited margin expansion at present. This margin positioning and the price-to-earnings ratio near 43.6 imply valuation caution despite robust sales and membership loyalty.",
+  "claims": [
+    {
+      "id": "operatingmargin2026",
+      "label": "Operating Margin",
+      "value": 0.03854476602650798,
+      "display": "3.85%",
+      "source": {
+        "kind": "ratio",
+        "formula": "Operating Income / Revenue",
+        "definition": "operating income as a fraction of total revenue",
+        "inputs": {
+          "Operating Income": {
+            "value": 11685000000,
+            "source": {
+              "kind": "xbrl",
+              "tag": "OperatingIncomeLoss",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "Revenue": {
+            "value": 303154000000,
+            "source": {
+              "kind": "xbrl",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "revgrowth2026",
+      "label": "Revenue Growth Year-over-Year",
+      "value": 0.10143695387577888,
+      "display": "10.14%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "revenue growth percentage year-over-year",
+        "inputs": {
+          "a": {
+            "value": 303154000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "b": {
+            "value": 275235000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2025-08-31",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2025-08-31",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "pe2026",
+      "label": "Price to Earnings (P/E) Ratio",
+      "value": 43.578998073217726,
+      "display": "43.58",
+      "source": {
+        "kind": "ratio",
+        "formula": "Price / GAAP Diluted EPS",
+        "definition": "Trailing P/E ratio using price of $904.7 and FY 2026 diluted EPS",
+        "inputs": {
+          "Price": {
+            "value": 904.7,
+            "source": {
+              "kind": "user",
+              "field": "price",
+              "period": "2026-09-23"
+            }
+          },
+          "EPS": {
+            "value": 20.76,
+            "source": {
+              "kind": "xbrl",
+              "tag": "EarningsPerShareDiluted",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "wmtope2026",
+      "label": "Walmart Operating Margin FY 2026",
+      "value": 0.041820733829433104,
+      "display": "4.18%",
+      "source": {
+        "kind": "ratio",
+        "formula": "Operating Income / Revenue",
+        "definition": "Walmart operating margin for FY 2026",
+        "inputs": {
+          "Operating Income": {
+            "value": 29825000000,
+            "source": {
+              "kind": "xbrl",
+              "tag": "OperatingIncomeLoss",
+              "period": "2026-01-31",
+              "end": "2026-01-31",
+              "accession": "0000104169-26-000055"
+            }
+          },
+          "Revenue": {
+            "value": 713163000000,
+            "source": {
+              "kind": "xbrl",
+              "tag": "Revenues",
+              "period": "2026-01-31",
+              "end": "2026-01-31",
+              "accession": "0000104169-26-000055"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "tgtope2026",
+      "label": "Target Operating Margin FY 2026",
+      "value": 0.048835655659477,
+      "display": "4.88%",
+      "source": {
+        "kind": "ratio",
+        "formula": "Operating Income / Revenue",
+        "definition": "Target operating margin for FY 2026",
+        "inputs": {
+          "Operating Income": {
+            "value": 5117000000,
+            "source": {
+              "kind": "xbrl",
+              "tag": "OperatingIncomeLoss",
+              "period": "2026-01-31",
+              "end": "2026-01-31",
+              "accession": "0000027419-26-000016"
+            }
+          },
+          "Revenue": {
+            "value": 104780000000,
+            "source": {
+              "kind": "xbrl",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-01-31",
+              "end": "2026-01-31",
+              "accession": "0000027419-26-000016"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "bjope2026",
+      "label": "BJ's Wholesale Operating Margin FY 2026",
+      "value": 0.03805721080879146,
+      "display": "3.81%",
+      "source": {
+        "kind": "ratio",
+        "formula": "Operating Income / Revenue",
+        "definition": "BJ's Wholesale operating margin for FY 2026",
+        "inputs": {
+          "Operating Income": {
+            "value": 816604000,
+            "source": {
+              "kind": "xbrl",
+              "tag": "OperatingIncomeLoss",
+              "period": "2026-01-31",
+              "end": "2026-01-31",
+              "accession": "0001531152-26-000007"
+            }
+          },
+          "Revenue": {
+            "value": 21457274000,
+            "source": {
+              "kind": "xbrl",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-01-31",
+              "end": "2026-01-31",
+              "accession": "0001531152-26-000007"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "claim_Insight",
+      "label": "Insight",
+      "value": "Costco's gasoline business represented a significant 11% of total net sales in fiscal 2026, highlighting the importance of ancillary services to its overall revenue mix, a fact often less emphasized in headline financial summaries.",
+      "display": "Insight: Costco's gasoline business represented 11% of total net sales in 2026, underscoring the importance of ancillary services [10-K accession 0000909832-26-000093 L000764].",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "Our gasoline business represented 11% of total net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Gasoline business contribution to net sales"
+      }
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "valuation_insights": "Apple reported annual total revenue of $478.8 billion for fiscal 2026, up 15.1% from $416.2 billion in fiscal 2025, both measured by net sales tagged as RevenueFromContractWithCustomerExcludingAssessedTax [C:revenue]. Operating income was $158.1 billion, yielding an operating margin of 33.0% for fiscal 2026 [C:operating_income]. Net income attributable to Apple was $132.2 billion [C:net_income], producing GAAP diluted EPS of $8.98 for the year [C:diluted_eps]. Return on average equity was strong at 142.3%, using fiscal 2026 and 2025 stockholders' equity balances [C:return_on_average_equity]. Total debt including current portion was $78.9 billion, giving a debt-to-equity ratio of 0.70 [C:debt_to_equity]. Free cash flow reached $136.1 billion (operating cash flow minus capital expenditures) [C:free_cash_flow].\n\nFor the latest quarter (Q4 2026), Apple posted revenue of $114.5 billion, a 12% increase year-over-year [C:quarterly_revenue]. Quarterly GAAP diluted EPS was $2.10, up 14% over the same quarter last year [C:quarterly_eps]. Using the closing price of $344.63 as of October 30, 2026, Apple’s trailing twelve-month P/E ratio is approximately 38.4 based on fiscal 2026 diluted EPS [C:pe_ratio].\n\nComparing operating margins on total revenue basis, Microsoft’s margin was 46.8% for fiscal 2026, Alphabet’s 32.0% for fiscal 2025 (calendar year), and Oracle’s 30.6% for fiscal 2026 [C:operating_margin_peers]. These peers have different fiscal year-ends and revenue definitions, but all use contract-based revenue tags, enabling a consistent comparison.\n\nInsight: Despite a 12% quarterly revenue increase, Apple’s capital expenditures notably declined from $12.7 billion in fiscal 2025 to $9.0 billion in fiscal 2026, marking a meaningful capex reduction trend while still generating significantly higher free cash flow [10-K L000139 and L000116 lines].",
+  "claims": [
+    {
+      "id": "revenue",
+      "label": "Annual Total Revenue",
+      "value": 478834000000,
+      "display": "$478.8 billion",
+      "source": {
+        "kind": "xbrl",
+        "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "period": "2026-09-26",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026"
+      }
+    },
+    {
+      "id": "revenue_prior",
+      "label": "Prior Annual Total Revenue",
+      "value": 416161000000,
+      "display": "$416.2 billion",
+      "source": {
+        "kind": "xbrl",
+        "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "period": "2025-09-27",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "end": "2025-09-27",
+        "accession": "0000320193-26-000026"
+      }
+    },
+    {
+      "id": "revenue_growth",
+      "label": "Revenue Growth",
+      "value": 0.1505979656911628,
+      "display": "15.1%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "Revenue growth from fiscal 2025 to 2026",
+        "inputs": {
+          "a": {
+            "value": "478834000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-09-26",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "b": {
+            "value": "416161000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2025-09-27",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2025-09-27",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "operating_income",
+      "label": "Operating Income",
+      "value": 158063000000,
+      "display": "$158.1 billion",
+      "source": {
+        "kind": "xbrl",
+        "field": "OperatingIncomeLoss",
+        "period": "2026-09-26",
+        "tag": "OperatingIncomeLoss",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026"
+      }
+    },
+    {
+      "id": "operating_margin",
+      "label": "Operating Margin",
+      "value": 0.3300997840587761,
+      "display": "33.0%",
+      "source": {
+        "kind": "ratio",
+        "formula": "Operating Income / Total Revenue",
+        "definition": "Operating margin based on fiscal 2026 total revenue and operating income",
+        "inputs": {
+          "Operating Income": {
+            "value": "158063000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-09-26",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "Total Revenue": {
+            "value": "478834000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-09-26",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "net_income",
+      "label": "Net Income Attributable to Company",
+      "value": 132175000000,
+      "display": "$132.2 billion",
+      "source": {
+        "kind": "xbrl",
+        "field": "NetIncomeLoss",
+        "period": "2026-09-26",
+        "tag": "NetIncomeLoss",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026"
+      }
+    },
+    {
+      "id": "diluted_eps",
+      "label": "GAAP Diluted EPS",
+      "value": 8.98,
+      "display": "$8.98",
+      "source": {
+        "kind": "xbrl",
+        "field": "EarningsPerShareDiluted",
+        "period": "2026-09-26",
+        "tag": "EarningsPerShareDiluted",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026"
+      }
+    },
+    {
+      "id": "return_on_average_equity",
+      "label": "Return on Average Equity",
+      "value": 1.4225673479491567,
+      "display": "142.3%",
+      "source": {
+        "kind": "ratio",
+        "formula": "Net Income / ((Equity Beginning + Equity Ending) / 2)",
+        "definition": "Return on average equity for fiscal 2026",
+        "inputs": {
+          "Net Income": {
+            "value": "132175000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "NetIncomeLoss",
+              "period": "2026-09-26",
+              "tag": "NetIncomeLoss",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "Average Equity": {
+            "value": "(112093000000 + 73733000000) / 2",
+            "source": {
+              "kind": "xbrl",
+              "field": "StockholdersEquity",
+              "period": "2026-09-26",
+              "tag": "StockholdersEquity",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "debt_to_equity",
+      "label": "Debt to Equity Ratio",
+      "value": 0.6968677794331493,
+      "display": "0.70",
+      "source": {
+        "kind": "ratio",
+        "formula": "(LongTermDebtNoncurrent + LongTermDebtCurrent) / StockholdersEquity",
+        "definition": "Debt to equity including current portion at fiscal 2026 year-end",
+        "inputs": {
+          "Long-term Debt Noncurrent": {
+            "value": "68208000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "LongTermDebtNoncurrent",
+              "period": "2026-09-26",
+              "tag": "LongTermDebtNoncurrent",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "Long-term Debt Current": {
+            "value": "9906000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "LongTermDebtCurrent",
+              "period": "2026-09-26",
+              "tag": "LongTermDebtCurrent",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "Stockholders' Equity": {
+            "value": "112093000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "StockholdersEquity",
+              "period": "2026-09-26",
+              "tag": "StockholdersEquity",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "free_cash_flow",
+      "label": "Free Cash Flow",
+      "value": 136056000000,
+      "display": "$136.1 billion",
+      "source": {
+        "kind": "ratio",
+        "formula": "NetCashProvidedByOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment",
+        "definition": "Free cash flow for fiscal 2026",
+        "inputs": {
+          "Operating Cash Flow": {
+            "value": "145097000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "NetCashProvidedByUsedInOperatingActivities",
+              "period": "2026-09-26",
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "Capital Expenditures": {
+            "value": "9041000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period": "2026-09-26",
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "quarterly_revenue",
+      "label": "Latest Quarterly Revenue",
+      "value": 114477000000,
+      "display": "$114.5 billion",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 12,
+        "quote": "The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year.",
+        "period": "2026-09-26",
+        "definition": "Quarterly total revenue from financial results release"
+      }
+    },
+    {
+      "id": "quarterly_revenue_growth",
+      "label": "Latest Quarter Revenue Growth",
+      "value": 0.12,
+      "display": "12%",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 12,
+        "quote": "The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year.",
+        "period": "2026-09-26",
+        "definition": "Year over year quarterly revenue growth as per earnings release"
+      }
+    },
+    {
+      "id": "quarterly_eps",
+      "label": "Latest Quarterly GAAP Diluted EPS",
+      "value": 2.1,
+      "display": "$2.10",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 12,
+        "quote": "Diluted earnings per share was $2.10, up 14 percent year over year.",
+        "period": "2026-09-26",
+        "definition": "Quarterly GAAP diluted EPS from earnings release"
+      }
+    },
+    {
+      "id": "pe_ratio",
+      "label": "Price-to-Earnings Ratio",
+      "value": 38.37750556792873,
+      "display": "38.4",
+      "source": {
+        "kind": "ratio",
+        "formula": "Price / Diluted EPS",
+        "definition": "Trailing twelve-month P/E based on closing price and fiscal 2026 diluted EPS",
+        "inputs": {
+          "Price": {
+            "value": "344.63",
+            "source": {
+              "kind": "price",
+              "period": "2026-10-30"
+            }
+          },
+          "Diluted EPS": {
+            "value": "8.98",
+            "source": {
+              "kind": "xbrl",
+              "field": "EarningsPerShareDiluted",
+              "period": "2026-09-26",
+              "tag": "EarningsPerShareDiluted",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "operating_margin_peers",
+      "label": "Peer Operating Margins",
+      "value": {
+        "MSFT": 0.4678081840892722,
+        "GOOGL": 0.32032638592380025,
+        "ORCL": 0.30592217586887777
+      },
+      "display": "Microsoft 46.8%, Alphabet 32.0%, Oracle 30.6%",
+      "source": {
+        "kind": "ratio",
+        "definition": "Operating margins from peers' fiscal year revenues and operating incomes on contract revenue basis, fiscal 2026 or latest",
+        "inputs": {
+          "MSFT": {
+            "operating_income": 155237000000,
+            "revenue": 331839000000,
+            "ten_k_accession": "0001193125-26-323660"
+          },
+          "GOOGL": {
+            "operating_income": 129039000000,
+            "revenue": 402836000000,
+            "ten_k_accession": "0001652044-26-000018"
+          },
+          "ORCL": {
+            "operating_income": 20606000000,
+            "revenue": 67357000000,
+            "ten_k_accession": "0001193125-26-277521"
+          }
+        }
+      }
+    }
+  ]
+}

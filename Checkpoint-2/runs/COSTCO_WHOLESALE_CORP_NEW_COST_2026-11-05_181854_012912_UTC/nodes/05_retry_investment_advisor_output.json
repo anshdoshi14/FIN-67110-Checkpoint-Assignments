@@ -1,0 +1,85 @@
+{
+  "investment_recommendation": "Hold (provisional) based on 3.85% operating margin in fiscal 2026 [C:operating_margin_2026] reflecting modest profitability below peer margins despite robust 10.14% revenue growth",
+  "claims": [
+    {
+      "id": "revenue_growth_2026",
+      "label": "Revenue Growth FY 2026",
+      "value": 0.1014,
+      "display": "10.14%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "revenue growth percentage",
+        "inputs": {
+          "a": {
+            "value": "303154000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "b": {
+            "value": "275235000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2025-08-31",
+              "end": "2025-08-31",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "operating_margin_2026",
+      "label": "Fiscal 2026 Operating Margin",
+      "value": 0.0385,
+      "display": "3.85%",
+      "source": {
+        "kind": "ratio",
+        "formula": "OperatingIncome / Revenue",
+        "definition": "operating margin",
+        "inputs": {
+          "OperatingIncome": {
+            "value": "11685000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "Revenue": {
+            "value": "303154000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "Insight",
+      "label": "Insight: Geographic concentration risk",
+      "value": null,
+      "display": "Costco's significant reliance on U.S. and Canadian markets, with California contributing 26% of U.S. sales, represents a material geographic concentration risk that could adversely impact financial performance if these regions encounter regulatory or economic challenges.",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 836,
+        "quote": "Our financial and operational performance is highly dependent on our U.S. and Canadian operations, which comprised 86%...Within the U.S., we are highly dependent on our California operations, which comprised 26% of U.S. net sales in 2026.",
+        "period": "2026-08-30",
+        "definition": "Risk from dependence on major geographic markets"
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "overview": "Apple Inc. designs, manufactures, and markets a broad range of technology products and related services, including smartphones, personal computers, tablets, wearables, and accessories. These products run on its proprietary operating systems: iOS, macOS, iPadOS, watchOS, visionOS, and tvOS. Its product lines stated include iPhone, Mac computers, iPad tablets, wearables such as Apple Watch and AirPods, home devices like Apple TV, and related services including the App Store, Apple Music, Apple Pay, iCloud, and Apple TV. The fiscal year ends on the last Saturday of September [\"The Company designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related services.\" \"The Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September.\" \"iPhone® is the Company’s line of smartphones based on its iOS operating system.\" \"Mac® is the Company’s line of personal computers based on its macOS® operating system.\" \"iPad® is the Company’s line of multipurpose tablets based on its iPadOS® operating system.\" \"Wearables includes smartwatches, wireless headphones and spatial computers.\" \"Apple Vision Pro® is the Company’s spatial computer based on its visionOS® operating system.\" \"Home includes Apple TV 4K®, the Company’s media streaming and gaming device based on its tvOS® operating system.\" Item 1 Business 10-K accession 0000320193-26-000026 L000853-L000911].",
+  "market_positioning_and_growth_outlook": "Apple maintains a strong competitive position based on its integrated ecosystem of hardware, software, and services that enhances customer satisfaction and loyalty. The company achieved record fiscal 2026 total net sales of $478.8 billion, a 15% increase compared to 2025. This growth was driven by a 21% increase in iPhone net sales to $254.1 billion and a 13% increase in Services net sales to $123.3 billion, primarily due to higher advertising and cloud offerings. Geographic net sales increased across all major regions: Americas net sales increased due to higher iPhone, Services, and Mac sales; Europe grew primarily due to iPhone, Services, and Mac, also favored by currency impacts; Greater China and Rest of Asia Pacific saw increases driven mainly by iPhone and Mac sales; Japan’s net sales rose with higher iPhone sales despite a weaker yen. The fiscal 2026 gross margin was approximately 48.8%. Macroeconomic headwinds include inflation, supply constraints for advanced semiconductors and memory/storage components, and tariff impacts with some favorable tariff refunds. The company cautions that price increases may not fully mitigate supply and cost pressures and could reduce product demand [\"Total net sales | $ | 478,834\" \"iPhone | $ | 254,098\" \"Services | $ | 123,301\" \"Macroeconomic conditions, including inflation, interest rates, component pricing, supply constraints and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company’s business.\" \"The Company is experiencing supply constraints and rising costs driven by industry-wide supply-demand imbalances for key components, including advanced semiconductors, memory and storage.\" \"The Company expects these trends to intensify for memory and storage components.\" \"Macroeconomic and supply factors, including inflation and semiconductor shortages, present headwinds, although tariff refunds provided some favorable impacts.\" \"Americas net sales increased during 2026 compared to 2025 due to higher net sales of iPhone, Services and Mac.\" \"Europe net sales increased primarily due to higher net sales of iPhone, Services and Mac. The strength in foreign currencies relative to the U.S. dollar had a net favorable year-over-year impact.\" \"Greater China net sales increased primarily due to higher net sales of iPhone and Mac.\" \"Rest of Asia Pacific net sales increased primarily due to higher net sales of iPhone, Services and Mac.\" \"Japan net sales increased due to higher net sales of iPhone. The weakness in the yen relative to the U.S. dollar had an unfavorable impact.\" \"Gross margin 48.8 percent\" Item 7 MD&A and Item 1 Business 10-K accession 0000320193-26-000026 L001230-L001275; Lines 1243,1258,1262,1279,1230; EX-99.1 accession 0000320193-26-000024 Lines 12-14].",
+  "future_developments_and_strategic_recommendations": "Fiscal 2026 saw several significant product and software launches, including new Macs (14-inch MacBook Pro, MacBook Neo, MacBook Air, Mac mini, Mac Studio), iPad Pro and iPad Air models, and the debut of Apple Vision Pro spatial computer. New iPhones launched included iPhone 17e, iPhone Duo, iPhone 18 Pro and iPhone 18 Pro Max. Wearables were updated with Apple Watch Series 12, Apple Watch Ultra 4, AirPods Max 2, and AirPods 5. Software updates included iOS 27, macOS 27 Golden Gate, iPadOS 27, watchOS 27, visionOS 27, tvOS 27, and introduction of Siri AI enhancements. Given the ongoing supply constraints and inflationary pressures, the company may benefit from further strengthening its supply chain resilience and diversifying component sourcing. Continued high investment in research and development, which increased to $45.8 billion in fiscal 2026, is necessary to sustain innovation focused on AI, spatial computing, and expanding the Services ecosystem [\"Significant announcements during fiscal year 2026 included...14-inch MacBook Pro, iPad Pro, Apple Vision Pro, iPad Air, iPhone 17e, MacBook Neo, MacBook Air, MacBook Pro, AirPods Max 2, iOS 27, Siri AI, Mac mini, Mac Studio, iPhone Duo, iPhone 18 Pro Max, iPhone 18 Pro, Apple Watch Series 12, Apple Watch Ultra 4, AirPods 5.\" \"Research and development | 45,765\" Item 7 MD&A and Item 1 Business 10-K accession 0000320193-26-000026 L001197-L001228; Lines 1247; EX-99.1 accession 0000320193-26-000024 L000013].",
+  "claims": [
+    {
+      "id": "C1",
+      "label": "Fiscal 2026 total net sales",
+      "value": 478834000000,
+      "display": "$478.8 billion",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1243,
+        "quote": "Total net sales | $ | 478,834",
+        "period": "2026",
+        "definition": "Total net sales for fiscal year 2026"
+      }
+    },
+    {
+      "id": "C2",
+      "label": "Fiscal 2026 iPhone net sales",
+      "value": 254098000000,
+      "display": "$254.1 billion",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1258,
+        "quote": "iPhone | $ | 254,098",
+        "period": "2026",
+        "definition": "iPhone net sales for fiscal year 2026"
+      }
+    },
+    {
+      "id": "C3",
+      "label": "Fiscal 2026 Services net sales",
+      "value": 123301000000,
+      "display": "$123.3 billion",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1262,
+        "quote": "Services | $ | 123,301",
+        "period": "2026",
+        "definition": "Services net sales for fiscal year 2026"
+      }
+    },
+    {
+      "id": "C4",
+      "label": "Fiscal 2026 gross margin percentage",
+      "value": 48.8,
+      "display": "approximately 48.8%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(gross margin / total net sales) * 100",
+        "definition": "Gross margin percentage for fiscal year 2026",
+        "inputs": {
+          "gross margin": {
+            "value": 233602000000,
+            "source": {
+              "kind": "line",
+              "document": "10-K",
+              "line": 1279,
+              "quote": "Gross margin | 233,602",
+              "period": "2026",
+              "definition": "Gross margin for fiscal year 2026"
+            }
+          },
+          "total net sales": {
+            "value": 478834000000,
+            "source": {
+              "kind": "line",
+              "document": "10-K",
+              "line": 1243,
+              "quote": "Total net sales | $ | 478,834",
+              "period": "2026",
+              "definition": "Total net sales for fiscal year 2026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "C5",
+      "label": "Fiscal 2026 R&D expense",
+      "value": 45765000000,
+      "display": "$45.8 billion",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1247,
+        "quote": "Research and development | 45,765",
+        "period": "2026",
+        "definition": "Research and development expense for fiscal year 2026"
+      }
+    },
+    {
+      "id": "C6",
+      "label": "Fiscal 2026 geographic net sales - Americas",
+      "value": 198083000000,
+      "display": "$198.1 billion",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1238,
+        "quote": "Americas | $ | 198,083",
+        "period": "2026",
+        "definition": "Americas net sales for fiscal year 2026"
+      }
+    },
+    {
+      "id": "C7",
+      "label": "Fiscal 2026 geographic net sales - Europe",
+      "value": 127604000000,
+      "display": "$127.6 billion",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1239,
+        "quote": "Europe | $ | 127,604",
+        "period": "2026",
+        "definition": "Europe net sales for fiscal year 2026"
+      }
+    },
+    {
+      "id": "C8",
+      "label": "Fiscal 2026 geographic net sales - Greater China",
+      "value": 82378000000,
+      "display": "$82.4 billion",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1240,
+        "quote": "Greater China | $ | 82,378",
+        "period": "2026",
+        "definition": "Greater China net sales for fiscal year 2026"
+      }
+    },
+    {
+      "id": "C9",
+      "label": "Fiscal 2026 geographic net sales - Japan",
+      "value": 30908000000,
+      "display": "$30.9 billion",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1241,
+        "quote": "Japan | $ | 30,908",
+        "period": "2026",
+        "definition": "Japan net sales for fiscal year 2026"
+      }
+    },
+    {
+      "id": "C10",
+      "label": "Fiscal 2026 geographic net sales - Rest of Asia Pacific",
+      "value": 39861000000,
+      "display": "$39.9 billion",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1242,
+        "quote": "Rest of Asia Pacific | $ | 39,861",
+        "period": "2026",
+        "definition": "Rest of Asia Pacific net sales for fiscal year 2026"
+      }
+    },
+    {
+      "id": "Insight",
+      "label": "Insight on supply chain constraints",
+      "value": "The Company is experiencing supply constraints and rising costs driven by industry-wide supply-demand imbalances for key components, including advanced semiconductors, memory and storage, expected to intensify for memory and storage components",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1230,
+        "quote": "The Company is experiencing supply constraints and rising costs driven by industry-wide supply-demand imbalances for key components, including advanced semiconductors, memory and storage. The Company expects these trends to intensify for memory and storage components.",
+        "period": "2026",
+        "definition": "Supply constraints risk"
+      }
+    }
+  ]
+}

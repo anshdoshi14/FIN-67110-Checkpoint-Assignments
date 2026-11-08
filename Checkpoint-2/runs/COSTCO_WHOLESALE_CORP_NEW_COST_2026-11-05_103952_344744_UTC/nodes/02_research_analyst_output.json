@@ -1,0 +1,223 @@
+{
+  "overview": "Costco Wholesale Corporation operates membership warehouses and e-commerce sites internationally, focusing on offering low prices on a limited selection of nationally-branded and private-label products across a broad range of categories. The company achieves this by leveraging volume purchasing, efficient distribution, and reduced handling of merchandise in no-frills warehouse facilities, resulting in high sales volumes and rapid inventory turnover. Costco operates 939 warehouses worldwide as of August 30, 2026, primarily in the U.S., Canada, Mexico, Japan, the U.K., Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland, and New Zealand. Their warehouses average approximately 148,000 square feet, designed for operational efficiency and inventory control. The company maintains a membership-based model, charging an annual fee and offering Executive memberships with rewards on qualified purchases. Ancillary services such as gasoline stations, pharmacies, food courts, and travel complement the retail business. Costco also emphasizes employee welfare as a key ethical component. The company’s fiscal year ends in late August, using a 52/53-week calendar with a notable seasonal sales peak in the winter holiday period [10-K accession 0000909832-26-000093 lines L000733-L000787].",
+  "market_positioning_and_growth_outlook": "Costco’s competitive positioning is based on providing members with consistently lower prices on a curated range of fast-selling items (less than 4,000 SKUs per warehouse), combining private-label and brand-name merchandise. The company controls shrinkage through limited access and membership requirements, and maintains shorter operating hours and efficient warehouse layouts to reduce labor costs. Their growth strategy includes expansion within existing markets by increasing warehouse count and entering new geographic markets, although it carries risks related to competition, regulatory hurdles, and member acquisition challenges in unfamiliar regions. Costco operates 774 gas stations as part of its ancillary business, which accounted for 11% of total net sales in 2026. The Executive membership penetration is strong, accounting for approximately 75.2% of worldwide net sales. Membership renewal rates are high (92.3% in U.S. and Canada, 89.8% worldwide), supporting a stable revenue stream from recurring fees, which totaled $5.907 billion in fiscal 2026 [10-K accession 0000909832-26-000093 lines L000733-L000784].",
+  "future_developments_and_strategic_recommendations": "Costco should continue focusing on selective warehouse expansion while cautious of cannibalization effects on existing stores. Prioritizing growth in high-potential regions and further enhancing e-commerce offerings could boost market penetration. Given the significant contribution of gasoline sales and ancillary services to net sales, further investment in these areas may provide incremental revenue opportunities. Ensuring supply chain diversification and expanding private-label merchandise where quality and member value are high will help mitigate supplier risks. Monitoring membership renewal trends and Executive membership growth will remain critical. Additionally, balancing operational efficiency with employee welfare will support sustainability. Future quarterly and annual filings should be reviewed for updates on new warehouse openings, international market entries, and progress on strategic initiatives [10-K accession 0000909832-26-000093 lines L000838-L000841].",
+  "claims": [
+    {
+      "id": "claim_1",
+      "label": "Number of warehouses worldwide at August 30, 2026",
+      "value": 939,
+      "display": "939 warehouses",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 734,
+        "quote": "Costco operated 939 warehouses worldwide at August 30, 2026",
+        "period": "2026-08-30",
+        "definition": "Total number of warehouses operated worldwide"
+      }
+    },
+    {
+      "id": "claim_2",
+      "label": "Number of warehouses in the United States and Puerto Rico at August 30, 2026",
+      "value": 647,
+      "display": "647 warehouses in the US and Puerto Rico",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 21,
+        "quote": "Costco currently operates 647 in the United States and Puerto Rico",
+        "period": "2026-08-30",
+        "definition": "Number of warehouses in US and Puerto Rico"
+      }
+    },
+    {
+      "id": "claim_3",
+      "label": "Number of paid members at fiscal year end 2026 (thousands)",
+      "value": 84100,
+      "display": "84,100 thousand paid members",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 776,
+        "quote": "Paid members... 84,100 ... at the end of 2026",
+        "period": "2026-08-30",
+        "definition": "Paid membership count in thousands"
+      }
+    },
+    {
+      "id": "claim_4",
+      "label": "Membership fees revenue for fiscal 2026 (millions USD)",
+      "value": 5907,
+      "display": "$5,907 million",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 38,
+        "quote": "Membership fees 5,907 ... fiscal year ended August 30, 2026",
+        "period": "2026-08-30",
+        "definition": "Revenue from membership fees"
+      }
+    },
+    {
+      "id": "claim_5",
+      "label": "Net sales for fiscal 2026 (millions USD)",
+      "value": 297247,
+      "display": "$297.2 billion",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 37,
+        "quote": "Net sales... $297,247 million ... for fiscal year ended August 30, 2026",
+        "period": "2026-08-30",
+        "definition": "Total net sales"
+      }
+    },
+    {
+      "id": "claim_6",
+      "label": "Net income for fiscal 2026 (millions USD)",
+      "value": 9226,
+      "display": "$9.226 billion",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 49,
+        "quote": "Net income ... $9,226 million ... for fiscal year ended August 30, 2026",
+        "period": "2026-08-30",
+        "definition": "Net income for fiscal year"
+      }
+    },
+    {
+      "id": "claim_7",
+      "label": "Executive members penetration as percent of worldwide net sales",
+      "value": 75.2,
+      "display": "75.2%",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 782,
+        "quote": "The penetration of sales to Executive members represented approximately 75.2% of worldwide net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Percent of sales from Executive members"
+      }
+    },
+    {
+      "id": "claim_8",
+      "label": "Membership renewal rate in U.S. and Canada, 2026",
+      "value": 92.3,
+      "display": "92.3%",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 783,
+        "quote": "Our member renewal rate was 92.3% in the U.S. and Canada ... at the end of 2026",
+        "period": "2026-08-30",
+        "definition": "Membership renewal rate"
+      }
+    },
+    {
+      "id": "claim_9",
+      "label": "Gasoline business share of total net sales in 2026",
+      "value": 11,
+      "display": "11%",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "Our gasoline business represented 11% of total net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Percentage of net sales from gasoline business"
+      }
+    },
+    {
+      "id": "claim_10",
+      "label": "Number of gas stations operated at the end of 2026",
+      "value": 774,
+      "display": "774 gas stations",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "We operated 774 gas stations at the end of 2026",
+        "period": "2026-08-30",
+        "definition": "Count of gas stations operated"
+      }
+    },
+    {
+      "id": "claim_11",
+      "label": "Net sales increase for the fiscal year 2026 vs 2025",
+      "value": 10.1,
+      "display": "10.1% increase",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 10,
+        "quote": "Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year",
+        "period": "2026-08-30",
+        "definition": "Year-over-year net sales growth"
+      }
+    },
+    {
+      "id": "claim_12",
+      "label": "Net income per diluted share for fiscal year 2026",
+      "value": 20.76,
+      "display": "$20.76 per diluted share",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 52,
+        "quote": "Net income per diluted share ... $20.76 ... for fiscal year ended August 30, 2026",
+        "period": "2026-08-30",
+        "definition": "Diluted earnings per share"
+      }
+    },
+    {
+      "id": "claim_13",
+      "label": "Growth in paid members from 2024 to 2026 (thousands)",
+      "value": 7900,
+      "display": "Growth of 7.9 million paid members",
+      "source": {
+        "kind": "ratio",
+        "formula": "84100 - 76200",
+        "definition": "Increase in number of paid members from 2024 to 2026",
+        "inputs": {
+          "a": {
+            "value": "84100",
+            "source": {
+              "kind": "line",
+              "document": "10-K",
+              "line": 776,
+              "quote": "Paid members 84,100 at 2026",
+              "period": "2026-08-30",
+              "definition": "Paid members in 2026"
+            }
+          },
+          "b": {
+            "value": "76200",
+            "source": {
+              "kind": "line",
+              "document": "10-K",
+              "line": 776,
+              "quote": "Paid members 76,200 at 2024",
+              "period": "2024-09-01",
+              "definition": "Paid members in 2024"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "insight_1",
+      "label": "Insight",
+      "value": "Costco's strategy to limit SKU counts to under 4,000 active SKUs per warehouse significantly differentiates it from other broadline retailers, enabling focused inventory and pricing efficiencies [10-K accession 0000909832-26-000093 line L000744].",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 744,
+        "quote": "We carry less than 4,000 active stock keeping units (SKUs) per warehouse in our core warehouse business, significantly less than other broadline retailers.",
+        "period": "2026-08-30",
+        "definition": "SKU count per warehouse"
+      }
+    }
+  ]
+}

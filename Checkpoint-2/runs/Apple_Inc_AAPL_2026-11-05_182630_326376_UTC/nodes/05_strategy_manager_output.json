@@ -1,0 +1,17 @@
+{
+  "status": "REVISE",
+  "issues": [
+    {
+      "role": "Research Analyst",
+      "reason": "The five report sections are all present by exact title, but the Market Positioning and Growth Outlook section states 'double-digit growth in earnings per share' without quantifying the EPS growth or citing specific source lines or numeric evidence. Also, the geographic net sales increases are mentioned, but the quarterly or yearly breakdowns for these regions are not separately sourced from the 10-K or earnings release. The overview claims proprietary OS support and product lines correctly cited. However, there is no explicit source citation for the claim about 'new all-time high active installed device base' other than the broad 10-K citation, which could be more precise."
+    },
+    {
+      "role": "Financial Analyst",
+      "reason": "Numeric claims in Valuation Insights section mostly match the financial data manifest and 10-K, including revenue, net income, operating income, EPS, ROE, debt-to-equity, free cash flow, quarterly revenue, and EPS. The 15.1% revenue growth is computed accurately and supported by source [C:revenue]. Operating margin of 33.0% is consistent with $158.1B operating income over $478.8B revenue. However, the debt-to-equity ratio is stated as 0.70, but arithmetic implies approximately 0.70; the narrative should clarify sum of current and long-term debt was used over total equity. Also, the comparison of operating margins with Microsoft, Alphabet, and Oracle notes differing fiscal year ends but does not clarify calendar vs fiscal years or revenue reclassification method beyond contract-based tag, which slightly diminishes peer comparability rigor. The Insight line mentioning capex reduction cites exact 10-K lines but the precise capex numbers in the narrative and source lines (L000139 and L000116) mismatch slightly in ordering or reference."
+    },
+    {
+      "role": "Investment Advisor",
+      "reason": "The Investment Recommendation section is consistent with the valuation insights data, emphasizing 15.1% revenue growth and acknowledging high P/E and operating margin relative to peers. It correctly references risks from supply chain and capex decline limiting Buy conviction overall. The Insight line prescribed in Valuation Insights is not repeated or complemented here as part of an independent Investment Advisor Insight, which is required but missing. The Investment Recommendation does not explicitly include an independent Insight line, nor does the Research or Financial sections produce multiple distinct Insights as requested."
+    }
+  ]
+}

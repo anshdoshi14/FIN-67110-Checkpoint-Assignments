@@ -1,0 +1,226 @@
+{
+  "fiscal_year_end": "2026-09-26",
+  "prior_fiscal_year_end": "2025-09-27",
+  "ten_k_accession": "0000320193-26-000026",
+  "fields": {
+    "revenue": {
+      "current": {
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "value": 478834000000,
+        "unit": "USD",
+        "start": "2025-09-28",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2026"
+      },
+      "prior": {
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "value": 416161000000,
+        "unit": "USD",
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2025"
+      }
+    },
+    "operating_income": {
+      "current": {
+        "tag": "OperatingIncomeLoss",
+        "value": 158063000000,
+        "unit": "USD",
+        "start": "2025-09-28",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2026"
+      },
+      "prior": {
+        "tag": "OperatingIncomeLoss",
+        "value": 133050000000,
+        "unit": "USD",
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2025"
+      }
+    },
+    "net_income": {
+      "current": {
+        "tag": "NetIncomeLoss",
+        "value": 132175000000,
+        "unit": "USD",
+        "start": "2025-09-28",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2026"
+      },
+      "prior": {
+        "tag": "NetIncomeLoss",
+        "value": 112010000000,
+        "unit": "USD",
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2025"
+      }
+    },
+    "diluted_eps": {
+      "current": {
+        "tag": "EarningsPerShareDiluted",
+        "value": 8.98,
+        "unit": "USD/shares",
+        "start": "2025-09-28",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2026"
+      },
+      "prior": {
+        "tag": "EarningsPerShareDiluted",
+        "value": 7.46,
+        "unit": "USD/shares",
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2025"
+      }
+    },
+    "equity": {
+      "current": {
+        "tag": "StockholdersEquity",
+        "value": 112093000000,
+        "unit": "USD",
+        "start": null,
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2026Q3I"
+      },
+      "prior": {
+        "tag": "StockholdersEquity",
+        "value": 73733000000,
+        "unit": "USD",
+        "start": null,
+        "end": "2025-09-27",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2025Q3I"
+      }
+    },
+    "long_term_debt_noncurrent": {
+      "current": {
+        "tag": "LongTermDebtNoncurrent",
+        "value": 68208000000,
+        "unit": "USD",
+        "start": null,
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2026Q3I"
+      },
+      "prior": {
+        "tag": "LongTermDebtNoncurrent",
+        "value": 78328000000,
+        "unit": "USD",
+        "start": null,
+        "end": "2025-09-27",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2025Q3I"
+      }
+    },
+    "long_term_debt_current": {
+      "current": {
+        "tag": "LongTermDebtCurrent",
+        "value": 9906000000,
+        "unit": "USD",
+        "start": null,
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2026Q3I"
+      },
+      "prior": {
+        "tag": "LongTermDebtCurrent",
+        "value": 12350000000,
+        "unit": "USD",
+        "start": null,
+        "end": "2025-09-27",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2025Q3I"
+      }
+    },
+    "cash_from_operations": {
+      "current": {
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "value": 145097000000,
+        "unit": "USD",
+        "start": "2025-09-28",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2026"
+      },
+      "prior": {
+        "tag": "NetCashProvidedByUsedInOperatingActivities",
+        "value": 111482000000,
+        "unit": "USD",
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2025"
+      }
+    },
+    "capex": {
+      "current": {
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "value": 9041000000,
+        "unit": "USD",
+        "start": "2025-09-28",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2026"
+      },
+      "prior": {
+        "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+        "value": 12715000000,
+        "unit": "USD",
+        "start": "2024-09-29",
+        "end": "2025-09-27",
+        "accession": "0000320193-26-000026",
+        "filed": "2026-11-03",
+        "form": "10-K",
+        "frame": "CY2025"
+      }
+    }
+  },
+  "cautions": [
+    "Revenue uses contract-sales tag; verify it includes total revenue (e.g. membership/other income), not net sales only."
+  ]
+}

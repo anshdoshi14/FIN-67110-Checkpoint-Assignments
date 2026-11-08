@@ -1,0 +1,313 @@
+{
+  "counts": {
+    "correct": 14,
+    "wrong": 4,
+    "unsupported": 14
+  },
+  "marks": [
+    {
+      "id": "registry-size",
+      "claim": "Registry coverage",
+      "reported": 24,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "Parsed embedded evidence-json",
+      "reason": ""
+    },
+    {
+      "id": "1",
+      "claim": "U.S. and Canadian dependency in net sales",
+      "reported": "86%",
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L836: We are highly dependent on the financial performance of our U.S. and Canadian operations.",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "2",
+      "claim": "Number of warehouses worldwide",
+      "reported": 939,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L734: Costco Wholesale Corporation and its subsidiaries (Costco or the Company) began operations in 1983, in Seattle, Washington. We are principally engaged in the operation of membership warehouses in the United States (U.S.) and Puerto Rico, Canada, Mexico, Japan, the United Kingdom (U.K.), Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland, and New Zealand. Costco operated 939, 914, and 890 warehouses worldwide at August 30, 2026, August 31, 2025, and September 1, 2024. The Company operates e-commerce sites in the U.S., Canada, Mexico, the U.K., Korea, Taiwan, Japan, Australia, and China. Our common stock trades on the NASDAQ Global Select Market, under the symbol “COST.”",
+      "reason": "The filing line explicitly states that Costco operated 939 warehouses worldwide at August 30, 2026, which matches the claimed value and period for total global warehouses."
+    },
+    {
+      "id": "3",
+      "claim": "Membership fee US annual amount",
+      "reported": 65,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L773: Our members may utilize their memberships at all of our warehouses and e-commerce sites. Our annual fee for memberships is $65 in the U.S., varies in other countries and includes a free household card.",
+      "reason": "The line explicitly states 'Our annual fee for memberships is $65 in the U.S.', directly supporting the claim of an annual membership fee of $65 in US dollars for the period."
+    },
+    {
+      "id": "4",
+      "claim": "Paid members worldwide at end of 2026",
+      "reported": 84100000,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L776: Paid members 1 | 84,100 |  |  | 81,000 |  |  | 76,200 |",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "5",
+      "claim": "Executive members and sales penetration 2026",
+      "reported": "42,300 members and 75.2% sales penetration",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Unverifiable source or arithmetic: [<class 'decimal.ConversionSyntax'>]"
+    },
+    {
+      "id": "6",
+      "claim": "Member renewal rate 2026",
+      "reported": "92.3% US and Canada, 89.8% worldwide",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Unverifiable source or arithmetic: [<class 'decimal.ConversionSyntax'>]"
+    },
+    {
+      "id": "7",
+      "claim": "Net sales fiscal 2026",
+      "reported": 297247000000,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "EX-99.1 L10: Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.",
+      "reason": "The filing line states that net sales for the fiscal year increased 10.1 percent to $297.2 billion, which directly matches the claimed value of $297.2 billion for fiscal year 2026."
+    },
+    {
+      "id": "8",
+      "claim": "Net income fiscal 2026",
+      "reported": 9226000000,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "EX-99.1 L49: NET INCOME | $ | 2,998 |  |  | $ | 2,610 |  |  | $ | 9,226 |  |  | $ | 8,099 |",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "9",
+      "claim": "Digitally-enabled sales growth fiscal 2026",
+      "reported": "20.9%",
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "EX-99.1 L18: Digitally-Enabled | 19.5% |  | 19.8% |  | 20.9% |  | 20.7%",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "10",
+      "claim": "Number of U.S. warehouses",
+      "reported": 647,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "EX-99.1 L21: Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand. Costco also operates e-commerce sites in the U.S., Canada, the U.K., Mexico, Korea, Taiwan, Japan, Australia, and China.",
+      "reason": "The line explicitly states that Costco operates 647 warehouses in the United States and Puerto Rico, which matches the claimed value and definition for the period 2026-08-30."
+    },
+    {
+      "id": "11",
+      "claim": "Gasoline business share of total sales",
+      "reported": "11%",
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L764: Warehouse ancillary operate primarily within, next to or near our warehouses, encouraging more frequent shopping. The number of warehouses with gas stations varies significantly by country. We operated 774 gas stations at the end of 2026. Our gasoline business represented 11% of total net sales in 2026.",
+      "reason": "The provided line explicitly states 'Our gasoline business represented 11% of total net sales in 2026,' which exactly matches the claimed value, period, and definition."
+    },
+    {
+      "id": "R1",
+      "claim": "Annual Total Revenue",
+      "reported": 303154000000,
+      "status": "correct",
+      "corrected": "303154000000",
+      "evidence": "10-K 0000909832-26-000093, RevenueFromContractWithCustomerExcludingAssessedTax, 2026-08-30: 303154000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "G1",
+      "claim": "Revenue Growth",
+      "reported": 0.10143695387577888,
+      "status": "correct",
+      "corrected": "10.14",
+      "evidence": "(a - b) / b = 0.1014369538757788798662960743; definition: annual total revenue growth percentage; sourced inputs: a=303154000000, b=275235000000",
+      "reason": ""
+    },
+    {
+      "id": "OI1",
+      "claim": "Operating Income",
+      "reported": 11685000000,
+      "status": "correct",
+      "corrected": "11685000000",
+      "evidence": "10-K 0000909832-26-000093, OperatingIncomeLoss, 2026-08-30: 11685000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "M1",
+      "claim": "Operating Margin",
+      "reported": 0.03854476602650798,
+      "status": "correct",
+      "corrected": "3.85",
+      "evidence": "OperatingIncome / Revenue = 0.03854476602650797944279145253; definition: Operating margin ratio; sourced inputs: OperatingIncome=11685000000, Revenue=303154000000",
+      "reason": ""
+    },
+    {
+      "id": "NI1",
+      "claim": "Net Income Attributable to Company",
+      "reported": 9226000000,
+      "status": "correct",
+      "corrected": "9226000000",
+      "evidence": "10-K 0000909832-26-000093, NetIncomeLoss, 2026-08-30: 9226000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "EPS1",
+      "claim": "GAAP Diluted EPS",
+      "reported": 20.76,
+      "status": "correct",
+      "corrected": "20.76",
+      "evidence": "10-K 0000909832-26-000093, EarningsPerShareDiluted, 2026-08-30: 20.76 USD/shares",
+      "reason": ""
+    },
+    {
+      "id": "ROE1",
+      "claim": "Return on Average Equity",
+      "reported": 0.284021118413964,
+      "status": "correct",
+      "corrected": "28.40",
+      "evidence": "NetIncome / ((EquityEnd + EquityPrior) / 2) = 0.2840211184139640124986531624; definition: Return on average equity for fiscal year; sourced inputs: NetIncome=9226000000, EquityEnd=35803000000, EquityPrior=29164000000",
+      "reason": ""
+    },
+    {
+      "id": "DE1",
+      "claim": "Debt to Equity Ratio",
+      "reported": 0.17210848252939698,
+      "status": "correct",
+      "corrected": "0.17",
+      "evidence": "(LongTermDebtNoncurrent + LongTermDebtCurrent) / StockholdersEquity = 0.1721084825293969779068793118; definition: Total debt (including current portion) to equity; sourced inputs: LongTermDebtNoncurrent=3914000000, LongTermDebtCurrent=2248000000, StockholdersEquity=35803000000",
+      "reason": ""
+    },
+    {
+      "id": "FCF1",
+      "claim": "Free Cash Flow",
+      "reported": 9382000000,
+      "status": "correct",
+      "corrected": "9382000000.00",
+      "evidence": "NetCashProvidedByUsedInOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment = 9382000000; definition: Free cash flow; sourced inputs: NetCashProvidedByUsedInOperatingActivities=15817000000, PaymentsToAcquirePropertyPlantAndEquipment=6435000000",
+      "reason": ""
+    },
+    {
+      "id": "PE1",
+      "claim": "Price-to-Earnings Ratio",
+      "reported": 43.58,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input Price missing verifiable XBRL source"
+    },
+    {
+      "id": "WMTM",
+      "claim": "Walmart Operating Margin",
+      "reported": 0.041820733829433104,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input OperatingIncomeLoss does not match its cited fact"
+    },
+    {
+      "id": "TGTM",
+      "claim": "Target Operating Margin",
+      "reported": 0.048835655659477,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input OperatingIncomeLoss does not match its cited fact"
+    },
+    {
+      "id": "BJM",
+      "claim": "BJ's Wholesale Operating Margin",
+      "reported": 0.03805721080879146,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input OperatingIncomeLoss does not match its cited fact"
+    },
+    {
+      "id": "unregistered-L11-844",
+      "claim": "Unregistered numeric statement L11",
+      "reported": "92.3%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L11-877",
+      "claim": "Unregistered numeric statement L11",
+      "reported": "89.8%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L17-687",
+      "claim": "Unregistered numeric statement L17",
+      "reported": "20.9%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L23-28",
+      "claim": "Unregistered numeric statement L23",
+      "reported": "$303.154",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L24-58",
+      "claim": "Unregistered numeric statement L24",
+      "reported": "$275.235",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L24-93",
+      "claim": "Unregistered numeric statement L24",
+      "reported": "$303.154",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L35-61",
+      "claim": "Unregistered numeric statement L35",
+      "reported": "$904.7",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L35-84",
+      "claim": "Unregistered numeric statement L35",
+      "reported": "$20.76",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    }
+  ],
+  "semantic_model_requested": true,
+  "filing_sources": [
+    "10-K",
+    "10-Q",
+    "earnings_8-K",
+    "release_EX-99.1"
+  ]
+}

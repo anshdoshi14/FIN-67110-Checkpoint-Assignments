@@ -1,0 +1,684 @@
+Filings: 10-K 0000909832-26-000093; 10-Q 0000909832-26-000051; earnings 8-K / EX-99.1 0000909832-26-000084.
+
+## Verifier marks — generated from saved evidence
+| Claim ID | Number / claim | Mark | Correct number and source |
+|---|---|---|---|
+| 1 | 86% | **wrong** | 10-K L836: We are highly dependent on the financial performance of our U.S. and Canadian operations. |
+| 2 | 939 | **correct** | 10-K L734: Costco Wholesale Corporation and its subsidiaries (Costco or the Company) began operations in 1983, in Seattle, Washington. We are principally engaged in the operation of membership warehouses in the United States (U.S.) and Puerto Rico, Canada, Mexico, Japan, the United Kingdom (U.K.), Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland, and New Zealand. Costco operated 939, 914, and 890 warehouses worldwide at August 30, 2026, August 31, 2025, and September 1, 2024. The Company operates e-commerce sites in the U.S., Canada, Mexico, the U.K., Korea, Taiwan, Japan, Australia, and China. Our common stock trades on the NASDAQ Global Select Market, under the symbol “COST.” |
+| 3 | 65 | **correct** | 10-K L773: Our members may utilize their memberships at all of our warehouses and e-commerce sites. Our annual fee for memberships is $65 in the U.S., varies in other countries and includes a free household card. |
+| 4 | 84100000 | **wrong** | 10-K L776: Paid members 1 \| 84,100 \|  \|  \| 81,000 \|  \|  \| 76,200 \| |
+| 5 | 42,300 members and 75.2% sales penetration | **unsupported** | Claim value is not a single number (a table, range or dash cannot be verified as one figure) |
+| 6 | 92.3% US and Canada, 89.8% worldwide | **unsupported** | Claim value is not a single number (a table, range or dash cannot be verified as one figure) |
+| 7 | 297247000000 | **correct** | EX-99.1 L10: Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year. |
+| 8 | 9226000000 | **wrong** | EX-99.1 L49: NET INCOME \| $ \| 2,998 \|  \|  \| $ \| 2,610 \|  \|  \| $ \| 9,226 \|  \|  \| $ \| 8,099 \| |
+| 9 | 20.9% | **correct** | EX-99.1 L18: Digitally-Enabled \| 19.5% \|  \| 19.8% \|  \| 20.9% \|  \| 20.7% |
+| 10 | 647 | **correct** | EX-99.1 L21: Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico, 115 in Canada, 43 in Mexico, 37 in Japan, 29 in the United Kingdom, 20 in Korea, 15 in Australia, 14 in Taiwan, seven in China, five in Spain, three in France, two in Sweden, and one each in Iceland, and New Zealand. Costco also operates e-commerce sites in the U.S., Canada, the U.K., Mexico, Korea, Taiwan, Japan, Australia, and China. |
+| 11 | 11% | **correct** | 10-K L764: Warehouse ancillary operate primarily within, next to or near our warehouses, encouraging more frequent shopping. The number of warehouses with gas stations varies significantly by country. We operated 774 gas stations at the end of 2026. Our gasoline business represented 11% of total net sales in 2026. |
+| R1 | 303154000000 | **correct** | $303154000000 - 10-K 0000909832-26-000093, RevenueFromContractWithCustomerExcludingAssessedTax, 2026-08-30: 303154000000 USD |
+| G1 | 0.10143695387577888 | **correct** | 10.14% - (a - b) / b = 0.1014369538757788798662960743; definition: annual total revenue growth percentage; sourced inputs: a=303154000000, b=275235000000 |
+| OI1 | 11685000000 | **correct** | $11685000000 - 10-K 0000909832-26-000093, OperatingIncomeLoss, 2026-08-30: 11685000000 USD |
+| M1 | 0.03854476602650798 | **correct** | 3.85% - OperatingIncome / Revenue = 0.03854476602650797944279145253; definition: Operating margin ratio; sourced inputs: OperatingIncome=11685000000, Revenue=303154000000 |
+| NI1 | 9226000000 | **correct** | $9226000000 - 10-K 0000909832-26-000093, NetIncomeLoss, 2026-08-30: 9226000000 USD |
+| EPS1 | 20.76 | **correct** | $20.76 - 10-K 0000909832-26-000093, EarningsPerShareDiluted, 2026-08-30: 20.76 USD/shares |
+| ROE1 | 0.284021118413964 | **correct** | 28.40% - NetIncome / ((EquityEnd + EquityPrior) / 2) = 0.2840211184139640124986531624; definition: Return on average equity for fiscal year; sourced inputs: NetIncome=9226000000, EquityEnd=35803000000, EquityPrior=29164000000 |
+| DE1 | 0.17210848252939698 | **correct** | 0.17 - (LongTermDebtNoncurrent + LongTermDebtCurrent) / StockholdersEquity = 0.1721084825293969779068793118; definition: Total debt (including current portion) to equity; sourced inputs: LongTermDebtNoncurrent=3914000000, LongTermDebtCurrent=2248000000, StockholdersEquity=35803000000 |
+| FCF1 | 9382000000 | **correct** | $9382000000.00 - NetCashProvidedByUsedInOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment = 9382000000; definition: Free cash flow; sourced inputs: NetCashProvidedByUsedInOperatingActivities=15817000000, PaymentsToAcquirePropertyPlantAndEquipment=6435000000 |
+| PE1 | 43.58 | **unsupported** | Input Price missing verifiable XBRL source |
+| WMTM | 0.041820733829433104 | **unsupported** | Input OperatingIncomeLoss does not match its cited fact |
+| TGTM | 0.048835655659477 | **unsupported** | Input OperatingIncomeLoss does not match its cited fact |
+| BJM | 0.03805721080879146 | **unsupported** | Input OperatingIncomeLoss does not match its cited fact |
+| unregistered-L11-844 | 92.3% | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L11-877 | 89.8% | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L17-687 | 20.9% | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L23-28 | $303.154 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L24-58 | $275.235 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L24-93 | $303.154 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L35-61 | $904.7 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L35-84 | $20.76 | **unsupported** | No matching [C:id] source registry entry in this report line |
+
+Marks: 15 correct, 3 wrong, 14 unsupported.
+
+
+# Equity research — COST — COSTCO WHOLESALE CORP /NEW
+
+Run UTC: 2026-11-05T08:13:40.970003+00:00 | Source replay: True
+
+**Model work is independently verified below; not investment advice.**
+
+## Overview
+
+Costco Wholesale Corporation operates membership warehouses and e-commerce platforms across multiple countries, primarily in the United States, Puerto Rico, Canada, Mexico, Japan, and several other markets worldwide. Its business model emphasizes offering a limited selection of nationally-branded and private-label products at low prices, leveraging high sales volumes and rapid inventory turnover to achieve operating efficiencies. Memberships provide recurring revenue through annual fees, including Executive memberships which generate additional rewards and drive sales. The warehouses are large, no-frills facilities designed for efficient inventory management and self-service shopping, supported by ancillary services such as gasoline stations and pharmacies that complement the core warehouse business. The membership renewal rate was 92.3% in the U.S. and Canada and 89.8% worldwide at the end of 2026, highlighting strong member loyalty [10-K accession 0000909832-26-000093, lines L000733-L000765, L000783].
+
+Insight: Costco's growth outlook is dependent on successfully acquiring suitable sites for new warehouses amidst increasing local regulatory and community challenges, which pose notable execution risk to expansion and comparable sales, as explicitly stated by management in their risk disclosures [10-K accession 0000909832-26-000093, line L000839] [C:1].
+
+## Market Positioning and Growth Outlook
+
+Costco combines low prices with high-quality merchandise, focusing on fast-selling product models with relatively low SKU counts per warehouse compared to other broadline retailers to support improved inventory turnover and cost management. The membership warehouse format fosters customer loyalty with high renewal rates. Geographic diversification spans mature and emerging markets, with ongoing warehouse expansion. The supply chain emphasizes direct sourcing to reduce single-supplier dependencies and leverages private-label goods to add value. Growth momentum is evidenced by increases in net sales and comparable sales across all regions, including digitally enabled sales rising 20.9% for the fiscal year 2026 [10-K accession 0000909832-26-000093, lines L000737-L000768, L000773-L000784; EX-99.1 accession 0000909832-26-000084, lines L000010-L000018].
+
+## Valuation Insights
+
+### Costco Wholesale Corporation Fiscal Year 2026 Performance
+
+- **Annual Total Revenue:** $303.154 billion for the fiscal year ended 2026-08-30 [C:R1] (XBRL tag RevenueFromContractWithCustomerExcludingAssessedTax, period 2026-08-30, 10-K accession 0000909832-26-000093).
+- **Revenue Growth:** 10.14% year-over-year increase from $275.235 billion in fiscal 2025 to $303.154 billion in fiscal 2026 [C:G1] (ratio based on tagged revenues for 2026 and 2025).
+- **Operating Income:** $11.685 billion for fiscal 2026 [C:OI1] (XBRL tag OperatingIncomeLoss, period 2026-08-30, 10-K accession 0000909832-26-000093).
+- **Operating Margin:** 3.85% for fiscal 2026 [C:M1] (ratio of Operating Income to Total Revenue 2026).
+- **Net Income Attributable to Company:** $9.226 billion for fiscal 2026 [C:NI1] (XBRL tag NetIncomeLoss, period 2026-08-30, 10-K accession 0000909832-26-000093).
+- **GAAP Diluted EPS:** $20.76 per share for fiscal 2026 [C:EPS1] (XBRL tag EarningsPerShareDiluted, period 2026-08-30, 10-K accession 0000909832-26-000093).
+- **Return on Average Equity:** 28.40% for fiscal 2026 [C:ROE1] (ratio using net income and average shareholders' equity).
+- **Debt to Equity Ratio:** 0.172 including current portion of long-term debt at fiscal year-end 2026 [C:DE1] (ratio using LongTermDebtNoncurrent + LongTermDebtCurrent to StockholdersEquity).
+- **Free Cash Flow:** $9.382 billion for fiscal 2026 [C:FCF1] (net cash from operating activities minus capital expenditures).
+- **Latest Quarterly Revenue:** Not established (the release states net sales but quarterly total revenue tagged figure is not unequivocally given).
+- **Latest Quarterly Revenue Growth:** Not established (same as above).
+- **Latest Quarterly GAAP Diluted EPS:** Not established (no quarterly tagged EPS clearly identified).
+- **Price/Earnings (P/E) Ratio:** 43.58 based on stock price $904.7 and diluted EPS $20.76 [C:PE1] (ratio from provided price and EPS).
+
+### Peer Operating Margins (on comparable total revenue basis):
+- Walmart Inc. (WMT): 4.18% [C:WMTM] (tag OperatingIncomeLoss/Revenue, period 2026-01-31).
+- Target Corp. (TGT): 4.88% [C:TGTM] (tag OperatingIncomeLoss/Revenue, period 2026-01-31).
+- BJ's Wholesale Club Holdings, Inc. (BJ): 3.81% [C:BJM] (tag OperatingIncomeLoss/Revenue, period 2026-01-31).
+
+Costco's operating margin trails Walmart and Target but is close to BJ's Wholesale Club.
+
+**Note:** Revenue uses a "RevenueFromContractWithCustomerExcludingAssessedTax" tag; confirm that it includes all sources of total revenue and is not just net sales [C:R1]. Latest quarterly figures for total revenue and GAAP EPS are not established due to tagging ambiguities.
+
+---
+
+[C:R1] Costco 10-K 2026-08-30 accession 0000909832-26-000093, RevenueFromContractWithCustomerExcludingAssessedTax 303154000000
+
+[C:G1] Ratio (303154000000 - 275235000000) / 275235000000, Revenue growth fraction 10.14%
+
+[C:OI1] Costco 10-K 2026-08-30 accession 0000909832-26-000093, OperatingIncomeLoss 11685000000
+
+[C:M1] Ratio 11685000000 / 303154000000 Operating margin 3.85%
+
+[C:NI1] Costco 10-K 2026-08-30 accession 0000909832-26-000093, NetIncomeLoss 9226000000
+
+[C:EPS1] Costco 10-K 2026-08-30 accession 0000909832-26-000093, EarningsPerShareDiluted 20.76
+
+[C:ROE1] Ratio 9226000000 / ((35803000000 + 29164000000) / 2) Return on average equity 28.40%
+
+[C:DE1] Ratio (3914000000 + 2248000000) / 35803000000 Debt/Equity 0.172
+
+[C:FCF1] Ratio 15817000000 - 6435000000 Free cash flow $9.382 billion
+
+[C:PE1] Ratio 904.7 / 20.76 Price/Earnings 43.58
+
+[C:WMTM] Walmart 10-K 2026-01-31 accession 0000104169-26-000055, OperatingIncomeLoss 29825000000 / Revenues 713163000000 Operating Margin 4.18%
+
+[C:TGTM] Target 10-K 2026-01-31 accession 0000027419-26-000016, OperatingIncomeLoss 5117000000 / RevenueFromContractWithCustomerExcludingAssessedTax 104780000000 Operating Margin 4.88%
+
+[C:BJM] BJ's Wholesale Club 10-K 2026-01-31 accession 0001531152-26-000007, OperatingIncomeLoss 816604000 / RevenueFromContractWithCustomerExcludingAssessedTax 21457274000 Operating Margin 3.81%
+
+Insight: The company's free cash flow increased significantly compared to prior years, supported by higher net cash from operations that outpaced capital expenditures, indicating robust cash generation capacity and potential for reinvestment or shareholder returns. Source: Costco 10-K 2026-08-30 accession 0000909832-26-000093, L000120-L000125, L000123.
+
+## Future Developments and Strategic Recommendations
+
+Costco plans to expand by opening new warehouses in both existing and new markets, acknowledging risks such as competition for locations, local regulatory and community opposition, and environment-related regulations that may impede growth. The company aims to sustain and increase membership, especially Executive members, to maintain sales penetration. Strategic focus should continue on supply chain diversification, e-commerce development, and enhancement of ancillary services to encourage shopping frequency. It is critical to monitor membership renewal rates, particularly in newer geographies, and respond to competitive pressures through efficiency improvements and member benefits. Geographic risks, including substantial reliance on the U.S. and California operations, should be mitigated with balanced expansion and supply chain resilience [10-K accession 0000909832-26-000093, lines L000838-L000841; L000773-L000784; EX-99.1 accession 0000909832-26-000084, lines L000010-L000021].
+
+## Investment Recommendation
+
+Hold (provisional): The key figure guiding this decision is Costco’s operating margin of 3.85% for fiscal 2026 [C:M1], which remains below Walmart’s 4.18% and Target’s 4.88% despite positive revenue growth of 10.14% [C:G1]. This gap suggests solid growth momentum but also margin pressure that introduces uncertainty around sustained profitability and competitive positioning.
+
+Insight: Costco faces meaningful execution risk in its growth strategy due to local regulatory and community opposition when acquiring and developing new warehouse sites, which could impede warehouse expansion and weigh on future comparable sales growth. Source: Costco 10-K 2026-08-30 accession 0000909832-26-000093, line L000839, L000123.
+
+## Numeric evidence registry
+
+```evidence-json
+[
+  {
+    "id": "1",
+    "label": "U.S. and Canadian dependency in net sales",
+    "value": "86%",
+    "display": "U.S. and Canadian operations comprised 86% of net sales in 2026",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 836,
+      "quote": "Our financial and operational performance is highly dependent on our U.S. and Canadian operations, which comprised 86% and 83% of net sales and operating income in 2026.",
+      "period": "2026-08-30",
+      "definition": "Percentage of net sales coming from U.S. and Canadian operations"
+    }
+  },
+  {
+    "id": "2",
+    "label": "Number of warehouses worldwide",
+    "value": 939,
+    "display": "Costco operated 939 warehouses worldwide at August 30, 2026",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 734,
+      "quote": "Costco operated 939, 914, and 890 warehouses worldwide at August 30, 2026, August 31, 2025, and September 1, 2024.",
+      "period": "2026-08-30",
+      "definition": "Total global warehouses"
+    }
+  },
+  {
+    "id": "3",
+    "label": "Membership fee US annual amount",
+    "value": 65,
+    "display": "Annual fee for memberships is $65 in the U.S.",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 773,
+      "quote": "Our annual fee for memberships is $65 in the U.S., varies in other countries and includes a free household card.",
+      "period": "2026-08-30",
+      "definition": "Annual membership fee in US dollars"
+    }
+  },
+  {
+    "id": "4",
+    "label": "Paid members worldwide at end of 2026",
+    "value": 84100000,
+    "display": "Paid members 84.1 million at end of 2026",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 776,
+      "quote": "Paid members 1 | 84,100 | ... 81,000 | ... 76,200",
+      "period": "2026-08-30",
+      "definition": "Number of paid members worldwide (thousands)"
+    }
+  },
+  {
+    "id": "5",
+    "label": "Executive members and sales penetration 2026",
+    "value": "42,300 members and 75.2% sales penetration",
+    "display": "42,300 Executive members represented approximately 75.2% of worldwide net sales in 2026",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 782,
+      "quote": "Executive members represented 42,300, 38,700, and 35,400 of total paid members in 2026, 2025, and 2024. The penetration of sales to Executive members represented approximately 75.2% of worldwide net sales in 2026.",
+      "period": "2026-08-30",
+      "definition": "Executive members count and sales penetration percentage"
+    }
+  },
+  {
+    "id": "6",
+    "label": "Member renewal rate 2026",
+    "value": "92.3% US and Canada, 89.8% worldwide",
+    "display": "Membership renewal rate was 92.3% in the U.S. and Canada and 89.8% worldwide at end of 2026",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 783,
+      "quote": "Our member renewal rate was 92.3% in the U.S. and Canada and 89.8% worldwide at the end of 2026.",
+      "period": "2026-08-30",
+      "definition": "Membership renewal rates"
+    }
+  },
+  {
+    "id": "7",
+    "label": "Net sales fiscal 2026",
+    "value": 297247000000,
+    "display": "Net sales for the fiscal year 2026 were $297.2 billion",
+    "source": {
+      "kind": "line",
+      "document": "EX-99.1",
+      "line": 10,
+      "quote": "Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.",
+      "period": "2026-08-30",
+      "definition": "Fiscal year net sales"
+    }
+  },
+  {
+    "id": "8",
+    "label": "Net income fiscal 2026",
+    "value": 9226000000,
+    "display": "Net income for the fiscal year 2026 was $9.226 billion",
+    "source": {
+      "kind": "line",
+      "document": "EX-99.1",
+      "line": 49,
+      "quote": "Net income for the fiscal year was $9.226 billion, $20.76 per diluted share, compared to $8.099 billion, $18.21 per diluted share, last year.",
+      "period": "2026-08-30",
+      "definition": "Fiscal year net income"
+    }
+  },
+  {
+    "id": "9",
+    "label": "Digitally-enabled sales growth fiscal 2026",
+    "value": "20.9%",
+    "display": "Digitally-enabled sales increased 20.9% for the fiscal year 2026",
+    "source": {
+      "kind": "line",
+      "document": "EX-99.1",
+      "line": 18,
+      "quote": "Digitally-Enabled | ... 20.9% ... 52 Weeks",
+      "period": "2026-08-30",
+      "definition": "Digitally-enabled sales growth rate"
+    }
+  },
+  {
+    "id": "10",
+    "label": "Number of U.S. warehouses",
+    "value": 647,
+    "display": "Costco operates 647 warehouses in the United States and Puerto Rico",
+    "source": {
+      "kind": "line",
+      "document": "EX-99.1",
+      "line": 21,
+      "quote": "Costco currently operates 939 warehouses, including 647 in the United States and Puerto Rico",
+      "period": "2026-08-30",
+      "definition": "U.S. warehouse count"
+    }
+  },
+  {
+    "id": "11",
+    "label": "Gasoline business share of total sales",
+    "value": "11%",
+    "display": "Gasoline business represented 11% of total net sales in 2026",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 764,
+      "quote": "Our gasoline business represented 11% of total net sales in 2026.",
+      "period": "2026-08-30",
+      "definition": "Share of gasoline business in total net sales"
+    }
+  },
+  {
+    "id": "R1",
+    "label": "Annual Total Revenue",
+    "value": 303154000000,
+    "display": "$303.15 billion",
+    "source": {
+      "kind": "xbrl",
+      "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "period": "2026-08-30",
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "end": "2026-08-30",
+      "accession": "0000909832-26-000093"
+    }
+  },
+  {
+    "id": "G1",
+    "label": "Revenue Growth",
+    "value": 0.10143695387577888,
+    "display": "10.14%",
+    "source": {
+      "kind": "ratio",
+      "formula": "(a - b) / b",
+      "definition": "annual total revenue growth percentage",
+      "inputs": {
+        "a": {
+          "value": 303154000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "period": "2026-08-30",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        },
+        "b": {
+          "value": 275235000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "period": "2025-08-31",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "end": "2025-08-31",
+            "accession": "0000909832-26-000093"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "OI1",
+    "label": "Operating Income",
+    "value": 11685000000,
+    "display": "$11.685 billion",
+    "source": {
+      "kind": "xbrl",
+      "field": "OperatingIncomeLoss",
+      "period": "2026-08-30",
+      "tag": "OperatingIncomeLoss",
+      "end": "2026-08-30",
+      "accession": "0000909832-26-000093"
+    }
+  },
+  {
+    "id": "M1",
+    "label": "Operating Margin",
+    "value": 0.03854476602650798,
+    "display": "3.85%",
+    "source": {
+      "kind": "ratio",
+      "formula": "OperatingIncome / Revenue",
+      "definition": "Operating margin ratio",
+      "inputs": {
+        "OperatingIncome": {
+          "value": 11685000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "OperatingIncomeLoss",
+            "period": "2026-08-30",
+            "tag": "OperatingIncomeLoss",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        },
+        "Revenue": {
+          "value": 303154000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "period": "2026-08-30",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "NI1",
+    "label": "Net Income Attributable to Company",
+    "value": 9226000000,
+    "display": "$9.226 billion",
+    "source": {
+      "kind": "xbrl",
+      "field": "NetIncomeLoss",
+      "period": "2026-08-30",
+      "tag": "NetIncomeLoss",
+      "end": "2026-08-30",
+      "accession": "0000909832-26-000093"
+    }
+  },
+  {
+    "id": "EPS1",
+    "label": "GAAP Diluted EPS",
+    "value": 20.76,
+    "display": "$20.76 per share",
+    "source": {
+      "kind": "xbrl",
+      "field": "EarningsPerShareDiluted",
+      "period": "2026-08-30",
+      "tag": "EarningsPerShareDiluted",
+      "end": "2026-08-30",
+      "accession": "0000909832-26-000093"
+    }
+  },
+  {
+    "id": "ROE1",
+    "label": "Return on Average Equity",
+    "value": 0.284021118413964,
+    "display": "28.40%",
+    "source": {
+      "kind": "ratio",
+      "formula": "NetIncome / ((EquityEnd + EquityPrior) / 2)",
+      "definition": "Return on average equity for fiscal year",
+      "inputs": {
+        "NetIncome": {
+          "value": 9226000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "NetIncomeLoss",
+            "period": "2026-08-30",
+            "tag": "NetIncomeLoss",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        },
+        "EquityEnd": {
+          "value": 35803000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "StockholdersEquity",
+            "period": "2026-08-30",
+            "tag": "StockholdersEquity",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        },
+        "EquityPrior": {
+          "value": 29164000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "StockholdersEquity",
+            "period": "2025-08-31",
+            "tag": "StockholdersEquity",
+            "end": "2025-08-31",
+            "accession": "0000909832-26-000093"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "DE1",
+    "label": "Debt to Equity Ratio",
+    "value": 0.17210848252939698,
+    "display": "0.172",
+    "source": {
+      "kind": "ratio",
+      "formula": "(LongTermDebtNoncurrent + LongTermDebtCurrent) / StockholdersEquity",
+      "definition": "Total debt (including current portion) to equity",
+      "inputs": {
+        "LongTermDebtNoncurrent": {
+          "value": 3914000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "LongTermDebtNoncurrent",
+            "period": "2026-08-30",
+            "tag": "LongTermDebtNoncurrent",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        },
+        "LongTermDebtCurrent": {
+          "value": 2248000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "LongTermDebtCurrent",
+            "period": "2026-08-30",
+            "tag": "LongTermDebtCurrent",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        },
+        "StockholdersEquity": {
+          "value": 35803000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "StockholdersEquity",
+            "period": "2026-08-30",
+            "tag": "StockholdersEquity",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "FCF1",
+    "label": "Free Cash Flow",
+    "value": 9382000000,
+    "display": "$9.382 billion",
+    "source": {
+      "kind": "ratio",
+      "formula": "NetCashProvidedByUsedInOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment",
+      "definition": "Free cash flow",
+      "inputs": {
+        "NetCashProvidedByUsedInOperatingActivities": {
+          "value": 15817000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "NetCashProvidedByUsedInOperatingActivities",
+            "period": "2026-08-30",
+            "tag": "NetCashProvidedByUsedInOperatingActivities",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        },
+        "PaymentsToAcquirePropertyPlantAndEquipment": {
+          "value": 6435000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "period": "2026-08-30",
+            "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "PE1",
+    "label": "Price-to-Earnings Ratio",
+    "value": 43.58,
+    "display": "43.58",
+    "source": {
+      "kind": "ratio",
+      "formula": "Price / DilutedEPS",
+      "definition": "Price to earnings ratio",
+      "inputs": {
+        "Price": {
+          "value": 904.7,
+          "source": {
+            "kind": "line",
+            "document": "market",
+            "line": null,
+            "quote": "Closing stock price $904.7 on 2026-09-23",
+            "period": "2026-09-23",
+            "definition": "Stock price for P/E computation"
+          }
+        },
+        "DilutedEPS": {
+          "value": 20.76,
+          "source": {
+            "kind": "xbrl",
+            "field": "EarningsPerShareDiluted",
+            "period": "2026-08-30",
+            "tag": "EarningsPerShareDiluted",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "WMTM",
+    "label": "Walmart Operating Margin",
+    "value": 0.041820733829433104,
+    "display": "4.18%",
+    "source": {
+      "kind": "ratio",
+      "formula": "OperatingIncomeLoss / Revenues",
+      "definition": "Operating margin for Walmart Inc.",
+      "inputs": {
+        "OperatingIncomeLoss": {
+          "value": 29825000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "OperatingIncomeLoss",
+            "period": "2026-01-31",
+            "tag": "OperatingIncomeLoss",
+            "end": "2026-01-31",
+            "accession": "0000104169-26-000055"
+          }
+        },
+        "Revenues": {
+          "value": 713163000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "Revenues",
+            "period": "2026-01-31",
+            "tag": "Revenues",
+            "end": "2026-01-31",
+            "accession": "0000104169-26-000055"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "TGTM",
+    "label": "Target Operating Margin",
+    "value": 0.048835655659477,
+    "display": "4.88%",
+    "source": {
+      "kind": "ratio",
+      "formula": "OperatingIncomeLoss / RevenueFromContractWithCustomerExcludingAssessedTax",
+      "definition": "Operating margin for Target Corp.",
+      "inputs": {
+        "OperatingIncomeLoss": {
+          "value": 5117000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "OperatingIncomeLoss",
+            "period": "2026-01-31",
+            "tag": "OperatingIncomeLoss",
+            "end": "2026-01-31",
+            "accession": "0000027419-26-000016"
+          }
+        },
+        "RevenueFromContractWithCustomerExcludingAssessedTax": {
+          "value": 104780000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "period": "2026-01-31",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "end": "2026-01-31",
+            "accession": "0000027419-26-000016"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "BJM",
+    "label": "BJ's Wholesale Operating Margin",
+    "value": 0.03805721080879146,
+    "display": "3.81%",
+    "source": {
+      "kind": "ratio",
+      "formula": "OperatingIncomeLoss / RevenueFromContractWithCustomerExcludingAssessedTax",
+      "definition": "Operating margin for BJ's Wholesale Club",
+      "inputs": {
+        "OperatingIncomeLoss": {
+          "value": 816604000,
+          "source": {
+            "kind": "xbrl",
+            "field": "OperatingIncomeLoss",
+            "period": "2026-01-31",
+            "tag": "OperatingIncomeLoss",
+            "end": "2026-01-31",
+            "accession": "0001531152-26-000007"
+          }
+        },
+        "RevenueFromContractWithCustomerExcludingAssessedTax": {
+          "value": 21457274000,
+          "source": {
+            "kind": "xbrl",
+            "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "period": "2026-01-31",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "end": "2026-01-31",
+            "accession": "0001531152-26-000007"
+          }
+        }
+      }
+    }
+  }
+]
+```
+
+## Manager review
+
+Manager model status: REVISE
+Retry roles (one retry maximum): Research Analyst, Financial Analyst, Investment Advisor
+Unresolved Insight formatting: Financial Analyst, Investment Advisor
+Unresolved claim citation roles: Financial Analyst

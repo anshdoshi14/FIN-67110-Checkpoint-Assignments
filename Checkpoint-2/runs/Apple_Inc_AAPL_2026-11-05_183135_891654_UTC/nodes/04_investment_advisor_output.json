@@ -1,0 +1,41 @@
+{
+  "investment_recommendation": "Provisional Buy based on fiscal 2026 Total Revenue of $478.834 billion [C:revenue_cy]",
+  "insight": "Insight: The 10-K FY2026 reveals that Apple’s operating cash flow rose significantly to $145.097 billion, enabling strong free cash flow generation of $136.056 billion despite stable capital expenditures, evidencing robust cash generation and investment discipline [C:free_cash_flow] (10-K FY2026 L000123).",
+  "claims": [
+    {
+      "id": "free_cash_flow",
+      "label": "Fiscal 2026 Free Cash Flow",
+      "value": 136056000000,
+      "display": "136.056 billion USD",
+      "source": {
+        "kind": "ratio",
+        "formula": "Net cash from operating activities minus capital expenditures",
+        "definition": "Free cash flow derived from cash flow statement for fiscal 2026",
+        "inputs": {
+          "net_cash_ops": {
+            "value": 145097000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "NetCashProvidedByUsedInOperatingActivities",
+              "period": "2026-09-26",
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "capex": {
+            "value": 9041000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period": "2026-09-26",
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

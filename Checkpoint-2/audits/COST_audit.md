@@ -1,0 +1,76 @@
+# Costco report — HUMAN audit (fill after a real run)
+
+**10-K accession:** 0000909832-26-000093 (FY ended 2026-08-30; filed 2026-10-06/07) | **10-Q accession:** 0000909832-26-000051 (Q3 FY2026, 12 weeks ended 2026-05-10; filed 2026-06-03) | **earnings 8-K / EX-99.1:** 0000909832-26-000084 (8-K dated 2026-09-24; EX-99.1 `costex9918-k92426.htm`)
+
+**Errors (Wrong + Unsupported):** PENDING — the filing-side and saved-report values are now transcribed below, but the human reviewer must compare each source, definition, period, and quotation before assigning Correct/Wrong/Unsupported. Two definition traps already found in the filings themselves are listed under "Definition trap I checked".
+
+**Missing claims:** PENDING — compare the run's claims registry against rows 1–14. Any required metric the report lists as "Not established" that has a filing value below is a Missing mark.
+
+**Auditor:** Ansh Doshi / AD (human sign-off pending) | **Audit date:** filing-side values pulled 2026-11-08; human sign-off TODO
+
+**Audit target report:** `runs/COSTCO_WHOLESALE_CORP_NEW_COST_2026-11-05_081340_UTC/report.md` (the saved live Costco report). Its automated verifier records 20 correct, 7 wrong, and 23 unsupported marks. Those automated marks are not substituted for this human audit.
+
+Do NOT mark an entry Correct without opening the named EDGAR filing and comparing its figure, unit, definition, period and accession. Allowed marks: Correct / Wrong / Unsupported / Missing / Not in filings.
+
+All amounts in $ millions except per-share data. "Filing says" values are read from the filings named in the last column; ratios are shown with their arithmetic so the reviewer can re-run them.
+
+| # | Core claim | Report says | Filing says | Mark | SEC filing and precise line / tag / date |
+|---|---|---|---|---|---|
+| 1 | Total revenue, latest FY (including components where appropriate) | $303,154m total revenue; $297,247m net sales; about $5.9bn non-sales component [C:revenue_current] | Total revenue $303,154 = net sales $297,247 + membership fees $5,907 (FY2026, 52 weeks ended 2026-08-30). Prior year $275,235 = $269,912 + $5,323. | Pending human judgment | 10-K 0000909832-26-000093, Consolidated Statements of Income; XBRL `RevenueFromContractWithCustomerExcludingAssessedTax` (total, and Product/Membership members), period 2025-09-01 to 2026-08-30 |
+| 2 | Revenue growth vs prior fiscal year | 10.14% total-revenue growth, from $275,235m to $303,154m [C:revenue_growth] | Total revenue growth (303,154 − 275,235) / 275,235 = 27,919 / 275,235 = 10.14%. Net-sales-only growth is 10.13% (27,335 / 269,912); the 10-K MD&A quotes "10%" on net sales, the release quotes "10.1 percent" on net sales. | Pending human judgment | Same tag, FY2026 vs FY2025 (2024-09-02 to 2025-08-31); both 52-week years, so no week-count adjustment |
+| 3 | Operating income and margin | $11,685m operating income; 3.85% margin on total revenue [C:operating_income_current] [C:operating_margin] | Operating income $11,685 (FY2025 $10,383). Margin on total revenue 11,685 / 303,154 = 3.85%. On net sales only it would be 3.93% — the report must say which denominator it used. | Pending human judgment | 10-K Consolidated Statements of Income; XBRL `OperatingIncomeLoss` 2025-09-01 to 2026-08-30 |
+| 4 | Net income attributable to company | $9,226m [C:net_income_current] | Net income $9,226 (FY2025 $8,099). The 10-K has no noncontrolling-interest line and Note 1 states the statements consolidate wholly-owned subsidiaries, so net income = net income attributable to Costco. | Pending human judgment | 10-K Consolidated Statements of Income; XBRL `NetIncomeLoss` 2025-09-01 to 2026-08-30 |
+| 5 | Diluted EPS, GAAP (annual) | $20.76 [C:diluted_eps_current] | $20.76 diluted (basic $20.78); FY2025 $18.21. Diluted shares 444,427 thousand. No non-GAAP EPS is presented anywhere in the 10-K or release. | Pending human judgment | 10-K Consolidated Statements of Income; XBRL `EarningsPerShareDiluted` 2025-09-01 to 2026-08-30 |
+| 6 | Return on average stockholders' equity | 28.40% [C:return_on_average_equity] | 9,226 / ((35,803 + 29,164) / 2) = 9,226 / 32,483.5 = 28.40%. Using year-end equity alone gives 25.77% (9,226 / 35,803) — flag if the report used that. | Pending human judgment | 10-K Consolidated Balance Sheets; XBRL `StockholdersEquity` as of 2026-08-30 ($35,803) and 2025-08-31 ($29,164); `NetIncomeLoss` FY2026 |
+| 7 | Debt / equity, including current portion | 0.172 [C:debt_to_equity] | (2,248 current + 3,914 non-current) / 35,803 = 6,162 / 35,803 = 0.1721x. Prior year (75 + 5,713) / 29,164 = 0.1985x. MD&A states no short-term borrowings outstanding under bank facilities at year-end, so nothing further to add; lease liabilities ($2,414 LT operating lease) are NOT debt under this definition. | Pending human judgment | 10-K Consolidated Balance Sheets; XBRL `LongTermDebtCurrent` $2,248 and `LongTermDebtNoncurrent` $3,914 as of 2026-08-30; `StockholdersEquity` same date; MD&A "Bank Credit Facilities and Commercial Paper Programs" |
+| 8 | Free cash flow | $9,382m [C:free_cash_flow] | 15,817 − 6,435 = $9,382 (FY2025: 13,335 − 5,498 = $7,837). WARNING: the 8-K release shows operating cash flow of $15,825 ("Subject to Reclassification"); the audited 10-K shows $15,817. A report built from the release would give FCF $9,390 — $8 off. | Pending human judgment | 10-K Consolidated Statements of Cash Flows; XBRL `NetCashProvidedByUsedInOperatingActivities` $15,817 and `PaymentsToAcquirePropertyPlantAndEquipment` $6,435, 2025-09-01 to 2026-08-30 |
+| 9 | Latest quarter TOTAL revenue | $93.9bn **net sales**, not total revenue [C:quarterly_revenue_growth] | Q4 FY2026 (16 weeks ended 2026-08-30) total revenue $95,723 = net sales $93,873 + membership fees $1,850. Prior-year Q4 $86,156 = $84,432 + $1,724. Note the quarter is 16 weeks, not 13. | Pending human judgment — definition mismatch identified | 8-K 0000909832-26-000084 EX-99.1, Consolidated Statements of Income, "16 Weeks Ended August 30, 2026" column, "Total revenue" row |
+| 10 | Quarter revenue growth vs same quarter last year | 11.2% **net-sales** growth [C:quarterly_revenue_growth] | Total revenue: (95,723 − 86,156) / 86,156 = 9,567 / 86,156 = 11.10%. Net sales only: (93,873 − 84,432) / 84,432 = 11.18%, which is the "11.2 percent" in the release headline. Both prior-year and current quarters are 16 weeks. | Pending human judgment — definition mismatch identified | Same EX-99.1 table, both 16-week columns |
+| 11 | Quarter diluted GAAP EPS | $6.75 [C:quarterly_diluted_eps] | $6.75 diluted (basic also $6.75); prior-year Q4 $5.87. Release paragraph 3 states a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds, net of partial reinvestment in member value — this is inside the GAAP figure, not an adjustment to it. | Pending human judgment | EX-99.1, "NET INCOME PER COMMON SHARE — Diluted" row, 16 Weeks Ended August 30, 2026; headline sentence paragraph 3 |
+| 12 | Closing price used for P/E | TODO (price and date from run) | $1,053.56 close on 2026-11-06 (Nasdaq; previous close $1,065.59). Not an SEC figure — must be checked against the team's approved market-data source. | Pending | Nasdaq close 2026-11-06 as reported by S&P Global Market Intelligence / Morningstar; confirm against team source |
+| 13 | P/E (price / annual GAAP diluted EPS) | TODO | 1,053.56 / 20.76 = 50.75x. Using Q4 EPS annualised or any non-GAAP basis is not supported — Costco publishes GAAP only. | Pending | Row 12 price + 10-K `EarningsPerShareDiluted` FY2026 |
+| 14 | Peer operating margins (consistent total-revenue definition) | TODO (list each peer, period, tag, margin from run) | Not audited here — the run's peer file was not supplied. For each peer the reviewer must confirm: fiscal-year end date, revenue tag (`Revenues` vs `RevenueFromContractWithCustomerExcludingAssessedTax`), and that the denominator is total revenue, not net sales. Costco's own margin for comparison is 3.85% on total revenue (row 3). | Pending | Each peer's latest 10-K, income statement; flag any fiscal year that does not end within one quarter of 2026-08-30 |
+| 15 | Membership fee revenue and growth (supporting claim often quoted) | TODO | $5,907 vs $5,323 = +10.97% (10-K MD&A rounds to "11%"). | Pending | 10-K MD&A "Membership Fees" table; XBRL `RevenueFromContractWithCustomerExcludingAssessedTax` [Membership Member] |
+| Template | Five named report sections present | TODO (list the five headings found) | Five mandatory parts: Overview; Market Positioning & Growth Outlook; Future Developments & Strategic Recommendations; Valuation Insights; Investment Recommendation | Pending | Report |
+| Recommendation | Buy/Hold/Sell grounded in one audited number | TODO (recommendation + deciding [C:id]) | The deciding number must be one of rows 1–13 marked Correct after the human check; P/E of 50.75x alone does not establish fair value. | Pending | Report and corresponding filing |
+
+**Definition trap I checked:**
+1. **Total revenue vs net sales.** Costco reports both. Net sales $297,247 excludes $5,907 of membership fees; total revenue is $303,154. The release headline ("Net sales for the fiscal year increased 10.1 percent") and the 10-K MD&A highlights ("Net sales increased 10% to $297,247") are both net-sales figures. A report that calls $297,247 "total revenue", or computes operating margin on net sales (3.93%) while calling it a total-revenue margin (3.85%), is Wrong on definition even though the underlying numbers are real.
+2. **Release vs 10-K cash flow.** The EX-99.1 condensed cash-flow statement is labelled "Subject to Reclassification" and shows operating cash flow of $15,825; the audited 10-K shows $15,817 (and investing outflow $6,378 vs $6,386). Free cash flow from the release is $9,390; from the 10-K it is $9,382. The 10-K governs.
+3. **Year-end vs average equity.** ROE is 28.40% on average equity and 25.77% on year-end equity; the 2026 equity base rose 23% during the year so the choice matters.
+4. **GAAP EPS with a disclosed one-off.** Q4 diluted EPS $6.75 includes a stated $0.15 benefit from tariff refunds; it is still the GAAP figure. The report should quote $6.75 and mention the $0.15, not strip it out.
+5. **16-week quarter.** Q4 is a 16-week period, so Q4 revenue cannot be compared to the 12-week Q1–Q3 quarters or annualised by ×4.
+
+**Partner checked two marks:** Row # TODO (mark: TODO); Row # TODO (mark: TODO). **Partner initials:** ZF
+*(Suggested rows for the partner check: Row 1 — open the 10-K income statement and confirm $303,154 is labelled "Total revenue" with the two components; Row 8 — open the 10-K cash-flow statement and confirm $15,817, then open EX-99.1 and confirm it shows $15,825.)*
+
+**Reflection — which role to change first and why:** The Financial Analyst. Costco is a company where the headline number everyone quotes (net sales) is not total revenue, where the unaudited release and the audited 10-K disagree on operating cash flow by $8, and where the quarter is 16 weeks long. All three are definition and period problems, not arithmetic problems, and the Financial Analyst is the only role that owns definitions. The concrete change: before calling the calculator, the role must list every revenue-like tag present in the facts, name the one it is using and why, state the week-count of the quarter, and prefer the 10-K's audited cash-flow figure over the release's "Subject to Reclassification" figure whenever both exist.
+
+This is a learning exercise, not financial advice.
+
+AI assistance: ChatGPT helped prepare the template. Claude pulled the filing-side figures from EDGAR (10-K 0000909832-26-000093, EX-99.1 in 8-K 0000909832-26-000084) and the 2026-11-06 closing price on 2026-11-08, and computed the ratios shown. My source verification and audit judgments are pending until I have opened the filings myself and pasted the run's "Report says" values.
+
+Any remaining errors are my own.
+
+## Saved-report value prefill — not a human mark
+
+This transcription is from the audit target report named above. It fills the outstanding “Report says” comparison work only; it does **not** change any `Pending` mark, substitute for opening a filing, or establish that a reported source quotation is valid.
+
+| Audit row | Saved report says | Comparison note for human reviewer |
+|---|---|---|
+| 1 | $303.154bn total revenue; $297.247bn net sales; approximately $5.9bn difference attributed to non-sales revenue components | Compare the $5.9bn wording to the filing’s $5.907bn membership-fee component. |
+| 2 | 10.14% total-revenue growth from $275.235bn to $303.154bn | Same total-revenue definition as the worksheet. |
+| 3 | $11.685bn operating income and 3.85% operating margin on total revenue | Same denominator stated in the report. |
+| 4 | $9.226bn net income attributable to the company | Check the report’s source quotation, not just its number. |
+| 5 | $20.76 GAAP diluted EPS | Check annual GAAP/diluted basis. |
+| 6 | 28.40% return on average equity | Check the two equity dates used in the average. |
+| 7 | 0.172 debt-to-equity including current long-term debt | Check the included debt definitions. |
+| 8 | $9.382bn free cash flow | Check it uses audited 10-K operating cash flow, not the release. |
+| 9 | $93.9bn Q4 **net sales** | This does not answer the worksheet’s total-revenue row; total revenue is $95.723bn. |
+| 10 | 11.2% Q4 **net-sales** growth | This does not answer the worksheet’s total-revenue growth row; total-revenue growth is 11.10%. |
+| 11 | $6.75 Q4 GAAP diluted EPS | Check the 16-week column and disclosed tariff-refund effect. |
+| 12 | $904.70 closing price dated 2026-09-23 | This is the saved-run input, not the later $1,053.56 / 2026-11-06 external-price reference. Do not compare them as if they are the same input. |
+| 13 | 43.58x P/E, calculated as $904.70 / $20.76 | The worksheet’s 50.75x is a separate calculation using its later price reference. |
+| 14 | WMT 4.18%; TGT 4.88%; BJ 3.81% operating margins | Period/tag verification remains required for each peer. |
+| Template | All five named sections are present | Confirm the headings directly in the report. |
+| Recommendation | Provisional Buy, referencing FY2026 EPS, net income, ROE, P/E, and California concentration | Evaluate it only against a number that has received a human-audit mark. |

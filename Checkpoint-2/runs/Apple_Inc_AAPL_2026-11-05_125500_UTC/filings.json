@@ -1,0 +1,41 @@
+{
+  "10-K": {
+    "form": "10-K",
+    "accession": "0000320193-26-000026",
+    "filing_date": "2026-11-03",
+    "report_date": "2026-09-26",
+    "accepted": "2026-11-03T13:05:15.000Z",
+    "primary_document": "aapl-20260926.htm",
+    "items": "",
+    "cik": 320193,
+    "index_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/0000320193-26-000026-index.htm",
+    "primary_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026/aapl-20260926.htm",
+    "exhibit_url": ""
+  },
+  "10-Q": {
+    "form": "10-Q",
+    "accession": "0000320193-26-000020",
+    "filing_date": "2026-07-31",
+    "report_date": "2026-06-27",
+    "accepted": "2026-07-31T10:01:02.000Z",
+    "primary_document": "aapl-20260627.htm",
+    "items": "",
+    "cik": 320193,
+    "index_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/0000320193-26-000020-index.htm",
+    "primary_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
+    "exhibit_url": ""
+  },
+  "earnings_8-K": {
+    "form": "8-K",
+    "accession": "0000320193-26-000024",
+    "filing_date": "2026-11-02",
+    "report_date": "2026-11-02",
+    "accepted": "2026-11-02T21:30:23.000Z",
+    "primary_document": "aapl-20261102.htm",
+    "items": "2.02,9.01",
+    "cik": 320193,
+    "index_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/0000320193-26-000024-index.htm",
+    "primary_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm",
+    "exhibit_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/a8-kex991q4202609262026.htm"
+  }
+}

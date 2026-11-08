@@ -1,0 +1,8 @@
+{
+  "seed_type": "growth",
+  "source": "runs\\COSTCO_WHOLESALE_CORP_NEW_COST_2026-11-05_081340_UTC",
+  "claim_id": "revenue_growth",
+  "original": "10.14%",
+  "seeded": "4.10%",
+  "note": "Original source run untouched"
+}

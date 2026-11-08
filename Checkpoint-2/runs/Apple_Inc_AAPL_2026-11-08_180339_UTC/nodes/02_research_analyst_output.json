@@ -1,0 +1,148 @@
+{
+  "overview": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories, while also selling a variety of related services. The Company’s important product lines include iPhone (such as iPhone Duo™, iPhone 18 Pro, iPhone 18 Pro Max), Mac (including MacBook Neo®, MacBook Air®, MacBook Pro®, iMac®, Mac mini®, Mac Studio®), iPad (iPad Pro®, iPad Air®, iPad, iPad mini®), wearables (Apple Watch Series 12®, Apple Watch Ultra 4®, AirPods®, AirPods Pro®, AirPods Max®, Beats®), Apple Vision Pro® (spatial computer), and Apple TV 4K® (media streaming and gaming device) [10-K accession 0000320193-26-000026, lines L000851-L000915]. These devices run the Company’s proprietary operating systems iOS, macOS, iPadOS, watchOS, visionOS, and tvOS, delivering seamless integration and enabling a range of breakthrough services such as the App Store, Apple Music, Apple Pay, iCloud, and Apple TV [EX-99.1 accession 0000320193-26-000024, line L000019]. Apple’s fiscal year ends on the last Saturday of September [10-K accession L000853].",
+  "market_positioning_and_growth_outlook": "Apple holds a leading position in personal technology innovation with a diversified portfolio of hardware and integrated software platforms, which create high switching costs and a strong ecosystem. The Company highlights the outstanding lineup of iPhones including the iPhone Duo, described as the most transformational iPhone since the original, and the powerful new iPhone 18 Pro and 18 Pro Max [EX-99.1, L000013]. The active installed device base reached a new all-time high across all product categories, underscoring high customer satisfaction and loyalty [EX-99.1, L000014]. Growth is supported by revenue increases across Americas, Europe, Greater China, Japan, and Rest of Asia Pacific, driven primarily by higher iPhone, Services, and Mac net sales [10-K, L001238-L001253]. Specifically, iPhone net sales rose 21% in 2026 compared to 2025, reaching $254 billion [10-K, L001258], supported by new and refreshed models. Services, which include advertising and cloud services, recorded 13% net sales growth to $123 billion [10-K, L001262,L001275], reaching an all-time high in the September quarter [EX-99.1, L000009]. Mac and iPad sales also showed growth or stability, with Mac increasing 13% and iPad relatively flat [10-K, L001259, L001260]. The Company successfully navigates macroeconomic challenges, including inflation, tariffs, supply constraints, and currency fluctuations, which have imposed cost pressures and potential demand impacts [10-K, L001230-L001231, L001234].",
+  "future_developments_and_strategic_recommendations": "Apple continues to invest heavily in research and development, with $45.8 billion spent in fiscal 2026, up from $34.6 billion in 2025, indicating a commitment to future innovation and product pipeline expansion [EX-99.1, L000047; 10-K, L001247]. Key product launches during fiscal 2026 included new iPhone models (iPhone Duo, iPhone 18 Pro/Max), MacBook Neo, MacBook Air, and MacBook Pro refreshes, AirPods Max 2, Apple Vision Pro, and new software versions of iOS, macOS, and other platforms [10-K, L001198-L001228]. Management should monitor tariff impacts and supply constraints especially for semiconductors, memory, and storage, as these represent material risks that could affect margins and volumes [10-K, L001230-L001231]. Strengthening the Services segment will be vital given its high-margin nature and recurring revenue model. Expanding Services and maintaining hardware innovation will likely sustain Apple’s competitive moat. Watching regional currency trends and geopolitical trade environments will also be critical for near-term planning and price adjustments.",
+  "insight": "Insight: Despite broad macroeconomic headwinds, the Company’s investment in intangible assets increased notably in fiscal 2026 to $20.3 billion from $11.1 billion in 2025, revealing strategic emphasis on intellectual property and software development as a forward growth driver [10-K accession 0000320193-26-000026, lines L000091].",
+  "claims": [
+    {
+      "id": "C1",
+      "label": "Fiscal Year End Date",
+      "value": "2026-09-26",
+      "display": "Fiscal year ends September 26, 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 853,
+        "quote": "The Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September.",
+        "period": "2026",
+        "definition": "Company fiscal year end"
+      }
+    },
+    {
+      "id": "C2",
+      "label": "Total net sales 2026",
+      "value": 478834000000,
+      "display": "$478.8 billion total net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1243,
+        "quote": "Total net sales | $ | 478,834 |  |  | 15 | % |  | $ | 416,161",
+        "period": "2026",
+        "definition": "Total net sales"
+      }
+    },
+    {
+      "id": "C3",
+      "label": "iPhone net sales 2026",
+      "value": 254098000000,
+      "display": "$254.1 billion iPhone net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1258,
+        "quote": "iPhone | $ | 254,098 |  |  | 21 | % |  | $ | 209,586",
+        "period": "2026",
+        "definition": "iPhone net sales"
+      }
+    },
+    {
+      "id": "C4",
+      "label": "Services net sales 2026",
+      "value": 123301000000,
+      "display": "$123.3 billion Services net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1262,
+        "quote": "Services (1) | 123,301 |  |  | 13 | %",
+        "period": "2026",
+        "definition": "Services net sales"
+      }
+    },
+    {
+      "id": "C5",
+      "label": "Research and Development Expense 2026",
+      "value": 45765000000,
+      "display": "$45.8 billion R&D expense in 2026",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 47,
+        "quote": "Research and development | 11,730 |  |  | 8,866 |  |  | 45,765 |  |  | 34,550",
+        "period": "2026",
+        "definition": "Research and development expense"
+      }
+    },
+    {
+      "id": "C6",
+      "label": "Intangible assets net 2026",
+      "value": 20278000000,
+      "display": "$20.3 billion intangible assets, net in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 91,
+        "quote": "Intangible assets, net | 20,278 |  |  | 11,093",
+        "period": "2026",
+        "definition": "Intangible assets net carrying value"
+      }
+    },
+    {
+      "id": "C7",
+      "label": "September quarter revenue",
+      "value": 114477000000,
+      "display": "$114.5 billion revenue in 4Q 2026",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 12,
+        "quote": "The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year.",
+        "period": "2026-09-26",
+        "definition": "Quarterly revenue"
+      }
+    },
+    {
+      "id": "C8",
+      "label": "September quarter EPS diluted",
+      "value": 2.1,
+      "display": "$2.10 diluted EPS in 4Q 2026",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 12,
+        "quote": "Diluted earnings per share was $2.10, up 14 percent year over year.",
+        "period": "2026-09-26",
+        "definition": "Quarterly diluted earnings per share"
+      }
+    },
+    {
+      "id": "C9",
+      "label": "Active devices base all-time high",
+      "value": "Not quantitative",
+      "display": "Installed base of active devices reached a new all-time high",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 14,
+        "quote": "Our installed base of active devices reached a new all-time high across all",
+        "period": "2026-09-26",
+        "definition": "Active installed devices base"
+      }
+    },
+    {
+      "id": "C10",
+      "label": "Insight Claim - Intangible assets increase",
+      "value": 20278000000,
+      "display": "$20.3 billion intangible assets net in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 91,
+        "quote": "Intangible assets, net | 20,278 |  |  | 11,093",
+        "period": "2026",
+        "definition": "Intangible assets net carrying value"
+      }
+    }
+  ]
+}

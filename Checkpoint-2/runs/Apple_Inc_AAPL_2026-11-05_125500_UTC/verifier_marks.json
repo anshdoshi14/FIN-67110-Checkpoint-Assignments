@@ -1,0 +1,403 @@
+{
+  "counts": {
+    "correct": 14,
+    "wrong": 7,
+    "unsupported": 21
+  },
+  "marks": [
+    {
+      "id": "registry-size",
+      "claim": "Registry coverage",
+      "reported": 26,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "Parsed embedded evidence-json",
+      "reason": ""
+    },
+    {
+      "id": "claim1",
+      "claim": "Fiscal 2026 total net sales",
+      "reported": 478834000000,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L1243: Total net sales | $ | 478,834 |  |  | 15 | % |  | $ | 416,161 |  |  | 6 | % |  | $ | 391,035 |",
+      "reason": "The filing line provides the value '478,834' without clear units, which does not directly support the claimed value of 478,834,000,000 ($478.8 billion). The claim's value implies billions, but the line's number is ambiguous and could be in millions or thousands. Without explicit unit matching, the line does not support the claim's numeric value for fiscal 2026 total net sales."
+    },
+    {
+      "id": "claim2",
+      "claim": "iPhone net sales fiscal 2026",
+      "reported": 254098000000,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L1268: Mac",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "claim3",
+      "claim": "Services net sales fiscal 2026",
+      "reported": 123301000000,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L1262: Services (1) | 123,301 |  |  | 13 | % |  | 109,158 |  |  | 14 | % |  | 96,169 |",
+      "reason": "The filing line for Services shows a value of 123,301 for fiscal 2026, which matches the claimed value of 123,301,000,000 when considering units in millions. The claim specifies Services net sales for fiscal 2026, consistent with the line's 2026 period and Services category."
+    },
+    {
+      "id": "claim4",
+      "claim": "Fiscal 2026 Q4 revenue",
+      "reported": 114477000000,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "EX-99.1 L12: today announced financial results for its fiscal 2026 fourth quarter ended September 26, 2026. The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year. Company gross margin was 47.9 percent, including a favorable impact of approximately 1 percentage point from tariff refunds. Diluted earnings per share was $2.10, up 14 percent year over year, and included a favorable impact of $0.05 from tariff refunds.",
+      "reason": "The filing line explicitly states the company posted quarterly revenue of $114.5 billion for the fiscal 2026 fourth quarter, directly supporting the claimed amount and period."
+    },
+    {
+      "id": "claim5",
+      "claim": "Fiscal 2026 Q4 diluted EPS",
+      "reported": 2.1,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "EX-99.1 L12: today announced financial results for its fiscal 2026 fourth quarter ended September 26, 2026. The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year. Company gross margin was 47.9 percent, including a favorable impact of approximately 1 percentage point from tariff refunds. Diluted earnings per share was $2.10, up 14 percent year over year, and included a favorable impact of $0.05 from tariff refunds.",
+      "reason": "The filing line explicitly states that diluted earnings per share was $2.10 for the fiscal 2026 fourth quarter."
+    },
+    {
+      "id": "claim6",
+      "claim": "Active device base",
+      "reported": null,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Unverifiable source or arithmetic: [<class 'decimal.ConversionSyntax'>]"
+    },
+    {
+      "id": "claim7",
+      "claim": "Fiscal 2026 Q4 operating cash flow",
+      "reported": 28000000000,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "EX-99.1 L14: “Apple delivered September quarter records for net income and EPS. Our record September quarter capped off a strong fiscal 2026, with all-time record revenue of $479 billion and double-digit EPS growth,” said Kevan Parekh, Apple’s CFO. “We generated $28 billion in operating cash flow during the quarter, allowing us to return $28 billion to shareholders. Thanks to our very high levels of customer satisfaction and loyalty, our installed base of active devices reached a new all-time high across all major product categories and geographic segments.”",
+      "reason": "The filing line directly states, 'We generated $28 billion in operating cash flow during the quarter.' The claim is for $28 billion operating cash flow in fiscal 2026 Q4, which corresponds to the 'September quarter' mentioned, thus supporting the claimed value and period."
+    },
+    {
+      "id": "claim8",
+      "claim": "Fiscal 2026 R&D expenses",
+      "reported": 45765000000,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L47: 2025-09-28",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "claim9",
+      "claim": "Fiscal 2026 total net sales growth",
+      "reported": 15,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L1243: Total net sales | $ | 478,834 |  |  | 15 | % |  | $ | 416,161 |  |  | 6 | % |  | $ | 391,035 |",
+      "reason": "The line shows a 15% growth for Total net sales in 2026, matching the claimed Fiscal 2026 total net sales growth of 15% year over year."
+    },
+    {
+      "id": "Insight",
+      "claim": "Insight: Fiscal 2026 R&D expenses increased significantly to $45.8 billion, underlining Apple's strong commitment to innovation and development supporting future product and service pipelines.",
+      "reported": 45765000000,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L47: 2025-09-28",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "revenue",
+      "claim": "Annual Total Revenue (Net Sales)",
+      "reported": 478834000000,
+      "status": "correct",
+      "corrected": "478834000000",
+      "evidence": "10-K 0000320193-26-000026, RevenueFromContractWithCustomerExcludingAssessedTax, 2026-09-26: 478834000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "revenue_growth",
+      "claim": "Annual Revenue Growth",
+      "reported": 0.1505979656911628,
+      "status": "correct",
+      "corrected": "15.06",
+      "evidence": "(a - b) / b = 0.1505979656911627951682161471; definition: annual revenue growth percentage; sourced inputs: a=478834000000, b=416161000000",
+      "reason": ""
+    },
+    {
+      "id": "operating_income",
+      "claim": "Annual Operating Income",
+      "reported": 158063000000,
+      "status": "correct",
+      "corrected": "158063000000",
+      "evidence": "10-K 0000320193-26-000026, OperatingIncomeLoss, 2026-09-26: 158063000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "operating_margin",
+      "claim": "Operating Margin",
+      "reported": 0.3300997840587761,
+      "status": "correct",
+      "corrected": "33.01",
+      "evidence": "operating_income / revenue = 0.3300997840587761103012735102; definition: Operating margin as operating income divided by total revenue; sourced inputs: operating_income=158063000000, revenue=478834000000",
+      "reason": ""
+    },
+    {
+      "id": "net_income",
+      "claim": "Net Income Attributable to Company",
+      "reported": 132175000000,
+      "status": "correct",
+      "corrected": "132175000000",
+      "evidence": "10-K 0000320193-26-000026, NetIncomeLoss, 2026-09-26: 132175000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "diluted_eps",
+      "claim": "GAAP Diluted Earnings Per Share",
+      "reported": 8.98,
+      "status": "correct",
+      "corrected": "8.98",
+      "evidence": "10-K 0000320193-26-000026, EarningsPerShareDiluted, 2026-09-26: 8.98 USD/shares",
+      "reason": ""
+    },
+    {
+      "id": "return_on_average_equity",
+      "claim": "Return on Average Equity",
+      "reported": 1.4225673479491567,
+      "status": "correct",
+      "corrected": "1.42",
+      "evidence": "net_income / ((equity_current + equity_prior) / 2) = 1.422567347949156738023742641; definition: Return on average equity; sourced inputs: net_income=132175000000, equity_current=112093000000, equity_prior=73733000000",
+      "reason": ""
+    },
+    {
+      "id": "debt_to_equity",
+      "claim": "Debt-to-Equity Ratio (Including Current Portion)",
+      "reported": 0.6968677794331493,
+      "status": "correct",
+      "corrected": "0.70",
+      "evidence": "(long_term_debt_noncurrent + long_term_debt_current) / equity_current = 0.6968677794331492599894730269; definition: Debt to equity including current portion; sourced inputs: long_term_debt_noncurrent=68208000000, long_term_debt_current=9906000000, equity_current=112093000000",
+      "reason": ""
+    },
+    {
+      "id": "free_cash_flow",
+      "claim": "Free Cash Flow",
+      "reported": 136056000000,
+      "status": "correct",
+      "corrected": "136056000000.00",
+      "evidence": "cash_from_operations - capex = 136056000000; definition: Free cash flow calculated as cash from operations minus capital expenditures; sourced inputs: cash_from_operations=145097000000, capex=9041000000",
+      "reason": ""
+    },
+    {
+      "id": "latest_quarter_revenue",
+      "claim": "Latest Quarterly Revenue (Q4 FY 2026)",
+      "reported": 114477000000,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L40: 2026-09-26",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "latest_quarter_revenue_growth",
+      "claim": "Latest Quarterly Revenue Growth (Q4 FY 2026 YoY)",
+      "reported": 0.12,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L12: http://xbrl.sec.gov/country/2026#US",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "latest_quarter_eps",
+      "claim": "Latest Quarterly GAAP Diluted EPS (Q4 FY 2026)",
+      "reported": 2.1,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L57: 0000320193",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "price_to_earnings",
+      "claim": "Price-to-Earnings Ratio (P/E)",
+      "reported": 38.37750556792873,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input price missing verifiable XBRL source"
+    },
+    {
+      "id": "peer_MSFT",
+      "claim": "Microsoft Corporation Operating Margin",
+      "reported": 0.4678081840892722,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input operating_income does not match its cited fact"
+    },
+    {
+      "id": "peer_GOOGL",
+      "claim": "Alphabet Inc. Operating Margin",
+      "reported": 0.32032638592380025,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input operating_income does not match its cited fact"
+    },
+    {
+      "id": "peer_ORCL",
+      "claim": "Oracle Corporation Operating Margin",
+      "reported": 0.30592217586887777,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input operating_income does not match its cited fact"
+    },
+    {
+      "id": "unregistered-L15-257",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "15%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-279",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "$478.8",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-304",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "21%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-339",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "13%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-496",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "13%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-587",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "11%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-602",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "15%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-624",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "28%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-638",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "8%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-670",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "18%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L21-97",
+      "claim": "Unregistered numeric statement L21",
+      "reported": "$478.83",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L21-202",
+      "claim": "Unregistered numeric statement L21",
+      "reported": "$158.06",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L25-69",
+      "claim": "Unregistered numeric statement L25",
+      "reported": "12%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L25-260",
+      "claim": "Unregistered numeric statement L25",
+      "reported": "$344.63",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L32-42",
+      "claim": "Unregistered numeric statement L32",
+      "reported": "33.01%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L38-496",
+      "claim": "Unregistered numeric statement L38",
+      "reported": "$45.8",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    }
+  ],
+  "semantic_model_requested": true,
+  "filing_sources": [
+    "10-K",
+    "10-Q",
+    "earnings_8-K",
+    "release_EX-99.1"
+  ]
+}

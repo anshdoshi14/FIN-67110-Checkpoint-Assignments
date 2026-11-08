@@ -1,0 +1,134 @@
+{
+  "overview": "Costco Wholesale Corporation operates membership warehouses and e-commerce sites across multiple countries including the U.S., Canada, Mexico, Japan, the U.K., and others. The company follows a business model focused on low prices on a limited selection of nationally-branded and private-label products across a wide range of categories, aiming for high sales volumes and rapid inventory turnover. Through volume purchasing, efficient distribution, and reduced merchandise handling in no-frills warehouse settings, Costco achieves operating efficiencies that support its low price strategy. The warehouses average approximately 148,000 square feet and are designed for efficient product handling and inventory control. Costco emphasizes a membership format to limit shrinkage and enhance customer loyalty, with annual membership fees, including a U.S. fee of $65. The company also offers ancillary services such as gasoline stations, pharmacies, food courts, and e-commerce to complement its core warehouse business. As of August 30, 2026, Costco operated 939 warehouses worldwide and served approximately 84.1 million paid members, with executive members representing a substantial portion of sales. Membership renewals remain high, underpinning stable revenue from membership fees. The product offering is categorized mainly into foods and sundries, non-food items, fresh foods, and ancillary services. Costco sources most merchandise directly from suppliers, maintaining supply chain diversification and private-label product manufacturing when member value is significant. [10-K accession L000123 lines L000733, L000737-L000764, L000772-L000784]",
+  "market_positioning_and_growth_outlook": "Costco is competitively positioned through its low-price membership warehouse model that emphasizes high volume, rapid turnover, and a concentrated SKU selection (less than 4,000 active SKUs per warehouse). This focused offering supports efficient inventory management and operational cost control. The membership model, with high renewal rates of 92.3% in the U.S. and Canada and 89.8% worldwide, creates strong customer loyalty and recurring fee revenue. Executive members, who pay a premium for additional rewards, accounted for 42.3 million members and contributed roughly 75.2% of worldwide net sales in the most recent fiscal year. The company benefits from efficient logistics with cross-docking depots, reducing freight and handling costs. Growth catalysts include warehouse expansion in existing and new markets, increasing member base, and expanding ancillary services such as gasoline stations (operated 774 at year-end and representing 11% of sales in 2026) and e-commerce platforms. The company faces risks related to regional concentration, notably in California (26% of U.S. net sales), and competition for real estate and market entry challenges in new locations. Management acknowledges operational and regulatory risks that could affect expansion plans. [10-K accession L000123 lines L000737-L000764, L000772-L000784, L000833-L000842]",
+  "future_developments_and_strategic_recommendations": "Costco should continue expanding warehouse count both domestically and internationally to capture broader market share, while managing risks related to site acquisition and local regulatory challenges. Enhancing the e-commerce platform remains a vital growth area as digitally-enabled sales showed strong growth of 20.9% for the fiscal year, outpacing physical store growth. The company should leverage the high renewal rate and Executive membership program to deepen customer relationships and increase wallet share. Maintaining supply chain diversification and increasing private-label offerings can provide cost advantages and differentiation. Managing exposure in key markets such as California will be essential to mitigate revenue concentration risk. Finally, Costco could explore selective expansion or innovation in ancillary services, such as gasoline stations and business centers, to supplement core merchandise sales and improve member visit frequency. Continuous improvement in logistics efficiency, including depot utilization and potential new distribution methods, would also support operational leverage. [10-K accession L000123 lines L000737-L000764, L000772-L000784, L000833-L000842; EX-99.1 accession L000123 lines L000010-L000018, L000021]",
+  "insight": "Insight: The company’s gasoline business accounted for 11% of total net sales in 2026 and is operated at 774 gas stations worldwide, indicating a significant ancillary revenue stream integrated with the warehouse model, supporting frequent shopping behavior and expanding sales beyond traditional merchandise [10-K accession L000123 lines L000764]. [C:1]",
+  "claims": [
+    {
+      "id": "1",
+      "label": "Gasoline Business Sales Percentage",
+      "value": 11,
+      "display": "11%",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "Our gasoline business represented 11% of total net sales in 2026.",
+        "period": "2026",
+        "definition": "Percentage of total net sales from gasoline business"
+      }
+    },
+    {
+      "id": "2",
+      "label": "Number of Warehouses Operated",
+      "value": 939,
+      "display": "939 warehouses",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 734,
+        "quote": "Costco operated 939 warehouses worldwide at August 30, 2026.",
+        "period": "2026-08-30",
+        "definition": "Number of warehouses operated worldwide"
+      }
+    },
+    {
+      "id": "3",
+      "label": "Paid Members Worldwide",
+      "value": 84100000,
+      "display": "84.1 million paid members",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 776,
+        "quote": "Paid members 1 | 84,100 (...) at 2026",
+        "period": "2026",
+        "definition": "Paid membership count in thousands"
+      }
+    },
+    {
+      "id": "4",
+      "label": "Executive Members Count",
+      "value": 42300000,
+      "display": "42.3 million Executive members",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 782,
+        "quote": "Executive members represented 42,300 (...) of total paid members in 2026.",
+        "period": "2026",
+        "definition": "Executive membership count in thousands"
+      }
+    },
+    {
+      "id": "5",
+      "label": "Executive Membership Sales Penetration",
+      "value": 75.2,
+      "display": "75.2% sales penetration",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 782,
+        "quote": "The penetration of sales to Executive members represented approximately 75.2% of worldwide net sales in 2026.",
+        "period": "2026",
+        "definition": "Percentage of worldwide net sales from Executive members"
+      }
+    },
+    {
+      "id": "6",
+      "label": "Membership Renewal Rate U.S. and Canada",
+      "value": 92.3,
+      "display": "92.3% renewal rate",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 783,
+        "quote": "Our member renewal rate was 92.3% in the U.S. and Canada at the end of 2026.",
+        "period": "2026",
+        "definition": "Membership renewal rate in U.S. and Canada"
+      }
+    },
+    {
+      "id": "7",
+      "label": "Net Sales Fiscal Year 2026",
+      "value": 297247000000,
+      "display": "$297.2 billion",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 010,
+        "quote": "Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.",
+        "period": "2026",
+        "definition": "Total net sales for fiscal year 2026"
+      }
+    },
+    {
+      "id": "8",
+      "label": "Net Income Fiscal Year 2026",
+      "value": 9226000000,
+      "display": "$9.226 billion",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 049,
+        "quote": "Net income for the fiscal year was $9.226 billion",
+        "period": "2026",
+        "definition": "Net income for fiscal year 2026"
+      }
+    },
+    {
+      "id": "9",
+      "label": "Diluted Earnings Per Share Fiscal Year 2026",
+      "value": 20.76,
+      "display": "$20.76 per diluted share",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 052,
+        "quote": "Diluted EPS $20.76 for fiscal year 2026",
+        "period": "2026",
+        "definition": "Diluted earnings per share for fiscal year 2026"
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "overview": "Costco Wholesale Corporation operates membership warehouses and e-commerce sites predominantly in the United States (U.S.) and Puerto Rico, Canada, Mexico, Japan, the U.K., Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland, and New Zealand, with 939 warehouses worldwide as of August 30, 2026 [10-K accession 0000909832-26-000093, line L000734]. The business model is based on offering low prices on a limited selection of nationally-branded and private-label products to generate high sales volumes and rapid inventory turnover, enabling operational efficiencies [10-K L000737]. Merchandise is primarily sourced directly from suppliers and distributed efficiently via cross-docking consolidation points to warehouses, with e-commerce operations integrated into this supply chain [10-K L000738-L000741]. The average warehouse measures about 148,000 square feet, designed for merchandising efficiency and inventory control, operating under a no-frills, self-service approach to minimize overhead costs [10-K L000742]. Membership fees, including a $65 annual fee in the U.S., contribute recurring revenue and include options for Executive memberships that offer rewards incentives [10-K L000773-L000782]. Merchandise spans core categories such as foods and sundries, non-food items, fresh foods; warehouse ancillary services like gasoline and pharmacy; and complementary businesses including e-commerce and travel [10-K L000746-L000763].",
+  "market_positioning_and_growth_outlook": "Costco's competitive positioning is centered on its membership warehouse format emphasizing low prices supported by a limited, fast-moving product selection of less than 4,000 SKUs per warehouse and efficient warehouse design [10-K L000737, L000744]. The high membership renewal rates—92.3% in the U.S. and Canada and 89.8% worldwide at the end of fiscal 2026—illustrate strong customer loyalty [10-K L000783]. Executive memberships totaled 42,300 thousand members in 2026, driving approximately 75.2% of worldwide net sales [10-K L000782]. The company operates 939 warehouses globally, including 647 in the U.S. and Puerto Rico and 115 in Canada, demonstrating broad geographic diversification [EX-99.1 L000021]. Growth catalysts include continued warehouse expansion in existing and new markets, with navigation of local regulatory, land use, and competitive challenges playing a key role [10-K L000838-L000841].",
+  "future_developments_and_strategic_recommendations": "Costco intends to grow by opening additional warehouses both in existing markets to increase market share and in new markets where awareness and member acquisition require effort [10-K L000838-L000841]. The company also aims to diversify and strengthen its supply chain by expanding in-country production and private-label merchandise to enhance merchandise control and member value [10-K L000768]. Given the U.S. and Canadian operations represented 86% of net sales and 83% of operating income in 2026, monitoring geographic concentration risks, particularly in California where 26% of U.S. net sales originated, is critical for strategic planning [10-K L000836-L000837]. Investments in e-commerce and warehouse ancillary services such as gasoline and pharmacy are prioritized to increase member convenience and attract frequent shopping [10-K L000767].",
+  "insight": "Insight: Costco disclosed that its California operations comprised 26% of U.S. net sales in 2026, highlighting a material geographic concentration risk that could significantly affect overall financial performance if that market experiences downturns [10-K accession 0000909832-26-000093, line L000837].",
+  "claims": [
+    {
+      "id": "C001",
+      "label": "Number of warehouses worldwide at August 30, 2026",
+      "value": 939,
+      "display": "939 warehouses",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 734,
+        "quote": "Costco operated 939 warehouses worldwide at August 30, 2026",
+        "period": "2026",
+        "definition": "Number of warehouses"
+      }
+    },
+    {
+      "id": "C002",
+      "label": "Average warehouse space (square feet)",
+      "value": 148000,
+      "display": "148,000 square feet",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 742,
+        "quote": "Our average warehouse space is approximately 148,000 square feet",
+        "period": "2026",
+        "definition": "Average warehouse size"
+      }
+    },
+    {
+      "id": "C003",
+      "label": "Annual membership fee in the U.S.",
+      "value": 65,
+      "display": "$65 annual fee",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 773,
+        "quote": "Our annual fee for memberships is $65 in the U.S.",
+        "period": "2026",
+        "definition": "U.S. membership fee"
+      }
+    },
+    {
+      "id": "C004",
+      "label": "Paid members worldwide at end 2026 (thousands)",
+      "value": 84100,
+      "display": "84,100 thousand paid members",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 776,
+        "quote": "Paid members 1 | 84,100",
+        "period": "2026",
+        "definition": "Paid memberships"
+      }
+    },
+    {
+      "id": "C005",
+      "label": "Executive members at end 2026 (thousands)",
+      "value": 42300,
+      "display": "42,300 thousand Executive members",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 782,
+        "quote": "Executive members represented 42,300 ... of total paid members in 2026",
+        "period": "2026",
+        "definition": "Executive membership count"
+      }
+    },
+    {
+      "id": "C006",
+      "label": "Penetration of net sales from Executive members 2026",
+      "value": 75.2,
+      "display": "75.2% of worldwide net sales",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 782,
+        "quote": "The penetration of sales to Executive members represented approximately 75.2% of worldwide net sales in 2026.",
+        "period": "2026",
+        "definition": "Executive membership sales penetration"
+      }
+    },
+    {
+      "id": "C007",
+      "label": "Membership renewal rate U.S. and Canada 2026",
+      "value": 92.3,
+      "display": "92.3% renewal rate",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 783,
+        "quote": "Our member renewal rate was 92.3% in the U.S. and Canada ... at the end of 2026.",
+        "period": "2026",
+        "definition": "Membership renewal rate"
+      }
+    },
+    {
+      "id": "C008",
+      "label": "Net sales for the fiscal year ended August 30, 2026",
+      "value": 297247000000,
+      "display": "$297.2 billion",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 10,
+        "quote": "Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.",
+        "period": "2026",
+        "definition": "Fiscal year net sales"
+      }
+    },
+    {
+      "id": "C009",
+      "label": "Number of warehouses in United States and Puerto Rico at August 30, 2026",
+      "value": 647,
+      "display": "647 warehouses",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 21,
+        "quote": "Costco currently operates ... including 647 in the United States and Puerto Rico",
+        "period": "2026",
+        "definition": "U.S. and Puerto Rico warehouses"
+      }
+    },
+    {
+      "id": "C010",
+      "label": "California operations percentage of U.S. net sales 2026",
+      "value": 26,
+      "display": "26% of U.S. net sales",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 837,
+        "quote": "Within the U.S., we are highly dependent on our California operations, which comprised 26% of U.S. net sales in 2026.",
+        "period": "2026",
+        "definition": "California sales concentration"
+      }
+    }
+  ]
+}

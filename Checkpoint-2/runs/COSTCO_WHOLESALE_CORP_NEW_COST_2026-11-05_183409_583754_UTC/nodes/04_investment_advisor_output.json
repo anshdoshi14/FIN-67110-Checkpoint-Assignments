@@ -1,0 +1,122 @@
+{
+  "investment_recommendation": "Hold (provisional): The deciding figure is Costco's operating margin at 3.85% for fiscal 2026 [C:M1], which is below peers Walmart (4.18%) and Target (4.88%) despite solid revenue growth of 10.14% [C:G1]. This suggests positive growth momentum but margin pressure and risks on expansion execution create uncertainty.",
+  "insight": "Insight: Total equity increased by approximately $6.64 billion (from $29.164 billion to $35.803 billion) during fiscal 2026, reflecting strong retained earnings growth and capital management, which supported a 28.4% return on average equity [C:ROE1]. Source: Costco 10-K 2026-08-30 accession 0000909832-26-000093, see L000091-L000096, L000123.",
+  "claims": [
+    {
+      "id": "M1",
+      "label": "Operating Margin",
+      "value": 0.03854476602650798,
+      "display": "3.85%",
+      "source": {
+        "kind": "ratio",
+        "formula": "OperatingIncome / Revenue",
+        "definition": "Operating margin ratio",
+        "inputs": {
+          "OperatingIncome": {
+            "value": 11685000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-08-30",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "Revenue": {
+            "value": 303154000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "G1",
+      "label": "Revenue Growth",
+      "value": 0.10143695387577888,
+      "display": "10.14%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "annual total revenue growth percentage",
+        "inputs": {
+          "a": {
+            "value": 303154000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "b": {
+            "value": 275235000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2025-08-31",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2025-08-31",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "ROE1",
+      "label": "Return on Average Equity",
+      "value": 0.284021118413964,
+      "display": "28.40%",
+      "source": {
+        "kind": "ratio",
+        "formula": "NetIncome / ((EquityEnd + EquityPrior) / 2)",
+        "definition": "Return on average equity for fiscal year",
+        "inputs": {
+          "NetIncome": {
+            "value": 9226000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "NetIncomeLoss",
+              "period": "2026-08-30",
+              "tag": "NetIncomeLoss",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "EquityEnd": {
+            "value": 35803000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "StockholdersEquity",
+              "period": "2026-08-30",
+              "tag": "StockholdersEquity",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "EquityPrior": {
+            "value": 29164000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "StockholdersEquity",
+              "period": "2025-08-31",
+              "tag": "StockholdersEquity",
+              "end": "2025-08-31",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

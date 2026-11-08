@@ -1,0 +1,420 @@
+{
+  "valuation_insights": "## Annual and Quarterly Results for Costco Wholesale Corporation (COST)\n\n- The annual total revenue for fiscal year ended 2026-08-30 was $303.154 billion, up 10.14% from $275.235 billion in fiscal year ended 2025-08-31 [C:revenue_2026] [C:revenue_prior_2025] [C:revenue_growth_2026].\n- Operating income for fiscal 2026 was $11.685 billion yielding an operating margin of 3.85% [C:operating_income_2026] [C:operating_margin_2026].\n- Net income attributable to the company was $9.226 billion for fiscal 2026, increased from $8.099 billion the prior year [C:net_income_2026].\n- GAAP diluted earnings per share was $20.76 in 2026 versus $18.21 in 2025 [C:diluted_eps_2026].\n- Return on average equity was 28.40%, calculated using net income over average stockholders' equity between 2025 and 2026 year ends [C:return_on_equity_2026].\n- Debt to equity ratio including current portion of long-term debt was 0.172, representing moderate leverage [C:debt_to_equity_2026].\n- Free cash flow for fiscal year 2026 was $9.382 billion, computed as net cash provided by operating activities minus capital expenditures [C:free_cash_flow_2026].\n- Latest quarter net sales increased 11.2% to $93.9 billion from $84.4 billion last year [C:quarter_revenue_growth_4Q], while total revenue including membership fees was reported at $95.723 billion this quarter; however, the quarterly total revenue figure's full establishment is pending due to membership and other income inclusion ambiguity [C:quarter_revenue_4Q].\n- GAAP diluted EPS for the fourth quarter was $6.75, positively impacted by a one-time tariff refund benefit of $0.15 per diluted share [C:quarter_diluted_eps_4Q].\n- Based on the closing price of $904.70 on 2026-09-23 and annual diluted EPS of $20.76, the price-to-earnings ratio stands at approximately 43.58, indicating a relatively high market valuation that may warrant further context on growth expectations [C:pe_ratio_2026].\n- Peer operating margins on a consistent total revenue basis show Walmart at 4.18%, Target at 4.88%, and BJ's Wholesale at 3.81% for their latest reported fiscal years. These comparator margins reflect variations in peer fiscal year-ends and reporting definitions and are supported by respective XBRL tags [C:peer_margins].\n\n**Caution:** The annual revenue figures are based on the tag RevenueFromContractWithCustomerExcludingAssessedTax, generally representing total revenue but potentially excluding certain income such as membership fees; verification is recommended to confirm full revenue scope and consistency.\n\nInsight: Costco's debt structure reveals a significant increase in the current portion of long-term debt from $75 million in 2025 to $2.248 billion in 2026 (10-K line 81 L000081). This concentration of near-term debt maturities could elevate liquidity pressures and refinancing risks, a material factor for valuation and risk assessment not highlighted in the earnings release opening paragraph.\n\n---",
+  "claims": [
+    {
+      "id": "revenue_2026",
+      "label": "Fiscal 2026 Total Revenue",
+      "value": 303154000000,
+      "display": "$303.154 billion",
+      "source": {
+        "kind": "xbrl",
+        "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "period": "2026-08-30",
+        "end": "2026-08-30",
+        "accession": "0000909832-26-000093"
+      }
+    },
+    {
+      "id": "revenue_prior_2025",
+      "label": "Fiscal 2025 Total Revenue",
+      "value": 275235000000,
+      "display": "$275.235 billion",
+      "source": {
+        "kind": "xbrl",
+        "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "period": "2025-08-31",
+        "end": "2025-08-31",
+        "accession": "0000909832-26-000093"
+      }
+    },
+    {
+      "id": "revenue_growth_2026",
+      "label": "Revenue Growth",
+      "value": 0.10143695387577888,
+      "display": "10.14%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "revenue growth percentage",
+        "inputs": {
+          "a": {
+            "value": "303154000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "b": {
+            "value": "275235000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2025-08-31",
+              "end": "2025-08-31",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "operating_income_2026",
+      "label": "Fiscal 2026 Operating Income",
+      "value": 11685000000,
+      "display": "$11.685 billion",
+      "source": {
+        "kind": "xbrl",
+        "field": "OperatingIncomeLoss",
+        "period": "2026-08-30",
+        "end": "2026-08-30",
+        "accession": "0000909832-26-000093"
+      }
+    },
+    {
+      "id": "operating_margin_2026",
+      "label": "Fiscal 2026 Operating Margin",
+      "value": 0.03854476602650798,
+      "display": "3.85%",
+      "source": {
+        "kind": "ratio",
+        "formula": "OperatingIncome / Revenue",
+        "definition": "operating margin",
+        "inputs": {
+          "OperatingIncome": {
+            "value": "11685000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "Revenue": {
+            "value": "303154000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "net_income_2026",
+      "label": "Fiscal 2026 Net Income Attributable to Company",
+      "value": 9226000000,
+      "display": "$9.226 billion",
+      "source": {
+        "kind": "xbrl",
+        "field": "NetIncomeLoss",
+        "period": "2026-08-30",
+        "end": "2026-08-30",
+        "accession": "0000909832-26-000093"
+      }
+    },
+    {
+      "id": "diluted_eps_2026",
+      "label": "Fiscal 2026 GAAP Diluted EPS",
+      "value": 20.76,
+      "display": "$20.76",
+      "source": {
+        "kind": "xbrl",
+        "field": "EarningsPerShareDiluted",
+        "period": "2026-08-30",
+        "end": "2026-08-30",
+        "accession": "0000909832-26-000093"
+      }
+    },
+    {
+      "id": "return_on_equity_2026",
+      "label": "Return on Average Equity",
+      "value": 0.284021118413964,
+      "display": "28.40%",
+      "source": {
+        "kind": "ratio",
+        "formula": "NetIncome / ((Equity_End_Current + Equity_End_Prior)/2)",
+        "definition": "return on average equity",
+        "inputs": {
+          "NetIncome": {
+            "value": "9226000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "NetIncomeLoss",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "Equity_End_Current": {
+            "value": "35803000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "StockholdersEquity",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "Equity_End_Prior": {
+            "value": "29164000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "StockholdersEquity",
+              "period": "2025-08-31",
+              "end": "2025-08-31",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "debt_to_equity_2026",
+      "label": "Debt to Equity Ratio Including Current Portion",
+      "value": 0.17210848252939698,
+      "display": "0.172",
+      "source": {
+        "kind": "ratio",
+        "formula": "(LongTermDebtNoncurrent + LongTermDebtCurrent) / StockholdersEquity",
+        "definition": "debt to equity ratio including current portion of long-term debt",
+        "inputs": {
+          "LongTermDebtNoncurrent": {
+            "value": "3914000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "LongTermDebtNoncurrent",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "LongTermDebtCurrent": {
+            "value": "2248000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "LongTermDebtCurrent",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "StockholdersEquity": {
+            "value": "35803000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "StockholdersEquity",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "free_cash_flow_2026",
+      "label": "Free Cash Flow Fiscal 2026",
+      "value": 9382000000,
+      "display": "$9.382 billion",
+      "source": {
+        "kind": "ratio",
+        "formula": "NetCashProvidedByUsedInOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment",
+        "definition": "free cash flow",
+        "inputs": {
+          "NetCashProvidedByUsedInOperatingActivities": {
+            "value": "15817000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "NetCashProvidedByUsedInOperatingActivities",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "PaymentsToAcquirePropertyPlantAndEquipment": {
+            "value": "6435000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "quarter_revenue_growth_4Q",
+      "label": "Fourth Quarter Net Sales Growth",
+      "value": 0.112,
+      "display": "11.2%",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 10,
+        "quote": "Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year.",
+        "period": "2026-08-30",
+        "definition": "quarterly net sales growth percentage"
+      }
+    },
+    {
+      "id": "quarter_revenue_4Q",
+      "label": "Fourth Quarter Total Revenue",
+      "value": 95723000000,
+      "display": "$95.723 billion",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 39,
+        "quote": "Total revenue | 95,723 |  |  | 86,156 |  |  | 303,154 |  |  | 275,235 |",
+        "period": "2026-08-30",
+        "definition": "total revenue for the fourth quarter (including membership fees; figure not fully established)"
+      }
+    },
+    {
+      "id": "quarter_diluted_eps_4Q",
+      "label": "GAAP Diluted EPS Fourth Quarter",
+      "value": 6.75,
+      "display": "$6.75",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 20,
+        "quote": "Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year. This year's fourth quarter was positively impacted by a non-recurring benefit of $0.15 per diluted share from IEEPA tariff refunds received in the quarter, less partial reinvestment of those refunds in increased member values.",
+        "period": "2026-08-30",
+        "definition": "GAAP diluted earnings per share for the fourth quarter"
+      }
+    },
+    {
+      "id": "pe_ratio_2026",
+      "label": "Price-to-Earnings Ratio Fiscal 2026",
+      "value": 43.578998073217726,
+      "display": "43.58",
+      "source": {
+        "kind": "ratio",
+        "formula": "Price / Diluted EPS",
+        "definition": "Price to earnings ratio based on fiscal 2026 diluted EPS and closing price as of 2026-09-23",
+        "inputs": {
+          "Price": {
+            "value": "904.7",
+            "source": {
+              "kind": "external",
+              "description": "Closing stock price on 2026-09-23"
+            }
+          },
+          "DilutedEPS": {
+            "value": "20.76",
+            "source": {
+              "kind": "xbrl",
+              "field": "EarningsPerShareDiluted",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "peer_margins",
+      "label": "Peer Operating Margins",
+      "value": {
+        "WMT": 0.041820733829433104,
+        "TGT": 0.048835655659477,
+        "BJ": 0.03805721080879146
+      },
+      "display": "Walmart 4.18%, Target 4.88%, BJ's Wholesale 3.81%",
+      "source": [
+        {
+          "kind": "ratio",
+          "formula": "OperatingIncome / Revenue",
+          "definition": "Walmart operating margin fiscal 2026",
+          "inputs": {
+            "OperatingIncome": {
+              "value": "29825000000",
+              "source": {
+                "kind": "xbrl",
+                "field": "OperatingIncomeLoss",
+                "period": "2026-01-31",
+                "end": "2026-01-31",
+                "accession": "0000104169-26-000055"
+              }
+            },
+            "Revenue": {
+              "value": "713163000000",
+              "source": {
+                "kind": "xbrl",
+                "field": "Revenues",
+                "period": "2026-01-31",
+                "end": "2026-01-31",
+                "accession": "0000104169-26-000055"
+              }
+            }
+          }
+        },
+        {
+          "kind": "ratio",
+          "formula": "OperatingIncome / Revenue",
+          "definition": "Target operating margin fiscal 2026",
+          "inputs": {
+            "OperatingIncome": {
+              "value": "5117000000",
+              "source": {
+                "kind": "xbrl",
+                "field": "OperatingIncomeLoss",
+                "period": "2026-01-31",
+                "end": "2026-01-31",
+                "accession": "0000027419-26-000016"
+              }
+            },
+            "Revenue": {
+              "value": "104780000000",
+              "source": {
+                "kind": "xbrl",
+                "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+                "period": "2026-01-31",
+                "end": "2026-01-31",
+                "accession": "0000027419-26-000016"
+              }
+            }
+          }
+        },
+        {
+          "kind": "ratio",
+          "formula": "OperatingIncome / Revenue",
+          "definition": "BJ's Wholesale operating margin fiscal 2026",
+          "inputs": {
+            "OperatingIncome": {
+              "value": "816604000",
+              "source": {
+                "kind": "xbrl",
+                "field": "OperatingIncomeLoss",
+                "period": "2026-01-31",
+                "end": "2026-01-31",
+                "accession": "0001531152-26-000007"
+              }
+            },
+            "Revenue": {
+              "value": "21457274000",
+              "source": {
+                "kind": "xbrl",
+                "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+                "period": "2026-01-31",
+                "end": "2026-01-31",
+                "accession": "0001531152-26-000007"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

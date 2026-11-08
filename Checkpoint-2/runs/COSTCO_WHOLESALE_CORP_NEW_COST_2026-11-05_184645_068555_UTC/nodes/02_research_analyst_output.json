@@ -1,0 +1,176 @@
+{
+  "overview": "Costco Wholesale Corporation operates membership warehouses and e-commerce sites globally, offering a limited selection of nationally-branded and private-label products at low prices to generate high sales volume and rapid inventory turnover. The company's warehouses, averaging approximately 148,000 square feet, are designed for operational efficiency with no-frills, self-service formats that reduce labor and inventory costs. Costco's business model centers on efficient volume purchasing, streamlined distribution through cross-docking depots, and a limited SKU count (less than 4,000 SKUs per warehouse and 9,000 to 11,000 SKUs online) to sustain low costs and competitive pricing. The company also operates ancillary businesses such as gas stations, pharmacies, and travel services to complement core warehouse sales. Membership fees and renewal rates are significant, with 84.1 million paid members worldwide at the end of fiscal 2026 and a strong renewal rate of 92.3% in the US and Canada. Executive members, who pay an additional fee for rewards, accounted for 42.3 million memberships in 2026, contributing about 75.2% of worldwide net sales. The company's key operating regions include the US and Canada, representing a majority of sales and operating income. Costco emphasizes employee welfare as part of its ethics code and employs 355,000 people worldwide, mostly in warehouses and distribution. [10-K accession 0000909832-26-000093, L000733-L000783]",
+  "market_positioning_and_growth_outlook": "Costco's competitive positioning is grounded in its membership model, low price strategy enabled by volume purchasing, and efficient, large warehouse formats. The relatively narrow SKU selection reduces complexity and cost. The company operates in 17 countries including the US, Canada, Mexico, Japan, and several European and Asian nations. Its US and Canadian operations are critical, comprising 86% of net sales and 83% of operating income in fiscal 2026, with California alone making up 26% of US net sales. Costco's ancillary businesses, such as gas stations which contributed 11% of total net sales, add frequency and convenience for members. Growth catalysts include expanding warehouses primarily in existing markets, broadening e-commerce offerings, and developing private-label merchandise to increase member value. Challenges in growth include securing suitable new warehouse sites in competition with other retailers, regulatory constraints, and potential member cannibalization among warehouses. The company also seeks to diversify its supply chain and expand in-country sourcing. Digital sales growth is notable at 20.9% for fiscal 2026, indicating a significant e-commerce channel expansion. [10-K accession 0000909832-26-000093, L000733-L000783, L000834-L000841] [EX-99.1 accession 0000909832-26-000084, L000010-L000021]",
+  "future_developments_and_strategic_recommendations": "Costco should continue to focus on expanding its warehouse footprint in both existing and new markets while managing risks related to site acquisition and regulatory compliance. Increasing the penetration of digitally-enabled sales and investing in e-commerce fulfillment will be key to capturing changing shopping behaviors. Enhancing private-label product offerings can improve margins and member loyalty. The company should monitor geographic and product concentration to mitigate operational risks, particularly given high dependence on US and Canadian operations and significant exposure to the California market. Maintaining high membership renewal rates through superior member value and reward programs will support steady revenue streams. Additionally, managing costs through operational efficiencies, including supply chain diversification and labor management, remains important. Monitoring international expansion performance and local market adaptation will inform future strategic moves. [10-K accession 0000909832-26-000093, L000733-L000783, L000834-L000841]",
+  "insight": "Insight: The company’s membership renewal rate excludes memberships expiring within six months prior to the reporting date, thereby potentially understating short-term renewal volatility; this nuanced membership accounting approach reflects careful management of reported membership stability [10-K accession 0000909832-26-000093, L000783] [C:membership_renewal_rate].",
+  "claims": [
+    {
+      "id": "net_sales_fy26",
+      "label": "Net sales fiscal year 2026",
+      "value": 297247000000,
+      "display": "$297.2 billion",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 37,
+        "quote": "Net sales | $ | 297,247 |  |  | $ | 269,912 |",
+        "period": "2026-08-30",
+        "definition": "Total net sales for fiscal year ended August 30, 2026"
+      }
+    },
+    {
+      "id": "paid_members_fy26",
+      "label": "Paid members at fiscal year-end 2026",
+      "value": 84100000,
+      "display": "84.1 million",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 776,
+        "quote": "Paid members 1 | 84,100 |",
+        "period": "2026-08-30",
+        "definition": "Number of paid members (in thousands) at end of 2026 fiscal year"
+      }
+    },
+    {
+      "id": "member_renewal_rate_us_ca",
+      "label": "Member renewal rate US & Canada 2026",
+      "value": 92.3,
+      "display": "92.3%",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 783,
+        "quote": "Our member renewal rate was 92.3% in the U.S. and Canada and 89.8% worldwide at the end of 2026.",
+        "period": "2026-08-30",
+        "definition": "Membership renewal rate excluding those expiring within 6 months prior to end of fiscal year"
+      }
+    },
+    {
+      "id": "executive_members_2026",
+      "label": "Executive members fiscal year 2026",
+      "value": 42300000,
+      "display": "42.3 million",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 782,
+        "quote": "Executive members represented 42,300, 38,700, and 35,400 of total paid members in 2026, 2025, and 2024.",
+        "period": "2026-08-30",
+        "definition": "Count of Executive members (in thousands) at end of 2026 fiscal year"
+      }
+    },
+    {
+      "id": "executive_sales_penetration_2026",
+      "label": "Sales penetration by Executive members 2026",
+      "value": 75.2,
+      "display": "75.2%",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 782,
+        "quote": "The penetration of sales to Executive members represented approximately 75.2% of worldwide net sales in 2026.",
+        "period": "2026-08-30",
+        "definition": "Percentage of total sales attributable to Executive members in fiscal year 2026"
+      }
+    },
+    {
+      "id": "warehouse_count_2026",
+      "label": "Total warehouses operating at fiscal year end 2026",
+      "value": 939,
+      "display": "939 warehouses",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 21,
+        "quote": "Costco currently operates 939 warehouses",
+        "period": "2026-08-30",
+        "definition": "Number of warehouses at fiscal year end 2026"
+      }
+    },
+    {
+      "id": "gas_stations_2026",
+      "label": "Gas stations operated at end of 2026",
+      "value": 774,
+      "display": "774 gas stations",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "We operated 774 gas stations at the end of 2026.",
+        "period": "2026-08-30",
+        "definition": "Number of gasoline stations at fiscal year end"
+      }
+    },
+    {
+      "id": "gasoline_sales_share_2026",
+      "label": "Gasoline business net sales percentage 2026",
+      "value": 11,
+      "display": "11%",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "Our gasoline business represented 11% of total net sales in 2026.",
+        "period": "2026-08-30",
+        "definition": "Percentage contribution of gasoline sales to total net sales in fiscal 2026"
+      }
+    },
+    {
+      "id": "digital_sales_growth_2026",
+      "label": "Digitally-Enabled sales growth 2026",
+      "value": 20.9,
+      "display": "20.9%",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 18,
+        "quote": "Digitally-Enabled | 19.5% |  | 19.8% |  | 20.9% |  | 20.7%",
+        "period": "2026-08-30",
+        "definition": "Comparable digitally-enabled sales growth for fiscal year 2026"
+      }
+    },
+    {
+      "id": "us_ca_sales_percentage_2026",
+      "label": "U.S. and Canada portion of net sales 2026",
+      "value": 86,
+      "display": "86%",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 837,
+        "quote": "Our U.S. and Canadian operations, which comprised 86% and 83% of net sales and operating income in 2026.",
+        "period": "2026-08-30",
+        "definition": "Percentage of net sales and operating income from US & Canada operations"
+      }
+    },
+    {
+      "id": "california_sales_percentage_2026",
+      "label": "California proportion of U.S. net sales 2026",
+      "value": 26,
+      "display": "26%",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 837,
+        "quote": "Our California operations... comprised 26% of U.S. net sales in 2026.",
+        "period": "2026-08-30",
+        "definition": "Percentage of U.S. net sales from California in fiscal 2026"
+      }
+    },
+    {
+      "id": "employee_count_2026",
+      "label": "Total employees at fiscal year end 2026",
+      "value": 355000,
+      "display": "355,000 employees",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 789,
+        "quote": "At the end of 2026, we employed 355,000 employees worldwide.",
+        "period": "2026-08-30",
+        "definition": "Total workforce size"
+      }
+    }
+  ]
+}

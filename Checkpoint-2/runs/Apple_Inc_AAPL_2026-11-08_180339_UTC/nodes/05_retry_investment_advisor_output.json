@@ -1,0 +1,55 @@
+{
+  "investment_recommendation": "Hold provisional based on fiscal 2026 total revenue growth of 15.06% [C:revenue_growth2026].",
+  "insight": "Insight: Apple’s property, plant, and equipment assets increased from $49.8 billion in fiscal 2025 to $52.1 billion at fiscal 2026 year-end, indicating sustained capital investment to support innovation and production capabilities [C:pp&e], 10-K 0000320193-26-000026, L000090.",
+  "claims": [
+    {
+      "id": "revenue_growth2026",
+      "label": "Fiscal 2026 revenue growth",
+      "value": 0.1505979656911628,
+      "display": "15.06%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "revenue growth fraction",
+        "inputs": {
+          "a": {
+            "value": 478834000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-09-26",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "b": {
+            "value": 416161000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2025-09-27",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2025-09-27",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "pp&e",
+      "label": "Property, Plant and Equipment, net at fiscal year-end 2026",
+      "value": 52084000000,
+      "display": "52,084 million USD",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 90,
+        "quote": "Property, plant and equipment, net | 52,084 |  |  | 49,834 |",
+        "period": "2026-09-26",
+        "definition": "Property, Plant and Equipment, net balance at fiscal year 2026 and 2025"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "REVISE",
+  "issues": [
+    {
+      "role": "Research Analyst",
+      "reason": "The five sections have the required headings, but the 'Investment Recommendation' section lacks proper detail beyond 'Provisional Buy' and repeats the cash flow insight from Valuation Insights without distinct additional analysis. Also, some details, such as risk implications discussed in Overview, are not consistently connected to later sections to support thesis coherence."
+    },
+    {
+      "role": "Financial Analyst",
+      "reason": "The eleven core financial claims cited are generally supported by tagged data and 10-K lines. However, the revenue cited is 'total revenue' but the caution flag notes contract-sales tag may exclude some revenue streams; this ambiguity needs clarification or confirmation. The peer comparison of operating margins acknowledges different fiscal year ends but is presented without adjusted context, which could mislead. Free cash flow calculation and other ratio arithmetic are consistent, but no explicit source link is given for peer margins, which should be cited."
+    },
+    {
+      "role": "Investment Advisor",
+      "reason": "The report includes three Insight lines, but the Insight in 'Investment Recommendation' is a repeat of the Valuation Insights' cash flow insight, lacking a distinct investment outlook or strategic recommendation benefit. The Market Positioning and Growth Outlook provides some risk notes but lacks a dedicated forward-looking investment implication. More explicit integration of strategic and valuation insights into a clear investment thesis is missing."
+    }
+  ]
+}

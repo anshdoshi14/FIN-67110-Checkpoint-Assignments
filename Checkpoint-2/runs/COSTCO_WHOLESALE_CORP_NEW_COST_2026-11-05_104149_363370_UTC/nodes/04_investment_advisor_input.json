@@ -1,0 +1,600 @@
+{
+  "task": "Build your assigned report sections with source lines. Finish with Insight: ... [filing line]. Never fabricate numbers.",
+  "context": {
+    "ticker": "COST",
+    "research_output": {
+      "overview": "Costco Wholesale Corporation operates membership warehouses and e-commerce sites globally, emphasizing high sales volumes and rapid inventory turnover through offering low prices on a limited selection of nationally-branded and private-label products. Costco operates 939 warehouses worldwide as of August 30, 2026, with average warehouse space of approximately 148,000 square feet, focused on efficient use of selling space, inventory control, and cost reduction. The company purchases most merchandise directly from suppliers and uses cross-docking depots to efficiently distribute goods. The business model relies heavily on membership fees and a limited selection of fast-selling SKUs, offering less than 4,000 SKUs per warehouse. Core merchandise categories include foods and sundries, non-foods, fresh foods, warehouse ancillary services like gasoline and pharmacy, and other businesses including e-commerce and travel. Membership benefits include return policies and extended warranties on electronics to promote satisfaction. Costco's vehicles for growth include geographic expansion and e-commerce development. Their membership base was 84.1 million paid members (including Executive members) worldwide at the end of 2026, with renewal rates of 92.3% in the U.S. and Canada [10-K accession 0000909832-26-000093 L000733-L000784].",
+      "market_positioning_and_growth_outlook": "Costco positions itself competitively as a low-price, high-volume retailer with a strong membership model and operational efficiency through streamlined warehouse format and supply chain management. Its limited SKU approach differentiates it from other broadline retailers and helps control costs and improve turnover. The membership model contributes significantly to revenue and profitability, supported by high renewal rates and Executive membership penetration (Executive sales penetration was approximately 75.2% of worldwide net sales in 2026). Costco operates in multiple countries including the U.S., Canada, Mexico, Japan, the UK, and others, supporting geographic diversification. It continues to invest in warehouse expansion and e-commerce platform growth, which experienced robust digitally-enabled comparable sales growth of 20.9% in fiscal 2026. Risks to growth include competition for suitable warehouse locations, regulatory challenges, and cannibalization of existing warehouse sales from new openings [10-K accession 0000909832-26-000093 L000733-L000841; EX-99.1 accession 0000909832-26-000084 L000010-L000018, L000021].",
+      "future_developments_and_strategic_recommendations": "Costco should continue to focus on disciplined warehouse expansion, particularly in underpenetrated and new markets, addressing the risk of cannibalizing existing warehouse sales through careful site selection and localized marketing efforts. Leveraging the strong e-commerce sales growth by expanding online assortment and fulfillment capacity will further complement the warehouse business. Enhancing member benefits could sustain and improve the already high membership renewal rates and drive Executive membership conversions. Managing supply chain resilience and expanding private-label merchandise with high perceived value could improve margins and customer loyalty. Monitoring regulatory and local community constraints will be essential for smooth expansion. Finally, focusing on cost management and operational efficiencies will retain Costco's competitive pricing advantage [10-K accession 0000909832-26-000093 L000733-L000784, L000838-L000841; EX-99.1 accession 0000909832-26-000084 L000010-L000019].",
+      "claims": [
+        {
+          "id": "claim_net_sales_fy2026",
+          "label": "Net sales for fiscal year 2026",
+          "value": "297.2 billion USD",
+          "display": "$297.2 billion",
+          "source": {
+            "kind": "line",
+            "document": "EX-99.1",
+            "line": 10,
+            "quote": "Net sales for the fiscal year increased 10.1 percent, to $297.2 billion",
+            "period": "2026-08-30",
+            "definition": "Total net sales revenue for fiscal 2026"
+          }
+        },
+        {
+          "id": "claim_warehouses_fy2026",
+          "label": "Number of warehouses at August 30, 2026",
+          "value": 939,
+          "display": "939 warehouses",
+          "source": {
+            "kind": "line",
+            "document": "EX-99.1",
+            "line": 21,
+            "quote": "Costco currently operates 939 warehouses",
+            "period": "2026-08-30",
+            "definition": "Total global warehouses operated"
+          }
+        },
+        {
+          "id": "claim_paid_members_fy2026",
+          "label": "Paid members at end of 2026",
+          "value": 84100000,
+          "display": "84.1 million paid members",
+          "source": {
+            "kind": "line",
+            "document": "10-K",
+            "line": 776,
+            "quote": "Paid members ... 84,100",
+            "period": "2026-08-30",
+            "definition": "Number of paid membership accounts (thousands)"
+          }
+        },
+        {
+          "id": "claim_membership_renewal_us_ca",
+          "label": "Membership renewal rate in U.S. and Canada",
+          "value": 92.3,
+          "display": "92.3%",
+          "source": {
+            "kind": "line",
+            "document": "10-K",
+            "line": 783,
+            "quote": "Our member renewal rate was 92.3% in the U.S. and Canada",
+            "period": "2026-08-30",
+            "definition": "Trailing membership renewal subscription rate"
+          }
+        },
+        {
+          "id": "claim_executive_members_fy2026",
+          "label": "Number of Executive members at end of 2026",
+          "value": 42300000,
+          "display": "42.3 million Executive members",
+          "source": {
+            "kind": "line",
+            "document": "10-K",
+            "line": 782,
+            "quote": "Executive members represented 42,300 ... of total paid members in 2026",
+            "period": "2026-08-30",
+            "definition": "Executive membership count (thousands)"
+          }
+        },
+        {
+          "id": "claim_executive_sales_penetration_fy2026",
+          "label": "Penetration of sales to Executive members in 2026",
+          "value": 75.2,
+          "display": "75.2% of worldwide net sales",
+          "source": {
+            "kind": "line",
+            "document": "10-K",
+            "line": 782,
+            "quote": "The penetration of sales to Executive members represented approximately 75.2% of worldwide net sales in 2026",
+            "period": "2026-08-30",
+            "definition": "Percentage of net sales attributable to Executive members"
+          }
+        },
+        {
+          "id": "claim_net_income_fy2026",
+          "label": "Net income for fiscal year 2026",
+          "value": 9.226,
+          "display": "$9.226 billion",
+          "source": {
+            "kind": "line",
+            "document": "EX-99.1",
+            "line": 49,
+            "quote": "Net income for the fiscal year was $9.226 billion",
+            "period": "2026-08-30",
+            "definition": "Net income for fiscal year 2026"
+          }
+        },
+        {
+          "id": "claim_ecommerce_sales_growth_fy2026",
+          "label": "Digitally-Enabled Sales Growth for Fiscal Year 2026",
+          "value": 20.9,
+          "display": "20.9%",
+          "source": {
+            "kind": "line",
+            "document": "EX-99.1",
+            "line": 18,
+            "quote": "Digitally-Enabled ... 20.9%",
+            "period": "2026-08-30",
+            "definition": "Comparable sales growth in digitally-enabled operations"
+          }
+        },
+        {
+          "id": "claim_gasoline_net_sales_percentage_fy2026",
+          "label": "Gasoline business net sales percentage",
+          "value": 11,
+          "display": "11% of total net sales",
+          "source": {
+            "kind": "line",
+            "document": "10-K",
+            "line": 764,
+            "quote": "Our gasoline business represented 11% of total net sales in 2026",
+            "period": "2026-08-30",
+            "definition": "Percentage contribution of gasoline to net sales"
+          }
+        },
+        {
+          "id": "claim_fy2026_cash_and_cash_equivalents",
+          "label": "Cash and cash equivalents at August 30, 2026",
+          "value": 20207,
+          "display": "$20,207 million",
+          "source": {
+            "kind": "line",
+            "document": "EX-99.1",
+            "line": 64,
+            "quote": "Cash and cash equivalents ... $20,207",
+            "period": "2026-08-30",
+            "definition": "Cash and cash equivalents at fiscal year end"
+          }
+        },
+        {
+          "id": "claim_fy2026_total_employees",
+          "label": "Total employees worldwide at end of 2026",
+          "value": 355000,
+          "display": "355,000 employees",
+          "source": {
+            "kind": "line",
+            "document": "10-K",
+            "line": 789,
+            "quote": "At the end of 2026, we employed 355,000 employees worldwide",
+            "period": "2026-08-30",
+            "definition": "Total headcount globally"
+          }
+        },
+        {
+          "id": "claim_Insight",
+          "label": "Insight",
+          "value": "Costco's gasoline business represented a significant 11% of total net sales in fiscal 2026, highlighting the importance of ancillary services to its overall revenue mix, a fact often less emphasized in headline financial summaries.",
+          "display": "Insight: Costco's gasoline business represented 11% of total net sales in 2026, underscoring the importance of ancillary services [10-K accession 0000909832-26-000093 L000764].",
+          "source": {
+            "kind": "line",
+            "document": "10-K",
+            "line": 764,
+            "quote": "Our gasoline business represented 11% of total net sales in 2026",
+            "period": "2026-08-30",
+            "definition": "Gasoline business contribution to net sales"
+          }
+        }
+      ]
+    },
+    "financial_output": {
+      "valuation_insights": "### Costco Wholesale Corporation (COST) Fiscal 2026 Financial Summary\n\n- **Annual Total Revenue:** $303.154 billion [C:revenue2026]\n- **Revenue Growth:** 10.14% year-over-year [C:revgrowth2026]\n- **Operating Income:** $11.685 billion with a margin of 3.85% [C:operatingincome2026, C:operatingmargin2026]\n- **Net Income Attributable to Costco:** $9.226 billion [C:netincome2026]\n- **GAAP Diluted EPS:** $20.76 per share [C:dilutedeps2026]\n- **Return on Average Equity:** 28.40% [C:roaequity2026]\n- **Debt to Equity Ratio:** 0.172 (including current portion of long-term debt) [C:debttoequity2026]\n- **Free Cash Flow:** $9.382 billion [C:freecashflow2026]\n- **Latest Quarterly Net Sales:** $93.9 billion, increasing 11.2% vs prior year quarter [C:qrevenue2026]\n- **Latest Quarterly Diluted EPS:** $6.75 per share [C:qdilutedeps2026]\n- **Price to Earnings (P/E) Ratio:** Approximately 43.58 based on price $904.7 / EPS $20.76 [C:pe2026]\n\n#### Peer Operating Margins (Total Revenue Consistent Basis)\n- Walmart (WMT): 4.18% [C:wmtope2026]\n- Target (TGT): 4.88% [C:tgtope2026]\n- BJ's Wholesale (BJ): 3.81% [C:bjope2026]\n\nCostco’s operating margin at 3.85% trails Walmart and Target but aligns closely with BJ’s Wholesale. The 10.1% revenue growth is solid amid peers.\n\n**Note:** Revenue is reported from the contract sales tag, which is assumed to represent total revenue including membership fees; quarterly net sales figures are separately reported and slightly lower, consistent with Costco’s disclosures (release line 10 and 39).\n\n**Insight:** Despite a non-recurring tariff refund boosting EPS in Q4, Costco sustained healthy operating income growth alongside accelerating cash flow and an improved leverage position, underscoring strong operational discipline and shareholder value creation beyond headline revenue gains. [Press Release, line 20]",
+      "claims": [
+        {
+          "id": "revenue2026",
+          "label": "Annual Total Revenue",
+          "value": 303154000000,
+          "display": "303.15B USD",
+          "source": {
+            "kind": "xbrl",
+            "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "period": "2026-08-30",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        },
+        {
+          "id": "revgrowth2026",
+          "label": "Revenue Growth Year-over-Year",
+          "value": 0.10143695387577888,
+          "display": "10.14%",
+          "source": {
+            "kind": "ratio",
+            "formula": "(a - b) / b",
+            "definition": "revenue growth percentage year-over-year",
+            "inputs": {
+              "a": {
+                "value": 303154000000,
+                "source": {
+                  "kind": "xbrl",
+                  "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+                  "period": "2026-08-30",
+                  "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+                  "end": "2026-08-30",
+                  "accession": "0000909832-26-000093"
+                }
+              },
+              "b": {
+                "value": 275235000000,
+                "source": {
+                  "kind": "xbrl",
+                  "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+                  "period": "2025-08-31",
+                  "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+                  "end": "2025-08-31",
+                  "accession": "0000909832-26-000093"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "operatingincome2026",
+          "label": "Operating Income",
+          "value": 11685000000,
+          "display": "11.685B USD",
+          "source": {
+            "kind": "xbrl",
+            "field": "OperatingIncomeLoss",
+            "period": "2026-08-30",
+            "tag": "OperatingIncomeLoss",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        },
+        {
+          "id": "operatingmargin2026",
+          "label": "Operating Margin",
+          "value": 0.03854476602650798,
+          "display": "3.85%",
+          "source": {
+            "kind": "ratio",
+            "formula": "Operating Income / Revenue",
+            "definition": "operating income as a fraction of total revenue",
+            "inputs": {
+              "Operating Income": {
+                "value": 11685000000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "OperatingIncomeLoss",
+                  "period": "2026-08-30",
+                  "end": "2026-08-30",
+                  "accession": "0000909832-26-000093"
+                }
+              },
+              "Revenue": {
+                "value": 303154000000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+                  "period": "2026-08-30",
+                  "end": "2026-08-30",
+                  "accession": "0000909832-26-000093"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "netincome2026",
+          "label": "Net Income Attributable to CostCo",
+          "value": 9226000000,
+          "display": "9.226B USD",
+          "source": {
+            "kind": "xbrl",
+            "field": "NetIncomeLoss",
+            "period": "2026-08-30",
+            "tag": "NetIncomeLoss",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        },
+        {
+          "id": "dilutedeps2026",
+          "label": "GAAP Diluted Earnings Per Share",
+          "value": 20.76,
+          "display": "20.76 USD/share",
+          "source": {
+            "kind": "xbrl",
+            "field": "EarningsPerShareDiluted",
+            "period": "2026-08-30",
+            "tag": "EarningsPerShareDiluted",
+            "end": "2026-08-30",
+            "accession": "0000909832-26-000093"
+          }
+        },
+        {
+          "id": "roaequity2026",
+          "label": "Return on Average Equity",
+          "value": 0.284021118413964,
+          "display": "28.40%",
+          "source": {
+            "kind": "ratio",
+            "formula": "Net Income / Average Stockholders' Equity",
+            "definition": "return on average equity for FY 2026",
+            "inputs": {
+              "Net Income": {
+                "value": 9226000000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "NetIncomeLoss",
+                  "period": "2026-08-30",
+                  "end": "2026-08-30",
+                  "accession": "0000909832-26-000093"
+                }
+              },
+              "Average Equity": {
+                "value": 32483500000,
+                "source": {
+                  "kind": "ratio",
+                  "formula": "(Equity_end_2026 + Equity_end_2025) / 2",
+                  "inputs": {
+                    "Equity_end_2026": {
+                      "value": 35803000000,
+                      "source": {
+                        "kind": "xbrl",
+                        "tag": "StockholdersEquity",
+                        "period": "2026-08-30",
+                        "end": "2026-08-30",
+                        "accession": "0000909832-26-000093"
+                      }
+                    },
+                    "Equity_end_2025": {
+                      "value": 29164000000,
+                      "source": {
+                        "kind": "xbrl",
+                        "tag": "StockholdersEquity",
+                        "period": "2025-08-31",
+                        "end": "2025-08-31",
+                        "accession": "0000909832-26-000093"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "debttoequity2026",
+          "label": "Debt to Equity Ratio (incl current portion)",
+          "value": 0.17210848252939698,
+          "display": "0.172",
+          "source": {
+            "kind": "ratio",
+            "formula": "(Long-Term Debt Noncurrent + Current Portion of Long-Term Debt) / Total Equity",
+            "definition": "Debt to equity ratio including current portion of long-term debt",
+            "inputs": {
+              "Long-Term Debt Noncurrent": {
+                "value": 3914000000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "LongTermDebtNoncurrent",
+                  "period": "2026-08-30",
+                  "end": "2026-08-30",
+                  "accession": "0000909832-26-000093"
+                }
+              },
+              "Long-Term Debt Current": {
+                "value": 2248000000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "LongTermDebtCurrent",
+                  "period": "2026-08-30",
+                  "end": "2026-08-30",
+                  "accession": "0000909832-26-000093"
+                }
+              },
+              "Total Equity": {
+                "value": 35803000000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "StockholdersEquity",
+                  "period": "2026-08-30",
+                  "end": "2026-08-30",
+                  "accession": "0000909832-26-000093"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "freecashflow2026",
+          "label": "Free Cash Flow",
+          "value": 9382000000,
+          "display": "9.382B USD",
+          "source": {
+            "kind": "ratio",
+            "formula": "Net Cash Provided by Operating Activities - Capital Expenditures",
+            "definition": "Free cash flow for FY 2026",
+            "inputs": {
+              "Net Cash Provided by Operating Activities": {
+                "value": 15817000000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "NetCashProvidedByUsedInOperatingActivities",
+                  "period": "2026-08-30",
+                  "end": "2026-08-30",
+                  "accession": "0000909832-26-000093"
+                }
+              },
+              "Capital Expenditures": {
+                "value": 6435000000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+                  "period": "2026-08-30",
+                  "end": "2026-08-30",
+                  "accession": "0000909832-26-000093"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "qrevenue2026",
+          "label": "Latest Quarterly Net Sales",
+          "value": 93873000000,
+          "display": "93.87B USD",
+          "source": {
+            "kind": "line",
+            "document": "10-K",
+            "line": 10,
+            "quote": "Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year.",
+            "period": "2026-08-30",
+            "definition": "Quarterly net sales from press release"
+          }
+        },
+        {
+          "id": "qdilutedeps2026",
+          "label": "Latest Quarterly GAAP Diluted EPS",
+          "value": 6.75,
+          "display": "6.75 USD/share",
+          "source": {
+            "kind": "line",
+            "document": "10-K",
+            "line": 20,
+            "quote": "Net income for the fourth quarter was $2.998 billion, $6.75 per diluted share, compared to $2.610 billion, $5.87 per diluted share, last year.",
+            "period": "2026-08-30",
+            "definition": "Quarterly diluted EPS from press release"
+          }
+        },
+        {
+          "id": "pe2026",
+          "label": "Price to Earnings (P/E) Ratio",
+          "value": 43.578998073217726,
+          "display": "43.58",
+          "source": {
+            "kind": "ratio",
+            "formula": "Price / GAAP Diluted EPS",
+            "definition": "Trailing P/E ratio using price of $904.7 and FY 2026 diluted EPS",
+            "inputs": {
+              "Price": {
+                "value": 904.7,
+                "source": {
+                  "kind": "user",
+                  "field": "price",
+                  "period": "2026-09-23"
+                }
+              },
+              "EPS": {
+                "value": 20.76,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "EarningsPerShareDiluted",
+                  "period": "2026-08-30",
+                  "end": "2026-08-30",
+                  "accession": "0000909832-26-000093"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "wmtope2026",
+          "label": "Walmart Operating Margin FY 2026",
+          "value": 0.041820733829433104,
+          "display": "4.18%",
+          "source": {
+            "kind": "ratio",
+            "formula": "Operating Income / Revenue",
+            "definition": "Walmart operating margin for FY 2026",
+            "inputs": {
+              "Operating Income": {
+                "value": 29825000000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "OperatingIncomeLoss",
+                  "period": "2026-01-31",
+                  "end": "2026-01-31",
+                  "accession": "0000104169-26-000055"
+                }
+              },
+              "Revenue": {
+                "value": 713163000000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "Revenues",
+                  "period": "2026-01-31",
+                  "end": "2026-01-31",
+                  "accession": "0000104169-26-000055"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "tgtope2026",
+          "label": "Target Operating Margin FY 2026",
+          "value": 0.048835655659477,
+          "display": "4.88%",
+          "source": {
+            "kind": "ratio",
+            "formula": "Operating Income / Revenue",
+            "definition": "Target operating margin for FY 2026",
+            "inputs": {
+              "Operating Income": {
+                "value": 5117000000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "OperatingIncomeLoss",
+                  "period": "2026-01-31",
+                  "end": "2026-01-31",
+                  "accession": "0000027419-26-000016"
+                }
+              },
+              "Revenue": {
+                "value": 104780000000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+                  "period": "2026-01-31",
+                  "end": "2026-01-31",
+                  "accession": "0000027419-26-000016"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": "bjope2026",
+          "label": "BJ's Wholesale Operating Margin FY 2026",
+          "value": 0.03805721080879146,
+          "display": "3.81%",
+          "source": {
+            "kind": "ratio",
+            "formula": "Operating Income / Revenue",
+            "definition": "BJ's Wholesale operating margin for FY 2026",
+            "inputs": {
+              "Operating Income": {
+                "value": 816604000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "OperatingIncomeLoss",
+                  "period": "2026-01-31",
+                  "end": "2026-01-31",
+                  "accession": "0001531152-26-000007"
+                }
+              },
+              "Revenue": {
+                "value": 21457274000,
+                "source": {
+                  "kind": "xbrl",
+                  "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+                  "period": "2026-01-31",
+                  "end": "2026-01-31",
+                  "accession": "0001531152-26-000007"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "expected_output": {
+    "investment_recommendation": "Markdown with an Insight: filing line",
+    "claims": "list of structured entries for Insight numeric facts only, NOT thesis judgments"
+  }
+}

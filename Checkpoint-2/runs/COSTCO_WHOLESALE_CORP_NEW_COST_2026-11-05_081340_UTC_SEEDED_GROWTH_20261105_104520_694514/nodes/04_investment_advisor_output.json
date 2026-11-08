@@ -1,0 +1,33 @@
+{
+  "investment_recommendation": "### Provisional Buy\nThe strong fiscal 2026 GAAP diluted EPS of $20.76 is the key supported figure driving this provisional Buy recommendation, indicative of solid profitability and shareholder earnings power [EX-99.1 line 52].\n\nInsight: Costco's material revenue concentration in California, representing 26% of U.S. net sales in 2026, indicates notable geographic risk exposure that should be monitored alongside growth strategies [10-K line L000837].",
+  "claims": [
+    {
+      "id": "claim_8",
+      "label": "Fiscal year 2026 diluted EPS",
+      "value": 20.76,
+      "display": "$20.76 diluted EPS",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 52,
+        "quote": "Diluted earnings per share was $20.76",
+        "period": "2026-08-30",
+        "definition": "Diluted earnings per share for fiscal year 2026"
+      }
+    },
+    {
+      "id": "claim_10",
+      "label": "Insight: California market sales concentration",
+      "value": null,
+      "display": "California operations comprised 26% of U.S. net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 837,
+        "quote": "Within the U.S., we are highly dependent on our California operations, which comprised 26% of U.S. net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Revenue concentration from California operations"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "investment_recommendation": "## Provisional Buy\nThe provisional Buy recommendation is supported primarily by the annual revenue growth of 10.14% for fiscal year 2026 [C:revenue_growth], evidencing strong top-line expansion which outweighs the moderate operating margin of 3.85%.",
+  "insight": "Insight: Costco shows a notable reduction in long-term debt excluding current portion from $5.713 billion at 2025-08-31 to $3.914 billion at 2026-08-30, a significant deleveraging event [C:long_term_debt_noncurrent] evidenced by the 10-K filing accession 0000909832-26-000093, L000123.",
+  "claims": [
+    {
+      "id": "long_term_debt_noncurrent",
+      "label": "Long-Term Debt, Noncurrent",
+      "value": 3914000000,
+      "display": "$3.914 billion",
+      "source": {
+        "kind": "xbrl",
+        "field": "LongTermDebtNoncurrent",
+        "period": "CY2026Q3I",
+        "tag": "LongTermDebtNoncurrent",
+        "end": "2026-08-30",
+        "accession": "0000909832-26-000093"
+      }
+    }
+  ]
+}

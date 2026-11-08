@@ -1,0 +1,17 @@
+{
+  "status": "REVISE",
+  "issues": [
+    {
+      "role": "Research Analyst",
+      "reason": "The Market Positioning and Growth Outlook section claims 'Apple achieved record revenues of $479 billion with a strong product segment driven by iPhone sales and a high-growth Services business which reached an all-time high' but does not explicitly provide sources for the figure $479 billion or specify sources for the product-specific growth mention in that section, violating the requirement for sources for every figure and claim. Additionally, geographic sales growth figures (+11%, +15%, +28%, +18%) are cited without direct source references."
+    },
+    {
+      "role": "Financial Analyst",
+      "reason": "Valuation Insights section states an operating margin of 33.0% and compares it with Microsoft (46.8%), Alphabet (32.0%), and Oracle (30.6%) margins without source attribution for Microsoft's, Alphabet's, and Oracle's margins, missing cross-company validation sources. The report's free cash flow figure is provided ($136.06B) appearing as a difference in cash from operations minus capex but lacks explicit source citation to the filing. Also, the calculation-based figures must precisely note the source of underlying data. The disclosure of quarterly data ($114.48B revenue, EPS $2.10) lacks explicit source references."
+    },
+    {
+      "role": "Investment Advisor",
+      "reason": "Although the Investment Recommendation section offers a 'Provisional Hold' and cites several quantitative metrics (operating margin, revenue growth, PE ratio), it fails to provide direct source references for these metrics within the section. Moreover, the Insight references an accumulated other comprehensive loss increase to $6.4B without linking this figure clearly to a source, which impedes verification and consistency across the report. The Insight does not sufficiently extend beyond restating a data point from the Overview or Valuation sections, lacking a distinctive strategic or investment interpretation."
+    }
+  ]
+}

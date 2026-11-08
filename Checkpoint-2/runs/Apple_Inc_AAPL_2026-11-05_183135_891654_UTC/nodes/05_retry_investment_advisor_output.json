@@ -1,0 +1,34 @@
+{
+  "investment_recommendation": "Provisional Buy based on fiscal 2026 Total Revenue of $478.834 billion [C:revenue_cy]",
+  "insight": "Insight: The 10-K FY2026 discloses intensified supply-demand imbalances affecting advanced semiconductors, memory, and storage components, generating cost and supply pressures that may challenge Apple’s gross margins and demand stability despite pricing actions, indicating a material operational risk factor to monitor beyond robust revenue growth [C:132175_insight] (10-K FY2026 L000123).",
+  "claims": [
+    {
+      "id": "revenue_cy",
+      "label": "Fiscal 2026 Total Revenue",
+      "value": 478834000000,
+      "display": "478.834 billion USD",
+      "source": {
+        "kind": "xbrl",
+        "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "period": "2026-09-26",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026"
+      }
+    },
+    {
+      "id": "132175_insight",
+      "label": "Insight claim on supply-demand imbalances",
+      "value": null,
+      "display": null,
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 1231,
+        "quote": "The Company is experiencing supply constraints and rising costs driven by industry-wide supply-demand imbalances for key components, including advanced semiconductors, memory and storage. The Company expects these trends to intensify for memory and storage components.",
+        "period": "2026-09-26",
+        "definition": "Supply-demand imbalances risk for Apple's future operations"
+      }
+    }
+  ]
+}

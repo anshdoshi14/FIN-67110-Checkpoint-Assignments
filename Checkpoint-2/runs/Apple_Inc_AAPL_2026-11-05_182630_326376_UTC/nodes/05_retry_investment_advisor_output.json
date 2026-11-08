@@ -1,0 +1,176 @@
+{
+  "investment_recommendation": "Hold provisional. The strongest supported metric is the 15.1% revenue growth from fiscal 2025 to 2026 [C:revenue_growth], which is positive but does not alone confirm undervaluation or excessive valuation when balanced against a high P/E of 38.4 [C:pe_ratio] and operating margin below a key peer Microsoft (33.0% vs. 46.8%) [C:operating_margin_peers]. Supply chain constraints and a decline in capital expenditures signal near-term risks that limit Buy conviction; however, free cash flow remains strong at $136.1 billion [C:free_cash_flow] and profitability solid, supporting retentive Hold rather than Sell.",
+  "claims": [
+    {
+      "id": "revenue_growth",
+      "label": "Revenue Growth",
+      "value": 0.1505979656911628,
+      "display": "15.1%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "Revenue growth from fiscal 2025 to 2026",
+        "inputs": {
+          "a": {
+            "value": "478834000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-09-26",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "b": {
+            "value": "416161000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2025-09-27",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2025-09-27",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "pe_ratio",
+      "label": "Price-to-Earnings Ratio",
+      "value": 38.37750556792873,
+      "display": "38.4",
+      "source": {
+        "kind": "ratio",
+        "formula": "Price / Diluted EPS",
+        "definition": "Trailing twelve-month P/E based on closing price and fiscal 2026 diluted EPS",
+        "inputs": {
+          "Price": {
+            "value": "344.63",
+            "source": {
+              "kind": "line",
+              "document": "EX-99.1",
+              "line": 1,
+              "quote": "Closing price of $344.63 on October 30, 2026.",
+              "period": "2026-10-30",
+              "definition": "Market closing price used for valuation"
+            }
+          },
+          "Diluted EPS": {
+            "value": "8.98",
+            "source": {
+              "kind": "xbrl",
+              "field": "EarningsPerShareDiluted",
+              "period": "2026-09-26",
+              "tag": "EarningsPerShareDiluted",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "operating_margin_peers",
+      "label": "Peer Operating Margins",
+      "value": {
+        "MSFT": 0.4678081840892722,
+        "GOOGL": 0.32032638592380025,
+        "ORCL": 0.30592217586887777
+      },
+      "display": "Microsoft 46.8%, Alphabet 32.0%, Oracle 30.6%",
+      "source": {
+        "kind": "ratio",
+        "formula": "Operating Income / Total Revenue for peer companies",
+        "definition": "Operating margins from peers' fiscal year revenues and operating incomes on contract revenue basis, fiscal 2026 or latest",
+        "inputs": {
+          "MSFT": {
+            "operating_income": 155237000000,
+            "revenue": 331839000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-06-30",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-06-30",
+              "accession": "0001193125-26-323660"
+            }
+          },
+          "GOOGL": {
+            "operating_income": 129039000000,
+            "revenue": 402836000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2025-12-31",
+              "tag": "OperatingIncomeLoss",
+              "end": "2025-12-31",
+              "accession": "0001652044-26-000018"
+            }
+          },
+          "ORCL": {
+            "operating_income": 20606000000,
+            "revenue": 67357000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-05-31",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-05-31",
+              "accession": "0001193125-26-277521"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "free_cash_flow",
+      "label": "Free Cash Flow",
+      "value": 136056000000,
+      "display": "$136.1 billion",
+      "source": {
+        "kind": "ratio",
+        "formula": "NetCashProvidedByOperatingActivities - PaymentsToAcquirePropertyPlantAndEquipment",
+        "definition": "Free cash flow for fiscal 2026",
+        "inputs": {
+          "Operating Cash Flow": {
+            "value": "145097000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "NetCashProvidedByUsedInOperatingActivities",
+              "period": "2026-09-26",
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "Capital Expenditures": {
+            "value": "9041000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period": "2026-09-26",
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "Insight",
+      "label": "Insight on Operating Income and Margin",
+      "value": "Apple's operating income for fiscal 2026 reached $158.1 billion, yielding an operating margin of 33.0%, which is solid though lower than Microsoft's 46.8% margin, highlighting opportunities and risks in competitive operating efficiency.",
+      "source": {
+        "kind": "xbrl",
+        "field": "OperatingIncomeLoss",
+        "period": "2026-09-26",
+        "tag": "OperatingIncomeLoss",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026"
+      }
+    }
+  ]
+}

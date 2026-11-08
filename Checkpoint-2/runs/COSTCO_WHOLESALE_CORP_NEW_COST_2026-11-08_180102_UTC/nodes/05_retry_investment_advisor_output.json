@@ -1,0 +1,90 @@
+{
+  "investment_recommendation": "Hold provisional: The deciding metric is the operating margin at 3.85% [C:operating_margin], which trails peer leaders Walmart and Target (4.18% and 4.88%, respectively), indicating only moderate operational efficiency and profit expansion potential. Combined with a high P/E ratio of 43.58 [C:price_to_earnings] and geographic concentration with 86% of net sales from U.S. and Canadian markets [C:us_canada_sales_percentage], this suggests valuation premium with exposure to market risks. Therefore, pending clearer margin improvement or risk mitigation in future filings, the evidence supports a Hold stance.",
+  "insight": "Insight: Costco’s financial and operational performance is highly dependent on its U.S. and Canadian markets, which comprised 86% of net sales and 83% of operating income in fiscal 2026, representing a significant geographic concentration risk [C:us_canada_sales_percentage], 10-K 0000909832-26-000093 L000123.",
+  "claims": [
+    {
+      "id": "operating_margin",
+      "label": "Operating margin",
+      "value": 0.03854476602650798,
+      "display": "3.85%",
+      "source": {
+        "kind": "ratio",
+        "formula": "a / b",
+        "definition": "Operating margin ratio on total revenue",
+        "inputs": {
+          "a": {
+            "value": "11685000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-08-30",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "b": {
+            "value": "303154000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "price_to_earnings",
+      "label": "Price to Earnings (P/E) ratio",
+      "value": 43.578998073217726,
+      "display": "43.58",
+      "source": {
+        "kind": "ratio",
+        "formula": "closing_price / annual_diluted_eps",
+        "definition": "Trailing Price to Earnings ratio calculated from closing price and annual diluted EPS",
+        "inputs": {
+          "closing_price": {
+            "value": "904.7",
+            "source": {
+              "kind": "line",
+              "document": "Market data",
+              "line": 0,
+              "quote": "Closing stock price as of 2026-09-23",
+              "period": "2026-09-23",
+              "definition": "Market closing stock price"
+            }
+          },
+          "annual_diluted_eps": {
+            "value": "20.76",
+            "source": {
+              "kind": "xbrl",
+              "field": "EarningsPerShareDiluted",
+              "period": "2026-08-30",
+              "tag": "EarningsPerShareDiluted",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "us_canada_sales_percentage",
+      "label": "Percentage of net sales from U.S. and Canadian operations",
+      "value": 86,
+      "display": "U.S. and Canadian operations comprised 86% of net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 837,
+        "quote": "Our financial and operational performance is highly dependent on our U.S. and Canadian operations, which comprised 86% and 83% of net sales and operating income in 2026.",
+        "period": "2026-08-30",
+        "definition": "Percentage of net sales from U.S. and Canadian operations"
+      }
+    }
+  ]
+}

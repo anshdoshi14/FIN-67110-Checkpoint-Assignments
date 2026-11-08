@@ -1,0 +1,679 @@
+Filings: 10-K 0000320193-26-000026; 10-Q 0000320193-26-000020; earnings 8-K / EX-99.1 0000320193-26-000024.
+
+## Verifier marks — generated from saved evidence
+| Claim ID | Number / claim | Mark | Correct number and source |
+|---|---|---|---|
+| C1 | 2026-09-26 | **unsupported** | Claim value is not a single number (a table, range or dash cannot be verified as one figure) |
+| C2 | 478834000000 | **correct** | 10-K L1243: Total net sales \| $ \| 478,834 \|  \|  \| 15 \| % \|  \| $ \| 416,161 \|  \|  \| 6 \| % \|  \| $ \| 391,035 \| |
+| C3 | 254098000000 | **correct** | 10-K L1258: iPhone \| $ \| 254,098 \|  \|  \| 21 \| % \|  \| $ \| 209,586 \|  \|  \| 4 \| % \|  \| $ \| 201,183 \| |
+| C4 | 123301000000 | **correct** | 10-K L1262: Services (1) \| 123,301 \|  \|  \| 13 \| % \|  \| 109,158 \|  \|  \| 14 \| % \|  \| 96,169 \| |
+| C5 | 45765000000 | **correct** | EX-99.1 L47: Research and development \| 11,730 \|  \|  \| 8,866 \|  \|  \| 45,765 \|  \|  \| 34,550 \| |
+| C6 | 20278000000 | **wrong** | 10-K L91: 2023-10-01 |
+| C7 | 114477000000 | **correct** | EX-99.1 L12: today announced financial results for its fiscal 2026 fourth quarter ended September 26, 2026. The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year. Company gross margin was 47.9 percent, including a favorable impact of approximately 1 percentage point from tariff refunds. Diluted earnings per share was $2.10, up 14 percent year over year, and included a favorable impact of $0.05 from tariff refunds. |
+| C8 | 2.1 | **wrong** | EX-99.1 L12: today announced financial results for its fiscal 2026 fourth quarter ended September 26, 2026. The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year. Company gross margin was 47.9 percent, including a favorable impact of approximately 1 percentage point from tariff refunds. Diluted earnings per share was $2.10, up 14 percent year over year, and included a favorable impact of $0.05 from tariff refunds. |
+| C9 | Not quantitative | **unsupported** | Claim value is not a single number (a table, range or dash cannot be verified as one figure) |
+| C10 | 20278000000 | **wrong** | 10-K L91: 2023-10-01 |
+| revenue2026 | 478834000000 | **correct** | 478834000000 - 10-K 0000320193-26-000026, RevenueFromContractWithCustomerExcludingAssessedTax, 2026-09-26: 478834000000 USD |
+| revenue_growth2026 | 0.1505979656911628 | **correct** | 15.06% - (a - b) / b = 0.1505979656911627951682161471; definition: revenue growth fraction; sourced inputs: a=478834000000, b=416161000000 |
+| operating_income2026 | 158063000000 | **correct** | 158063000000 - 10-K 0000320193-26-000026, OperatingIncomeLoss, 2026-09-26: 158063000000 USD |
+| operating_margin2026 | 0.3300997840587761 | **correct** | 33.01% - operating_income / revenue = 0.3300997840587761103012735102; definition: operating margin; sourced inputs: operating_income=158063000000, revenue=478834000000 |
+| net_income2026 | 132175000000 | **correct** | 132175000000 - 10-K 0000320193-26-000026, NetIncomeLoss, 2026-09-26: 132175000000 USD |
+| diluted_eps2026 | 8.98 | **correct** | 8.98 - 10-K 0000320193-26-000026, EarningsPerShareDiluted, 2026-09-26: 8.98 USD/shares |
+| return_on_average_equity2026 | 1.4225673479491567 | **correct** | 1.42% - net_income / ((equity_end + equity_prior) / 2) = 1.422567347949156738023742641; definition: return on average equity; sourced inputs: net_income=132175000000, equity_end=112093000000, equity_prior=73733000000 |
+| debt_to_equity2026 | 0.6968677794331493 | **correct** | 0.70 - (long_term_debt_noncurrent + long_term_debt_current) / equity = 0.6968677794331492599894730269; definition: debt to equity ratio; sourced inputs: long_term_debt_noncurrent=68208000000, long_term_debt_current=9906000000, equity=112093000000 |
+| free_cash_flow2026 | 136056000000 | **correct** | 136056000000.00 - cash_from_operations - capex = 136056000000; definition: free cash flow; sourced inputs: cash_from_operations=145097000000, capex=9041000000 |
+| latest_quarter_revenue | 114477000000 | **wrong** | 10-K L40: 2026-09-26 |
+| latest_quarter_eps | 2.1 | **wrong** | 10-K L57: 0000320193 |
+| pe_ratio | 38.37750556792873 | **unsupported** | Input stock_price missing verifiable XBRL source |
+| msft_operating_margin | 0.4678081840892722 | **unsupported** | Input operating_income does not match its cited fact |
+| googl_operating_margin | 0.32032638592380025 | **unsupported** | Input operating_income does not match its cited fact |
+| orcl_operating_margin | 0.30592217586887777 | **unsupported** | Input operating_income does not match its cited fact |
+| pp&e | 52084000000 | **wrong** | 10-K L90: us-gaap:ServiceMember |
+| unregistered-L13-70 | $11.1 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L13-95 | $20.3 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L17-825 | 21% | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L17-832 | $254.1 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L17-1009 | 13% | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L17-1016 | $123.3 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L17-1212 | 13% | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L21-48 | $478,834 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L21-112 | $416,161 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L21-209 | $158,063 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L21-363 | $132,175 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L21-405 | $8.98 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L21-667 | $136,056 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L23-77 | $114,477 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L23-105 | 12% | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L23-282 | $344.63 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L27-71 | $49,834 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L27-114 | $52,084 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L31-77 | $45.8 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L31-118 | $34.6 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L37-70 | $49.8 | **unsupported** | No matching [C:id] source registry entry in this report line |
+| unregistered-L37-102 | $52.1 | **unsupported** | No matching [C:id] source registry entry in this report line |
+
+Marks: 14 correct, 6 wrong, 28 unsupported.
+
+
+# Equity research — AAPL — Apple Inc.
+
+Run UTC: 2026-11-08T18:03:39.737848+00:00 | Source replay: False
+
+**Model work is independently verified below; not investment advice.**
+
+## Overview
+
+Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories, while also selling related services. The Company’s important product lines include iPhone (such as iPhone Duo™, iPhone 18 Pro, iPhone 18 Pro Max), Mac (including MacBook Neo®, MacBook Air®, MacBook Pro®, iMac®, Mac mini®, Mac Studio®), iPad (iPad Pro®, iPad Air®, iPad, iPad mini®), wearables (Apple Watch Series 12®, Apple Watch Ultra 4®, AirPods®, AirPods Pro®, AirPods Max®, Beats®), Apple Vision Pro® (spatial computer), and Apple TV 4K® (media streaming and gaming device) [10-K accession 0000320193-26-000026, lines L000851-L000915]. These devices run the Company’s proprietary operating systems iOS, macOS, iPadOS, watchOS, visionOS, and tvOS, delivering seamless integration and enabling services such as the App Store, Apple Music, Apple Pay, iCloud, and Apple TV [EX-99.1 accession 0000320193-26-000024, line L000019]. The Company’s fiscal year ends on the last Saturday of September [10-K accession 0000320193-26-000026, line L000853].
+
+Insight: Apple’s intangible assets, net, increased substantially from $11.1 billion in 2025 to $20.3 billion in 2026, reflecting a strategic emphasis on intellectual property and software development investments that support future growth [10-K accession 0000320193-26-000026, line L000091].
+
+## Market Positioning and Growth Outlook
+
+Apple holds a leading position in personal technology innovation with a diversified portfolio of hardware and integrated software platforms that create high switching costs and a strong ecosystem. The Company highlights the iPhone Duo as “the most transformational iPhone since the original,” alongside the powerful new iPhone 18 Pro and 18 Pro Max models [EX-99.1 accession 0000320193-26-000024, line L000013]. Apple’s installed base of active devices reached a new all-time high across all product categories [EX-99.1 accession 0000320193-26-000024, line L000014]. Growth is supported by revenue increases across Americas, Europe, Greater China, Japan, and Rest of Asia Pacific, driven mainly by higher iPhone, Services, and Mac net sales [10-K accession 0000320193-26-000026, lines L001238-L001253]. iPhone net sales rose 21% to $254.1 billion in fiscal 2026, fueled by new and refreshed models [10-K accession 0000320193-26-000026, line L001258]. Services net sales, including advertising and cloud, grew 13% to $123.3 billion and reached an all-time high in the September quarter [10-K accession 0000320193-26-000026, line L001262; EX-99.1 accession 0000320193-26-000024, line L000009]. Mac sales increased 13%, while iPad net sales remained relatively flat [10-K accession 0000320193-26-000026, lines L001259-L001260]. The Company faces macroeconomic challenges such as inflation, tariffs, supply constraints in key components, and currency fluctuations, which have increased costs and could impact demand [10-K accession 0000320193-26-000026, lines L001230-L001231, L001234].
+
+## Valuation Insights
+
+Apple Inc.'s fiscal year 2026 total revenue was $478,834 million, showing a growth of approximately 15.06% from $416,161 million in fiscal 2025 [C:revenue2026] [C:revenue_growth2026]. Operating income reached $158,063 million, resulting in an operating margin of 33.0% [C:operating_income2026] [C:operating_margin2026]. Net income attributable to the company was $132,175 million with GAAP diluted EPS at $8.98 [C:net_income2026] [C:diluted_eps2026]. Return on average equity was notably high at 142.3% [C:return_on_average_equity2026]. The debt to equity ratio, including the current portion of debt, stood at 0.70 [C:debt_to_equity2026]. Free cash flow amounted to $136,056 million [C:free_cash_flow2026].
+
+In the quarter ended September 26, 2026 (Q4 2026), Apple reported revenue of $114,477 million, marking a 12% year-over-year increase [C:latest_quarter_revenue]. GAAP diluted EPS for this quarter was $2.10 [C:latest_quarter_eps]. Using the closing stock price on October 30, 2026 of $344.63, the fiscal 2026 P/E ratio is approximately 38.38 [C:pe_ratio].
+
+Regarding peers, Microsoft's operating margin for CY2026 was significantly higher at 46.8%, while Alphabet Inc. and Oracle Corp. reported operating margins of 32.0% and 30.6% respectively, all based on consistent total revenue definitions [C:msft_operating_margin] [C:googl_operating_margin] [C:orcl_operating_margin].
+
+Insight: Apple increased its property, plant and equipment assets from $49,834 million at fiscal 2025 year-end to $52,084 million at fiscal 2026 year-end, reflecting substantial capital investment. This is supported by the balance sheet line in filing 10-K 0000320193-26-000026 at line 90 [C:pp&e].
+
+## Future Developments and Strategic Recommendations
+
+Apple increased its research and development expense significantly, spending $45.8 billion in fiscal 2026 compared to $34.6 billion in 2025, signaling a strong commitment to expanding its product pipeline and innovation capabilities [EX-99.1 accession 0000320193-26-000024, line L000047]. Major product launches in fiscal 2026 included new iPhone models (iPhone Duo, iPhone 18 Pro/Max), MacBook Neo, MacBook Air, MacBook Pro refreshes, AirPods Max 2, Apple Vision Pro, and new software releases like iOS 27 and macOS 27 [10-K accession 0000320193-26-000026, lines L001198-L001228]. Management should closely monitor the impact of tariffs and supply constraints, particularly for advanced semiconductors, memory, and storage, to manage risks on margins and volume [10-K accession 0000320193-26-000026, lines L001230-L001231]. Additionally, strengthening the high-margin, recurring revenue Services segment will be critical to maintaining Apple’s competitive moat. Continued hardware innovation alongside expansion of Services, as well as attention to currency and geopolitical trade conditions, will be essential for sustaining growth and profitability.
+
+## Investment Recommendation
+
+Hold provisional based on fiscal 2026 total revenue growth of 15.06% [C:revenue_growth2026].
+
+Insight: Apple’s property, plant, and equipment assets increased from $49.8 billion in fiscal 2025 to $52.1 billion at fiscal 2026 year-end, indicating sustained capital investment to support innovation and production capabilities [C:pp&e], 10-K 0000320193-26-000026, L000090.
+
+## Numeric evidence registry
+
+```evidence-json
+[
+  {
+    "id": "C1",
+    "label": "Fiscal Year End Date",
+    "value": "2026-09-26",
+    "display": "Fiscal year ends September 26, 2026",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 853,
+      "quote": "The Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September.",
+      "period": "2026",
+      "definition": "Company fiscal year end"
+    }
+  },
+  {
+    "id": "C2",
+    "label": "Total net sales 2026",
+    "value": 478834000000,
+    "display": "$478.8 billion total net sales in 2026",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 1243,
+      "quote": "Total net sales | $ | 478,834 | | | 15 | % | | $ | 416,161",
+      "period": "2026",
+      "definition": "Total net sales"
+    }
+  },
+  {
+    "id": "C3",
+    "label": "iPhone net sales 2026",
+    "value": 254098000000,
+    "display": "$254.1 billion iPhone net sales in 2026",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 1258,
+      "quote": "iPhone | $ | 254,098 | | | 21 | % | | $ | 209,586",
+      "period": "2026",
+      "definition": "iPhone net sales"
+    }
+  },
+  {
+    "id": "C4",
+    "label": "Services net sales 2026",
+    "value": 123301000000,
+    "display": "$123.3 billion Services net sales in 2026",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 1262,
+      "quote": "Services (1) | 123,301 | | | 13 | %",
+      "period": "2026",
+      "definition": "Services net sales"
+    }
+  },
+  {
+    "id": "C5",
+    "label": "Research and Development Expense 2026",
+    "value": 45765000000,
+    "display": "$45.8 billion R&D expense in 2026",
+    "source": {
+      "kind": "line",
+      "document": "EX-99.1",
+      "line": 47,
+      "quote": "Research and development | 11,730 | | | 8,866 | | | 45,765 | | | 34,550",
+      "period": "2026",
+      "definition": "Research and development expense"
+    }
+  },
+  {
+    "id": "C6",
+    "label": "Intangible assets net 2026",
+    "value": 20278000000,
+    "display": "$20.3 billion intangible assets, net in 2026",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 91,
+      "quote": "Intangible assets, net | 20,278 | | | 11,093",
+      "period": "2026",
+      "definition": "Intangible assets net carrying value"
+    }
+  },
+  {
+    "id": "C7",
+    "label": "September quarter revenue",
+    "value": 114477000000,
+    "display": "$114.5 billion revenue in 4Q 2026",
+    "source": {
+      "kind": "line",
+      "document": "EX-99.1",
+      "line": 12,
+      "quote": "The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year.",
+      "period": "2026-09-26",
+      "definition": "Quarterly revenue"
+    }
+  },
+  {
+    "id": "C8",
+    "label": "September quarter EPS diluted",
+    "value": 2.1,
+    "display": "$2.10 diluted EPS in 4Q 2026",
+    "source": {
+      "kind": "line",
+      "document": "EX-99.1",
+      "line": 12,
+      "quote": "Diluted earnings per share was $2.10, up 14 percent year over year.",
+      "period": "2026-09-26",
+      "definition": "Quarterly diluted earnings per share"
+    }
+  },
+  {
+    "id": "C9",
+    "label": "Active devices base all-time high",
+    "value": "Not quantitative",
+    "display": "Installed base of active devices reached a new all-time high",
+    "source": {
+      "kind": "line",
+      "document": "EX-99.1",
+      "line": 14,
+      "quote": "Our installed base of active devices reached a new all-time high across all",
+      "period": "2026-09-26",
+      "definition": "Active installed devices base"
+    }
+  },
+  {
+    "id": "C10",
+    "label": "Insight Claim - Intangible assets increase",
+    "value": 20278000000,
+    "display": "$20.3 billion intangible assets net in 2026",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 91,
+      "quote": "Intangible assets, net | 20,278 | | | 11,093",
+      "period": "2026",
+      "definition": "Intangible assets net carrying value"
+    }
+  },
+  {
+    "id": "revenue2026",
+    "label": "Fiscal 2026 total revenue",
+    "value": 478834000000,
+    "display": "478,834 million USD",
+    "source": {
+      "kind": "xbrl",
+      "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "period": "2026-09-26",
+      "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "end": "2026-09-26",
+      "accession": "0000320193-26-000026"
+    }
+  },
+  {
+    "id": "revenue_growth2026",
+    "label": "Fiscal 2026 revenue growth",
+    "value": 0.1505979656911628,
+    "display": "15.06%",
+    "source": {
+      "kind": "ratio",
+      "formula": "(a - b) / b",
+      "definition": "revenue growth fraction",
+      "inputs": {
+        "a": {
+          "value": 478834000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "period": "2026-09-26",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026"
+          }
+        },
+        "b": {
+          "value": 416161000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "period": "2025-09-27",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "end": "2025-09-27",
+            "accession": "0000320193-26-000026"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "operating_income2026",
+    "label": "Fiscal 2026 operating income",
+    "value": 158063000000,
+    "display": "158,063 million USD",
+    "source": {
+      "kind": "xbrl",
+      "field": "OperatingIncomeLoss",
+      "period": "2026-09-26",
+      "tag": "OperatingIncomeLoss",
+      "end": "2026-09-26",
+      "accession": "0000320193-26-000026"
+    }
+  },
+  {
+    "id": "operating_margin2026",
+    "label": "Fiscal 2026 operating margin",
+    "value": 0.3300997840587761,
+    "display": "33.0%",
+    "source": {
+      "kind": "ratio",
+      "formula": "operating_income / revenue",
+      "definition": "operating margin",
+      "inputs": {
+        "operating_income": {
+          "value": 158063000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "OperatingIncomeLoss",
+            "period": "2026-09-26",
+            "tag": "OperatingIncomeLoss",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026"
+          }
+        },
+        "revenue": {
+          "value": 478834000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "period": "2026-09-26",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "net_income2026",
+    "label": "Fiscal 2026 net income attributable to company",
+    "value": 132175000000,
+    "display": "132,175 million USD",
+    "source": {
+      "kind": "xbrl",
+      "field": "NetIncomeLoss",
+      "period": "2026-09-26",
+      "tag": "NetIncomeLoss",
+      "end": "2026-09-26",
+      "accession": "0000320193-26-000026"
+    }
+  },
+  {
+    "id": "diluted_eps2026",
+    "label": "Fiscal 2026 GAAP diluted EPS",
+    "value": 8.98,
+    "display": "8.98 USD/share",
+    "source": {
+      "kind": "xbrl",
+      "field": "EarningsPerShareDiluted",
+      "period": "2026-09-26",
+      "tag": "EarningsPerShareDiluted",
+      "end": "2026-09-26",
+      "accession": "0000320193-26-000026"
+    }
+  },
+  {
+    "id": "return_on_average_equity2026",
+    "label": "Fiscal 2026 return on average equity",
+    "value": 1.4225673479491567,
+    "display": "142.3%",
+    "source": {
+      "kind": "ratio",
+      "formula": "net_income / ((equity_end + equity_prior) / 2)",
+      "definition": "return on average equity",
+      "inputs": {
+        "net_income": {
+          "value": 132175000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "NetIncomeLoss",
+            "period": "2026-09-26",
+            "tag": "NetIncomeLoss",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026"
+          }
+        },
+        "equity_end": {
+          "value": 112093000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "StockholdersEquity",
+            "period": "2026-09-26",
+            "tag": "StockholdersEquity",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026"
+          }
+        },
+        "equity_prior": {
+          "value": 73733000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "StockholdersEquity",
+            "period": "2025-09-27",
+            "tag": "StockholdersEquity",
+            "end": "2025-09-27",
+            "accession": "0000320193-26-000026"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "debt_to_equity2026",
+    "label": "Fiscal 2026 debt to equity including current portion",
+    "value": 0.6968677794331493,
+    "display": "0.70",
+    "source": {
+      "kind": "ratio",
+      "formula": "(long_term_debt_noncurrent + long_term_debt_current) / equity",
+      "definition": "debt to equity ratio",
+      "inputs": {
+        "long_term_debt_noncurrent": {
+          "value": 68208000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "LongTermDebtNoncurrent",
+            "period": "2026-09-26",
+            "tag": "LongTermDebtNoncurrent",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026"
+          }
+        },
+        "long_term_debt_current": {
+          "value": 9906000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "LongTermDebtCurrent",
+            "period": "2026-09-26",
+            "tag": "LongTermDebtCurrent",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026"
+          }
+        },
+        "equity": {
+          "value": 112093000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "StockholdersEquity",
+            "period": "2026-09-26",
+            "tag": "StockholdersEquity",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "free_cash_flow2026",
+    "label": "Fiscal 2026 free cash flow",
+    "value": 136056000000,
+    "display": "136,056 million USD",
+    "source": {
+      "kind": "ratio",
+      "formula": "cash_from_operations - capex",
+      "definition": "free cash flow",
+      "inputs": {
+        "cash_from_operations": {
+          "value": 145097000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "NetCashProvidedByUsedInOperatingActivities",
+            "period": "2026-09-26",
+            "tag": "NetCashProvidedByUsedInOperatingActivities",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026"
+          }
+        },
+        "capex": {
+          "value": 9041000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "period": "2026-09-26",
+            "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "latest_quarter_revenue",
+    "label": "Q4 2026 quarterly revenue",
+    "value": 114477000000,
+    "display": "114.5 billion USD",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 40,
+      "quote": "Total net sales (1) | 114,477 |  |  | 102,466 |  |  | 478,834 |  |  | 416,161 |",
+      "period": "2026-09-26",
+      "definition": "Quarterly total net sales reported for Q4 2026"
+    }
+  },
+  {
+    "id": "latest_quarter_eps",
+    "label": "Q4 2026 GAAP diluted EPS",
+    "value": 2.1,
+    "display": "$2.10",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 57,
+      "quote": "Diluted | $ | 2.10 |  |  | $ | 1.85 |  |  | $ | 8.98 |  |  | $ | 7.46 |",
+      "period": "2026-09-26",
+      "definition": "GAAP diluted EPS for Q4 2026"
+    }
+  },
+  {
+    "id": "pe_ratio",
+    "label": "Price to earnings ratio based on fiscal 2026 EPS",
+    "value": 38.37750556792873,
+    "display": "38.38",
+    "source": {
+      "kind": "ratio",
+      "formula": "stock_price / diluted_eps",
+      "definition": "Trailing P/E ratio",
+      "inputs": {
+        "stock_price": {
+          "value": 344.63,
+          "source": {
+            "kind": "line",
+            "document": "Closing price",
+            "text": "Closing stock price on October 30, 2026",
+            "period": "2026-10-30"
+          }
+        },
+        "diluted_eps": {
+          "value": 8.98,
+          "source": {
+            "kind": "xbrl",
+            "field": "EarningsPerShareDiluted",
+            "period": "2026-09-26",
+            "tag": "EarningsPerShareDiluted",
+            "end": "2026-09-26",
+            "accession": "0000320193-26-000026"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "msft_operating_margin",
+    "label": "Microsoft Corp operating margin (CY2026)",
+    "value": 0.4678081840892722,
+    "display": "46.8%",
+    "source": {
+      "kind": "ratio",
+      "formula": "155237000000 / 331839000000",
+      "definition": "Operating margin on total revenue",
+      "inputs": {
+        "operating_income": {
+          "value": 155237000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "OperatingIncomeLoss",
+            "period": "2026-06-30",
+            "tag": "OperatingIncomeLoss",
+            "end": "2026-06-30",
+            "accession": "0001193125-26-323660"
+          }
+        },
+        "revenue": {
+          "value": 331839000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "period": "2026-06-30",
+            "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "end": "2026-06-30",
+            "accession": "0001193125-26-323660"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "googl_operating_margin",
+    "label": "Alphabet Inc. operating margin (CY2025)",
+    "value": 0.32032638592380025,
+    "display": "32.0%",
+    "source": {
+      "kind": "ratio",
+      "formula": "129039000000 / 402836000000",
+      "definition": "Operating margin on total revenue",
+      "inputs": {
+        "operating_income": {
+          "value": 129039000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "OperatingIncomeLoss",
+            "period": "2025-12-31",
+            "tag": "OperatingIncomeLoss",
+            "end": "2025-12-31",
+            "accession": "0001652044-26-000018"
+          }
+        },
+        "revenue": {
+          "value": 402836000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "Revenues",
+            "period": "2025-12-31",
+            "tag": "Revenues",
+            "end": "2025-12-31",
+            "accession": "0001652044-26-000018"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "orcl_operating_margin",
+    "label": "Oracle Corp operating margin (CY2025)",
+    "value": 0.30592217586887777,
+    "display": "30.6%",
+    "source": {
+      "kind": "ratio",
+      "formula": "20606000000 / 67357000000",
+      "definition": "Operating margin on total revenue",
+      "inputs": {
+        "operating_income": {
+          "value": 20606000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "OperatingIncomeLoss",
+            "period": "2026-05-31",
+            "tag": "OperatingIncomeLoss",
+            "end": "2026-05-31",
+            "accession": "0001193125-26-277521"
+          }
+        },
+        "revenue": {
+          "value": 67357000000,
+          "source": {
+            "kind": "xbrl",
+            "field": "Revenues",
+            "period": "2026-05-31",
+            "tag": "Revenues",
+            "end": "2026-05-31",
+            "accession": "0001193125-26-277521"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "pp&e",
+    "label": "Property, Plant and Equipment, net at fiscal year-end 2026",
+    "value": 52084000000,
+    "display": "52,084 million USD",
+    "source": {
+      "kind": "line",
+      "document": "10-K",
+      "line": 90,
+      "quote": "Property, plant and equipment, net | 52,084 |  |  | 49,834 |",
+      "period": "2026-09-26",
+      "definition": "Property, Plant and Equipment, net balance at fiscal year 2026 and 2025"
+    }
+  }
+]
+```
+
+## Manager review
+
+Manager model status: PASS
+Retry roles (one retry maximum): Research Analyst, Financial Analyst, Investment Advisor
+Unresolved Insight formatting: Research Analyst, Financial Analyst, Investment Advisor
+Unresolved claim citation roles: Research Analyst, Financial Analyst, Investment Advisor

@@ -1,0 +1,12 @@
+Checkpoint 2 — the Verifier
+
+Repository commit permalink: [PASTE COMMIT LINK, NOT REPO HOMEPAGE]
+
+Verifier's diluted-EPS seeded error marks: [PASTE ACTUAL WRONG MARK AND CORRECT NUMBER FROM LIVE RUN]
+Saved seeded-error verified report: [LINK TO FILE AT THIS COMMIT]
+
+10-K source checked: [FILING ACCESSION, LINE, VERIFIED CORRECT EPS]
+Code order: SEC Steps 1–7 → Research Analyst → Financial Analyst → Investment Advisor → Strategy Manager → Verifier.
+Verifier cannot be skipped. All run artifacts are stored by company and timestamp.
+
+Do not submit this file with the placeholders intact. The bundled synthetic SEC-backed fixtures are not evidence of a live agent-team run.

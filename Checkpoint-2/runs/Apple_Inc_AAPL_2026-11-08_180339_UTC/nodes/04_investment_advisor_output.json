@@ -1,0 +1,20 @@
+{
+  "investment_recommendation": "Hold provisional based on fiscal 2026 total revenue growth of 15.06% [C:revenue_growth2026].",
+  "insight": "Insight: Apple’s property, plant, and equipment assets increased to $52.1 billion at fiscal 2026 year-end, indicating sustained capital investment to support innovation and production capabilities [C:pp&e], 10-K 0000320193-26-000026, L000090.",
+  "claims": [
+    {
+      "id": "pp&e",
+      "label": "Property, Plant and Equipment, net at fiscal year-end 2026",
+      "value": 52084000000,
+      "display": "52,084 million USD",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 90,
+        "quote": "Property, plant and equipment, net | 52,084 |  |  | 49,834 |",
+        "period": "2026-09-26",
+        "definition": "Property, Plant and Equipment, net balance at fiscal year 2026 and 2025"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "REVISE",
+  "issues": [
+    {
+      "role": "Research Analyst",
+      "reason": "Overview section states total warehouses as 939 with geographic distribution including 647 in the United States and Puerto Rico, matching the first release paragraph. However, no explicit source reference line numbers or accession citation beyond general 10-K lines L000733-L000787; this origin citation should be consistently applied to all enumerated geographic breakdown figures and e-commerce site presence to confirm direct sourcing for all geography data points."
+    },
+    {
+      "role": "Financial Analyst",
+      "reason": "Valuation Insights mention a net sales figure of $303.15 billion for fiscal 2026, attributed as total revenue [C:revenue], but the 10-K and press release state fiscal year net sales as $297.247 billion and total revenue as $303.15 billion, which should be explicitly distinguished. The revenue growth claim of 10.1% uses total revenue figures, but the press release's net sales growth is 10.1% to $297.2 billion (not $303.15B). The section should clarify revenue versus net sales distinction explicitly. Also, operating margin of 3.85% is derived using total revenue but not indicated as such, possibly misleading. Additionally, the Insight on reducing long-term debt refers to line 85 but the financials show combined current and noncurrent long-term debt ($3.91B + $2.25B) higher than quoted earlier long-term debt figure without clearly separating current portion; the financial analyst should clarify total debt composition. Lastly, the fourth quarter revenue and EPS quotes in Valuation Insights exactly match the first release paragraph and financials, which is good."
+    },
+    {
+      "role": "Investment Advisor",
+      "reason": "The Investment Recommendation references diluted EPS of $20.76 and a P/E of 43.58 consistent with data. However, the recommendation states 'Hold provisional' without explicit explanation or comparison to peer multiples or valuation band context given the high P/E and margin. The recommendation lacks a dedicated Insight phrasing as requested, and the mixed signals comment is underdeveloped. It should include an explicit Investment Advisor Insight distinct from repeated data values."
+    }
+  ]
+}

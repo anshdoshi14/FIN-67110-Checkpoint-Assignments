@@ -1,0 +1,160 @@
+{
+  "investment_recommendation": "### Provisional Buy\nThe fiscal 2026 GAAP diluted EPS of $20.76 supported by a solid net income of $9.226 billion and a strong return on average equity of 28.40% underpin this provisional Buy recommendation, reflecting robust profitability and shareholder value generation [C:diluted_eps_current]. However, the relatively high price-to-earnings ratio of 43.58 indicates a premium valuation requiring cautious monitoring. Additionally, geographic concentration risk is material, with 26% of U.S. net sales stemming from California, potentially exposing Costco to regional economic fluctuations; diversification efforts and strong membership renewal rates serve as mitigating factors [C:claim_12]. Investors should weigh these strengths and risks in their decisions.\n\nInsight: Costco's notable reduction in long-term non-current debt from $5.713 billion to $3.914 billion during fiscal 2026, alongside positive free cash flow of $9.382 billion, signals improved financial flexibility supporting growth initiatives and risk management amid an expanding international warehouse footprint [L:10-K line 21].",
+  "claims": [
+    {
+      "id": "diluted_eps_current",
+      "label": "Fiscal 2026 GAAP Diluted EPS",
+      "value": 20.76,
+      "display": "$20.76",
+      "source": {
+        "kind": "xbrl",
+        "field": "EarningsPerShareDiluted",
+        "period": "2026-08-30",
+        "tag": "EarningsPerShareDiluted",
+        "end": "2026-08-30",
+        "accession": "0000909832-26-000093"
+      }
+    },
+    {
+      "id": "net_income_current",
+      "label": "Fiscal 2026 Net Income Attributable to Company",
+      "value": 9226000000,
+      "display": "$9.226 billion",
+      "source": {
+        "kind": "xbrl",
+        "field": "NetIncomeLoss",
+        "period": "2026-08-30",
+        "tag": "NetIncomeLoss",
+        "end": "2026-08-30",
+        "accession": "0000909832-26-000093"
+      }
+    },
+    {
+      "id": "return_on_average_equity",
+      "label": "Return on Average Equity",
+      "value": 0.284,
+      "display": "28.40%",
+      "source": {
+        "kind": "ratio",
+        "formula": "NetIncome / ((Equity_current + Equity_prior) / 2)",
+        "definition": "Return on average equity for fiscal year 2026",
+        "inputs": {
+          "NetIncome": {
+            "value": "9226000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "NetIncomeLoss",
+              "period": "2026-08-30",
+              "tag": "NetIncomeLoss",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "Equity_current": {
+            "value": "35803000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "StockholdersEquity",
+              "period": "2026-08-30",
+              "tag": "StockholdersEquity",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "Equity_prior": {
+            "value": "29164000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "StockholdersEquity",
+              "period": "2025-08-31",
+              "tag": "StockholdersEquity",
+              "end": "2025-08-31",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "price_to_earnings",
+      "label": "Price to Earnings Ratio (P/E)",
+      "value": 43.58,
+      "display": "43.58",
+      "source": {
+        "kind": "ratio",
+        "formula": "StockPrice / DilutedEPS",
+        "definition": "Price to earnings calculated using stock price of $904.7 on 2026-09-23 divided by fiscal 2026 diluted EPS $20.76",
+        "inputs": {
+          "StockPrice": {
+            "value": "904.7",
+            "source": {
+              "kind": "provided",
+              "field": "price",
+              "date": "2026-09-23"
+            }
+          },
+          "DilutedEPS": {
+            "value": "20.76",
+            "source": {
+              "kind": "xbrl",
+              "field": "EarningsPerShareDiluted",
+              "period": "2026-08-30",
+              "tag": "EarningsPerShareDiluted",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "claim_12",
+      "label": "California market sales concentration",
+      "value": null,
+      "display": "California operations comprised 26% of U.S. net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 837,
+        "quote": "Within the U.S., we are highly dependent on our California operations, which comprised 26% of U.S. net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Revenue concentration from California operations"
+      }
+    },
+    {
+      "id": "free_cash_flow",
+      "label": "Fiscal 2026 Free Cash Flow",
+      "value": 9382000000,
+      "display": "$9.382 billion",
+      "source": {
+        "kind": "ratio",
+        "formula": "NetCashProvidedByOperatingActivities - PaymentsToAcquirePPE",
+        "definition": "Free cash flow computed as operating cash flow minus capital expenditures for fiscal 2026",
+        "inputs": {
+          "NetCashProvidedByOperatingActivities": {
+            "value": "15817000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "NetCashProvidedByUsedInOperatingActivities",
+              "period": "2026-08-30",
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "PaymentsToAcquirePPE": {
+            "value": "6435000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period": "2026-08-30",
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

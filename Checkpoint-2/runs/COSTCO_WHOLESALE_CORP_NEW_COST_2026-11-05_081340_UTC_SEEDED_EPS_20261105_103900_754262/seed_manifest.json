@@ -1,0 +1,8 @@
+{
+  "seed_type": "eps",
+  "source": "runs\\COSTCO_WHOLESALE_CORP_NEW_COST_2026-11-05_081340_UTC",
+  "claim_id": "diluted_eps_current",
+  "original": "$20.76",
+  "seeded": "$21.76",
+  "note": "Original source run untouched"
+}

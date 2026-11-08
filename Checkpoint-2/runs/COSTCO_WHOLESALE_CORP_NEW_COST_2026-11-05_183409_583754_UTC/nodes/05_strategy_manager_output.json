@@ -1,0 +1,17 @@
+{
+  "status": "REVISE",
+  "issues": [
+    {
+      "role": "Research Analyst",
+      "reason": "Insight line in Overview section is properly supported but the section misses an explicit statement for the exact membership renewal rates (92.3% U.S. and Canada, 89.8% worldwide) which are only present in 'Market Positioning and Growth Outlook'. Maintaining explicit core claim statements under each heading is essential."
+    },
+    {
+      "role": "Financial Analyst",
+      "reason": "Valuation Insights section has coherent numerical data, correctly sourced, and matches computed ratios, but it repeats the same Insight line (about total equity increase) verbatim in the Investment Recommendation without adding new analysis. The Insight lines should be independent and analytical."
+    },
+    {
+      "role": "Investment Advisor",
+      "reason": "Investment Recommendation section Insight duplicates the Financial Analyst Insight on equity increase and ROE. It lacks a distinct, forward-looking recommendation rationale or risk/benefit assessment beyond the operating margin comparison. The recommendation Insight should provide an independent investment viewpoint."
+    }
+  ]
+}

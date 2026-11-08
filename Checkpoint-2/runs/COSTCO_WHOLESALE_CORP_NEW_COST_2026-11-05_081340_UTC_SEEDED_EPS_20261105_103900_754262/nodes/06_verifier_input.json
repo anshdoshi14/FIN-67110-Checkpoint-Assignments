@@ -1,0 +1,11 @@
+{
+  "report_path": "runs\\COSTCO_WHOLESALE_CORP_NEW_COST_2026-11-05_081340_UTC\\report.md",
+  "facts_path": "runs\\COSTCO_WHOLESALE_CORP_NEW_COST_2026-11-05_081340_UTC\\facts.json",
+  "filing_text_files": [
+    "10-K.txt",
+    "10-Q.txt",
+    "earnings_8-K.txt",
+    "release_EX-99.1.txt"
+  ],
+  "note": "Verifier reads report + facts + saved filing text only"
+}

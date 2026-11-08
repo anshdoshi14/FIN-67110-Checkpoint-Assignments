@@ -1,0 +1,506 @@
+{
+  "counts": {
+    "correct": 7,
+    "wrong": 8,
+    "unsupported": 38
+  },
+  "marks": [
+    {
+      "id": "registry-size",
+      "claim": "Registry coverage",
+      "reported": 29,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "Parsed embedded evidence-json",
+      "reason": ""
+    },
+    {
+      "id": "C1",
+      "claim": "Number of warehouses worldwide",
+      "reported": 939,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L734: Costco Wholesale Corporation and its subsidiaries (Costco or the Company) began operations in 1983, in Seattle, Washington. We are principally engaged in the operation of membership warehouses in the United States (U.S.) and Puerto Rico, Canada, Mexico, Japan, the United Kingdom (U.K.), Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland, and New Zealand. Costco operated 939, 914, and 890 warehouses worldwide at August 30, 2026, August 31, 2025, and September 1, 2024. The Company operates e-commerce sites in the U.S., Canada, Mexico, the U.K., Korea, Taiwan, Japan, Australia, and China. Our common stock trades on the NASDAQ Global Select Market, under the symbol “COST.”",
+      "reason": "The filing line explicitly states that Costco operated 939 warehouses worldwide at August 30, 2026, matching the claimed value, period, and definition."
+    },
+    {
+      "id": "C2",
+      "claim": "Membership fee in the U.S.",
+      "reported": 65,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L773: Our members may utilize their memberships at all of our warehouses and e-commerce sites. Our annual fee for memberships is $65 in the U.S., varies in other countries and includes a free household card.",
+      "reason": "The line explicitly states that the annual fee for memberships is $65 in the U.S., directly supporting the claimed value and definition."
+    },
+    {
+      "id": "C3",
+      "claim": "Total paid members (thousands)",
+      "reported": 84100,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L776: Paid members 1 | 84,100 |  |  | 81,000 |  |  | 76,200 |",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "C4",
+      "claim": "Executive members count (thousands)",
+      "reported": 42300,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L782: Paid members, in most countries, are eligible to upgrade to an Executive membership for an additional annual fee. These members earn an Executive reward, generally 2% on qualified purchases, subject to an annual maximum value, redeemable at Costco warehouses. Executive members represented 42,300, 38,700, and 35,400 of total paid members in 2026, 2025, and 2024. The penetration of sales to Executive members represented approximately 75.2% of worldwide net sales in 2026.",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "C5",
+      "claim": "Percentage of worldwide net sales from Executive members",
+      "reported": 75.2,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L782: Paid members, in most countries, are eligible to upgrade to an Executive membership for an additional annual fee. These members earn an Executive reward, generally 2% on qualified purchases, subject to an annual maximum value, redeemable at Costco warehouses. Executive members represented 42,300, 38,700, and 35,400 of total paid members in 2026, 2025, and 2024. The penetration of sales to Executive members represented approximately 75.2% of worldwide net sales in 2026.",
+      "reason": "The line explicitly states that the penetration of sales to Executive members represented approximately 75.2% of worldwide net sales in 2026, which directly supports the claimed value and period."
+    },
+    {
+      "id": "C6",
+      "claim": "Member renewal rate U.S. and Canada",
+      "reported": 92.3,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L783: Our member renewal rate was 92.3% in the U.S. and Canada and 89.8% worldwide at the end of 2026. This rate is a trailing calculation that captures renewals during the period seven to eighteen months prior to the reporting date. Memberships that have an expiration date in the six months prior to the end of our reporting period are excluded from this calculation, regardless of whether or not they have been renewed. Although most members renew prior to expiration, the vast majority of those who renew late do so within six months of expiration. The timing of renewal after expiration is impacted by a variety of factors, such as warehouse openings and promotional activity.",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "C7",
+      "claim": "Number of employees worldwide",
+      "reported": 355000,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L789: At the end of 2026, we employed 355,000 employees worldwide. Approximately 95% are employed in our membership warehouses and distribution channels. Around 5% are represented by unions. We also utilize seasonal employees.",
+      "reason": "The line explicitly states that at the end of 2026, the company employed 355,000 employees worldwide, matching the claimed value and period for total global employee headcount as of fiscal year-end."
+    },
+    {
+      "id": "C8",
+      "claim": "Net sales fiscal year 2026 (in billions USD)",
+      "reported": 297.2,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "EX-99.1 L10: Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.",
+      "reason": "The filing line explicitly states that net sales for the fiscal year increased 10.1 percent to $297.2 billion, matching the claimed value and period exactly."
+    },
+    {
+      "id": "C9",
+      "claim": "Net sales Q4 2026 (in billions USD)",
+      "reported": 93.9,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "EX-99.1 L10: Net sales for the quarter increased 11.2 percent, to $93.9 billion, from $84.4 billion last year. Net sales for the fiscal year increased 10.1 percent, to $297.2 billion, from $269.9 billion last year.",
+      "reason": "The line explicitly states net sales for the quarter (Q4) increased to $93.9 billion in the period corresponding to 2026-08-30, matching the claimed value and period."
+    },
+    {
+      "id": "C10",
+      "claim": "Comparable sales growth total company FY 2026",
+      "reported": 8.4,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "EX-99.1 L17: Total Company | 9.4% |  | 6.7% |  | 8.4% |  | 6.6%",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "C11",
+      "claim": "Digitally-enabled sales growth FY 2026",
+      "reported": 20.9,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "EX-99.1 L18: Digitally-Enabled | 19.5% |  | 19.8% |  | 20.9% |  | 20.7%",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "C12",
+      "claim": "Gasoline business share of net sales",
+      "reported": 11,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "10-K L764: Warehouse ancillary operate primarily within, next to or near our warehouses, encouraging more frequent shopping. The number of warehouses with gas stations varies significantly by country. We operated 774 gas stations at the end of 2026. Our gasoline business represented 11% of total net sales in 2026.",
+      "reason": "The filing line explicitly states 'Our gasoline business represented 11% of total net sales in 2026,' which directly supports the claimed value and period."
+    },
+    {
+      "id": "C13",
+      "claim": "Insight: Geographic concentration risk",
+      "reported": null,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Unverifiable source or arithmetic: [<class 'decimal.ConversionSyntax'>]"
+    },
+    {
+      "id": "revenue_2026",
+      "claim": "Fiscal 2026 Total Revenue",
+      "reported": 303154000000,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Source tag/period/accession not found in saved facts"
+    },
+    {
+      "id": "revenue_prior_2025",
+      "claim": "Fiscal 2025 Total Revenue",
+      "reported": 275235000000,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Source tag/period/accession not found in saved facts"
+    },
+    {
+      "id": "revenue_growth_2026",
+      "claim": "Revenue Growth",
+      "reported": 0.10143695387577888,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input a does not match its cited fact"
+    },
+    {
+      "id": "operating_income_2026",
+      "claim": "Fiscal 2026 Operating Income",
+      "reported": 11685000000,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Source tag/period/accession not found in saved facts"
+    },
+    {
+      "id": "operating_margin_2026",
+      "claim": "Fiscal 2026 Operating Margin",
+      "reported": 0.03854476602650798,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input OperatingIncome does not match its cited fact"
+    },
+    {
+      "id": "net_income_2026",
+      "claim": "Fiscal 2026 Net Income Attributable to Company",
+      "reported": 9226000000,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Source tag/period/accession not found in saved facts"
+    },
+    {
+      "id": "diluted_eps_2026",
+      "claim": "Fiscal 2026 GAAP Diluted EPS",
+      "reported": 20.76,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Source tag/period/accession not found in saved facts"
+    },
+    {
+      "id": "return_on_equity_2026",
+      "claim": "Return on Average Equity",
+      "reported": 0.284021118413964,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input NetIncome does not match its cited fact"
+    },
+    {
+      "id": "debt_to_equity_2026",
+      "claim": "Debt to Equity Ratio Including Current Portion",
+      "reported": 0.17210848252939698,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input LongTermDebtNoncurrent does not match its cited fact"
+    },
+    {
+      "id": "free_cash_flow_2026",
+      "claim": "Free Cash Flow Fiscal 2026",
+      "reported": 9382000000,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input NetCashProvidedByUsedInOperatingActivities does not match its cited fact"
+    },
+    {
+      "id": "quarter_revenue_growth_4Q",
+      "claim": "Fourth Quarter Net Sales Growth",
+      "reported": 0.112,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L10: 0.005",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "quarter_revenue_4Q",
+      "claim": "Fourth Quarter Total Revenue",
+      "reported": 95723000000,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L39: 26",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "quarter_diluted_eps_4Q",
+      "claim": "GAAP Diluted EPS Fourth Quarter",
+      "reported": 6.75,
+      "status": "wrong",
+      "corrected": null,
+      "evidence": "10-K L20: 900,000,000",
+      "reason": "Claimed source quotation does not match the saved filing line"
+    },
+    {
+      "id": "pe_ratio_2026",
+      "claim": "Price-to-Earnings Ratio Fiscal 2026",
+      "reported": 43.578998073217726,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Input Price missing verifiable XBRL source"
+    },
+    {
+      "id": "peer_margins",
+      "claim": "Peer Operating Margins",
+      "reported": {
+        "WMT": 0.041820733829433104,
+        "TGT": 0.048835655659477,
+        "BJ": 0.03805721080879146
+      },
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Structured source must be an object, not a list or scalar"
+    },
+    {
+      "id": "Insight",
+      "claim": "Insight: Geographic concentration risk",
+      "reported": null,
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "Unverifiable source or arithmetic: [<class 'decimal.ConversionSyntax'>]"
+    },
+    {
+      "id": "unregistered-L11-1169",
+      "claim": "Unregistered numeric statement L11",
+      "reported": "$65",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L11-1382",
+      "claim": "Unregistered numeric statement L11",
+      "reported": "75.2%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L11-1570",
+      "claim": "Unregistered numeric statement L11",
+      "reported": "5%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-659",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "11.2%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-680",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "10.1%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-700",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "$93.9",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-718",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "$297.2",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-829",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "8.2%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-847",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "7.8%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-867",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "9.8%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-999",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "20.9%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-1151",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "11%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-1311",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "86%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L15-1364",
+      "claim": "Unregistered numeric statement L15",
+      "reported": "26%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L23-92",
+      "claim": "Unregistered numeric statement L23",
+      "reported": "$8.099",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L24-60",
+      "claim": "Unregistered numeric statement L24",
+      "reported": "$18.21",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L28-46",
+      "claim": "Unregistered numeric statement L28",
+      "reported": "$93.9",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L28-65",
+      "claim": "Unregistered numeric statement L28",
+      "reported": "$84.4",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L29-112",
+      "claim": "Unregistered numeric statement L29",
+      "reported": "$0.15",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L30-32",
+      "claim": "Unregistered numeric statement L30",
+      "reported": "$904.70",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L30-80",
+      "claim": "Unregistered numeric statement L30",
+      "reported": "$20.76",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L35-110",
+      "claim": "Unregistered numeric statement L35",
+      "reported": "$75",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L35-133",
+      "claim": "Unregistered numeric statement L35",
+      "reported": "$2.248",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    },
+    {
+      "id": "unregistered-L41-317",
+      "claim": "Unregistered numeric statement L41",
+      "reported": "92.3%",
+      "status": "unsupported",
+      "corrected": null,
+      "evidence": "",
+      "reason": "No matching [C:id] source registry entry in this report line"
+    }
+  ],
+  "semantic_model_requested": true,
+  "filing_sources": [
+    "10-K",
+    "10-Q",
+    "earnings_8-K",
+    "release_EX-99.1"
+  ]
+}

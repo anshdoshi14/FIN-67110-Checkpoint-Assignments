@@ -1,0 +1,167 @@
+{
+  "overview": "Costco Wholesale Corporation operates membership warehouses and e-commerce sites globally, focusing on offering low prices on a limited selection of nationally-branded and private-label products to drive high sales volumes and rapid inventory turnover. As of August 30, 2026, the Company operated 939 warehouses worldwide, with an average warehouse size of approximately 148,000 square feet, designed for efficient selling space and inventory control [10-K accession 0000909832-26-000093 L000733-L000742]. Costco purchases most merchandise directly from suppliers and uses cross-docking depots to consolidate shipments before distribution, thereby lowering distribution costs [10-K accession 0000909832-26-000093 L000738-L000741]. The core merchandise selection per warehouse is limited to less than 4,000 SKUs to focus on fast-selling items [10-K accession 0000909832-26-000093 L000744]. Membership at the end of fiscal 2026 was 84.1 million paid members worldwide, with a renewal rate of 92.3% in the U.S. and Canada [10-K accession 0000909832-26-000093 L000776-L000783]. Ancillary services including gasoline stations, which operated 774 stations, represented 11% of total net sales [10-K accession 0000909832-26-000093 L000764].",
+  "market_positioning_and_growth_outlook": "Costco positions itself as a low-price, high-volume retailer with a strong membership model emphasizing operational efficiencies achieved through a streamlined warehouse format and controlled SKU assortment. The limited SKU approach, carrying less than 4,000 active SKUs per warehouse, supports cost control and rapid inventory turnover [10-K accession 0000909832-26-000093 L000744]. The membership model contributes significantly to revenue and profitability, with Executive members representing 42.3 million of the 84.1 million paid members and accounting for approximately 75.2% of worldwide net sales in fiscal 2026 [10-K accession 0000909832-26-000093 L000782]. The Company continues geographic expansion in multiple countries and expansion of its e-commerce platform, which achieved a digitally-enabled comparable sales growth of 20.9% in fiscal 2026 [10-K accession 0000909832-26-000093 L000734, L000767; EX-99.1 accession 0000909832-26-000084 L000018]. Risks to growth include competition for suitable warehouse locations, local regulatory and community restrictions, and sales cannibalization from new openings [10-K accession 0000909832-26-000093 L000839-L000841].",
+  "future_developments_and_strategic_recommendations": "Costco should continue disciplined expansion of warehouses, particularly targeting underpenetrated and new markets while managing risks of cannibalization and local regulatory challenges through selective site choices and community engagement [10-K accession 0000909832-26-000093 L000839-L000841]. Investments should also focus on scaling e-commerce assortment and fulfillment capabilities to capitalize on strong digital sales growth [EX-99.1 accession 0000909832-26-000084 L000018]. Enhancements in member benefits may sustain high renewal rates and grow Executive membership penetration [10-K accession 0000909832-26-000093 L000783]. Expanding private-label offerings with high value and maintaining cost efficiencies in supply chain and operations will help protect margins and competitive pricing [10-K accession 0000909832-26-000093 L000768]. Ongoing monitoring of regulatory environments is critical for smooth operational continuity and strategic growth [10-K accession 0000909832-26-000093 L000839].",
+  "claims": [
+    {
+      "id": "claim_warehouses_fy2026",
+      "label": "Number of warehouses at August 30, 2026",
+      "value": 939,
+      "display": "939 warehouses",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 734,
+        "quote": "Costco operated 939...warehouses worldwide at August 30, 2026",
+        "period": "2026-08-30",
+        "definition": "Total global warehouses operated"
+      }
+    },
+    {
+      "id": "claim_avg_warehouse_space",
+      "label": "Average warehouse space",
+      "value": "148,000 sq ft",
+      "display": "Approximately 148,000 square feet",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 742,
+        "quote": "Our average warehouse space is approximately 148,000 square feet",
+        "period": "2026-08-30",
+        "definition": "Average warehouse physical size"
+      }
+    },
+    {
+      "id": "claim_merchandise_direct_purchase_cross_docking",
+      "label": "Merchandise purchasing and distribution",
+      "value": "Direct purchase and cross-docking depots",
+      "display": "Most merchandise is bought directly from suppliers and routed through cross-docking consolidation points",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 738,
+        "quote": "We buy most of our merchandise directly from suppliers and route it to cross-docking consolidation points",
+        "period": "2026-08-30",
+        "definition": "Procurement and logistics model"
+      }
+    },
+    {
+      "id": "claim_sku_count",
+      "label": "SKU count per warehouse",
+      "value": "<4000 SKUs",
+      "display": "Less than 4,000 active stock keeping units per warehouse",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 744,
+        "quote": "We carry less than 4,000 active stock keeping units per warehouse",
+        "period": "2026-08-30",
+        "definition": "SKU assortment per warehouse"
+      }
+    },
+    {
+      "id": "claim_paid_members_fy2026",
+      "label": "Paid members at end of 2026",
+      "value": 84100000,
+      "display": "84.1 million paid members",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 776,
+        "quote": "Paid members 84,100",
+        "period": "2026-08-30",
+        "definition": "Number of paid membership accounts (thousands)"
+      }
+    },
+    {
+      "id": "claim_membership_renewal_us_ca",
+      "label": "Membership renewal rate in U.S. and Canada",
+      "value": 92.3,
+      "display": "92.3%",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 783,
+        "quote": "Our member renewal rate was 92.3% in the U.S. and Canada",
+        "period": "2026-08-30",
+        "definition": "Trailing membership renewal subscription rate"
+      }
+    },
+    {
+      "id": "claim_executive_members_fy2026",
+      "label": "Executive members at end of 2026",
+      "value": 42300000,
+      "display": "42.3 million Executive members",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 782,
+        "quote": "Executive members represented 42,300 ... of total paid members in 2026",
+        "period": "2026-08-30",
+        "definition": "Executive membership count (thousands)"
+      }
+    },
+    {
+      "id": "claim_executive_sales_penetration_fy2026",
+      "label": "Penetration of sales to Executive members in 2026",
+      "value": 75.2,
+      "display": "75.2% of worldwide net sales",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 782,
+        "quote": "The penetration of sales to Executive members represented approximately 75.2% of worldwide net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Percentage of net sales attributable to Executive members"
+      }
+    },
+    {
+      "id": "claim_digitally_enabled_sales_growth_fy2026",
+      "label": "Digitally-enabled comparable sales growth for fiscal year 2026",
+      "value": 20.9,
+      "display": "20.9% growth",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 18,
+        "quote": "Digitally-Enabled ... 20.9%",
+        "period": "2026-08-30",
+        "definition": "Comparable sales growth in digitally-enabled operations"
+      }
+    },
+    {
+      "id": "claim_gasoline_net_sales_percentage_fy2026",
+      "label": "Gasoline business net sales percentage",
+      "value": 11,
+      "display": "11% of total net sales",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "Our gasoline business represented 11% of total net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Percentage contribution of gasoline to net sales"
+      }
+    },
+    {
+      "id": "claim_Insight",
+      "label": "Insight",
+      "value": "Costco's gasoline business represented a significant 11% of total net sales in fiscal 2026, highlighting the importance of ancillary services to its overall revenue mix, a fact often less emphasized in headline financial summaries.",
+      "display": "Insight: Costco's gasoline business represented 11% of total net sales in 2026, underscoring the importance of ancillary services [10-K accession 0000909832-26-000093 L000764].",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "Our gasoline business represented 11% of total net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Gasoline business contribution to net sales"
+      }
+    }
+  ],
+  "identity": "I bring a Research Analyst perspective focused on parsing regulatory filings and earnings releases for factual business insights and competitive assessment. My role emphasizes synthesizing detailed disclosures into clear, data-backed equity research content. My aim is to deliver actionable intelligence by identifying both explicit statements and their implications.",
+  "reading_approach": "I prioritize the 10-K business description and Management's Discussion and Analysis (MD&A) sections to extract operational details, strategy, and risks. Earnings releases provide recent financial performance and growth metrics. Information without explicit source citation, unverifiable numerical claims, or overly generic statements is treated as noise.",
+  "data_given": "My analysis relies exclusively on the provided 10-K excerpts, earnings release, and related filing lines from acquisition L000123. I do not incorporate external data, analyst reports, or market information.",
+  "scored_criteria": "Research priorities include business model clarity, competitive positioning, growth prospects, operational risks, and financial metrics. Claims must be substantiated by direct quotes and appropriate filing citations rather than assumed standards.",
+  "what_changes_my_view": "A subsequent 10-K or earnings release showing a substantive decline in membership renewal rates, substantial warehouse location losses due to regulatory challenges, or sharply slower digital sales growth would cause me to revise my positive outlook and recommendations.",
+  "output_and_insight": "The owned sections are overview, market_positioning_and_growth_outlook, and future_developments_and_strategic_recommendations. I am required to produce one independently worded Insight line referencing a filing data point not featured in the earnings release headline paragraph."
+}

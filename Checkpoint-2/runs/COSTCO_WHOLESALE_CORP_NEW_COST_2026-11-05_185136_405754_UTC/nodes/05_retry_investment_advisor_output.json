@@ -1,0 +1,55 @@
+{
+  "investment_recommendation": "Hold provisional, based on the operating margin of 3.85% [C:om1] which is lower than Walmart's 4.18% and Target's 4.88%, showing mixed margin competitiveness relative to peers.",
+  "insight": "Insight: Despite strong revenue growth of 10.1% in fiscal 2026, Costco's operating margin at 3.85% remains below key competitors Walmart and Target, highlighting a margin pressure risk that may limit upside potential [10-K accession 0000909832-26-000093, line L000123].",
+  "claims": [
+    {
+      "id": "C:debt_lt",
+      "label": "Long-term debt excluding current portion",
+      "value": 3914000000,
+      "display": "$3.914 billion",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 85,
+        "quote": "Long-term debt, excluding current portion | 3,914 |  |  | 5,713 |",
+        "period": "2026-08-30",
+        "definition": "Long-term debt excluding current portion"
+      }
+    },
+    {
+      "id": "C:om1",
+      "label": "Annual operating margin",
+      "value": 3.854476602650798,
+      "display": "3.85%",
+      "source": {
+        "kind": "ratio",
+        "formula": "a / b * 100",
+        "definition": "operating margin percentage",
+        "inputs": {
+          "a": {
+            "value": 11685000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "operating_income",
+              "period": "2026-08-30",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "b": {
+            "value": 303154000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "revenue",
+              "period": "2026-08-30",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

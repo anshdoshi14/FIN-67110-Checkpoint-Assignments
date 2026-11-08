@@ -1,0 +1,50 @@
+{
+  "revenue": [
+    {
+      "line": 37,
+      "text": "Net sales: |  |  |  |  |  |  |"
+    },
+    {
+      "line": 40,
+      "text": "Total net sales (1) | 114,477 |  |  | 102,466 |  |  | 478,834 |  |  | 416,161 |"
+    },
+    {
+      "line": 61,
+      "text": "(1) Net sales by reportable segment: |  |  |  |  |  |  |"
+    },
+    {
+      "line": 67,
+      "text": "Total net sales | $ | 114,477 |  |  | $ | 102,466 |  |  | $ | 478,834 |  |  | $ | 416,161 |"
+    },
+    {
+      "line": 68,
+      "text": "(1) Net sales by category: |  |  |  |  |  |  |"
+    },
+    {
+      "line": 74,
+      "text": "Total net sales | $ | 114,477 |  |  | $ | 102,466 |  |  | $ | 478,834 |  |  | $ | 416,161 |"
+    }
+  ],
+  "diluted_eps": [
+    {
+      "line": 12,
+      "text": "today announced financial results for its fiscal 2026 fourth quarter ended September 26, 2026. The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year. Company gross margin was 47.9 percent, including a favorable impact of approximately 1 percentage point from tariff refunds. Diluted earnings per share was $2.10, up 14 percent year over year, and included a favorable impact of $0.05 from tariff refunds."
+    },
+    {
+      "line": 55,
+      "text": "Earnings per share: |  |  |  |  |  |  |"
+    },
+    {
+      "line": 57,
+      "text": "Diluted | $ | 2.10 |  |  | $ | 1.85 |  |  | $ | 8.98 |  |  | $ | 7.46 |"
+    },
+    {
+      "line": 58,
+      "text": "Shares used in computing earnings per share: |  |  |  |  |  |  |"
+    },
+    {
+      "line": 60,
+      "text": "Diluted | 14,630,318 |  |  | 14,863,609 |  |  | 14,720,306 |  |  | 15,004,697 |"
+    }
+  ]
+}

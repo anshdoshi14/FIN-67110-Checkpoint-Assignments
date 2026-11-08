@@ -1,0 +1,46 @@
+{
+  "revenue": [
+    {
+      "line": 177,
+      "text": "Total revenue |  | 92,279 |  | 77,673"
+    },
+    {
+      "line": 328,
+      "text": "Total revenue |  | $92,279 |  | $77,673"
+    }
+  ],
+  "diluted_eps": [
+    {
+      "line": 17,
+      "text": "Diluted earnings per share was $4.92 and increased 32% on a GAAP basis, and was $4.89 and increased 18% (up 19% in constant currency) on a non-GAAP basis"
+    },
+    {
+      "line": 21,
+      "text": "“We delivered a strong start to the fiscal year with Microsoft Cloud revenue of $63.9 billion, with growth accelerating to 30% (up 31% in constant currency) year-over-year,” said Amy Hood, executive vice president and chief financial officer of Microsoft. “Results exceeded expectations across revenue, operating income, and earnings per share.”"
+    },
+    {
+      "line": 27,
+      "text": "Diluted earnings per share | $4.92 | $(0.03) | $4.89 |  | $3.72 | $0.41 | $4.13 |  | 32% | 33% | $(0.44) | 18% | 19%"
+    },
+    {
+      "line": 70,
+      "text": "In the first quarter of fiscal year 2027, net income and diluted earnings per share were impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted earnings per share of $207 million and $0.03, respectively. In the first quarter of fiscal year 2026, net income and diluted earnings per share were impacted by net losses from investments in OpenAI, which resulted in a decrease in net income and diluted earnings per share of $3.1 billion and $0.41, respectively."
+    },
+    {
+      "line": 81,
+      "text": "Diluted earnings per share | $4.92 | $4.89 |  | $3.72 | $4.13 |  | 32% | 18% | $(0.03) | 33% | 19%"
+    },
+    {
+      "line": 191,
+      "text": "Earnings per share: |  |  |  |"
+    },
+    {
+      "line": 193,
+      "text": "Diluted |  | $4.92 |  | $3.72"
+    },
+    {
+      "line": 196,
+      "text": "Diluted |  | 7,446 |  | 7,466"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "overview": "Costco Wholesale Corporation operates membership warehouses and e-commerce sites globally, emphasizing high sales volumes and rapid inventory turnover through offering low prices on a limited selection of nationally-branded and private-label products. Costco operates 939 warehouses worldwide as of August 30, 2026, with average warehouse space of approximately 148,000 square feet, focused on efficient use of selling space, inventory control, and cost reduction. The company purchases most merchandise directly from suppliers and uses cross-docking depots to efficiently distribute goods. The business model relies heavily on membership fees and a limited selection of fast-selling SKUs, offering less than 4,000 SKUs per warehouse. Core merchandise categories include foods and sundries, non-foods, fresh foods, warehouse ancillary services like gasoline and pharmacy, and other businesses including e-commerce and travel. Membership benefits include return policies and extended warranties on electronics to promote satisfaction. Costco's vehicles for growth include geographic expansion and e-commerce development. Their membership base was 84.1 million paid members (including Executive members) worldwide at the end of 2026, with renewal rates of 92.3% in the U.S. and Canada [10-K accession 0000909832-26-000093 L000733-L000784].",
+  "market_positioning_and_growth_outlook": "Costco positions itself competitively as a low-price, high-volume retailer with a strong membership model and operational efficiency through streamlined warehouse format and supply chain management. Its limited SKU approach differentiates it from other broadline retailers and helps control costs and improve turnover. The membership model contributes significantly to revenue and profitability, supported by high renewal rates and Executive membership penetration (Executive sales penetration was approximately 75.2% of worldwide net sales in 2026). Costco operates in multiple countries including the U.S., Canada, Mexico, Japan, the UK, and others, supporting geographic diversification. It continues to invest in warehouse expansion and e-commerce platform growth, which experienced robust digitally-enabled comparable sales growth of 20.9% in fiscal 2026. Risks to growth include competition for suitable warehouse locations, regulatory challenges, and cannibalization of existing warehouse sales from new openings [10-K accession 0000909832-26-000093 L000733-L000841; EX-99.1 accession 0000909832-26-000084 L000010-L000018, L000021].",
+  "future_developments_and_strategic_recommendations": "Costco should continue to focus on disciplined warehouse expansion, particularly in underpenetrated and new markets, addressing the risk of cannibalizing existing warehouse sales through careful site selection and localized marketing efforts. Leveraging the strong e-commerce sales growth by expanding online assortment and fulfillment capacity will further complement the warehouse business. Enhancing member benefits could sustain and improve the already high membership renewal rates and drive Executive membership conversions. Managing supply chain resilience and expanding private-label merchandise with high perceived value could improve margins and customer loyalty. Monitoring regulatory and local community constraints will be essential for smooth expansion. Finally, focusing on cost management and operational efficiencies will retain Costco's competitive pricing advantage [10-K accession 0000909832-26-000093 L000733-L000784, L000838-L000841; EX-99.1 accession 0000909832-26-000084 L000010-L000019].",
+  "claims": [
+    {
+      "id": "claim_net_sales_fy2026",
+      "label": "Net sales for fiscal year 2026",
+      "value": "297.2 billion USD",
+      "display": "$297.2 billion",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 10,
+        "quote": "Net sales for the fiscal year increased 10.1 percent, to $297.2 billion",
+        "period": "2026-08-30",
+        "definition": "Total net sales revenue for fiscal 2026"
+      }
+    },
+    {
+      "id": "claim_warehouses_fy2026",
+      "label": "Number of warehouses at August 30, 2026",
+      "value": 939,
+      "display": "939 warehouses",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 21,
+        "quote": "Costco currently operates 939 warehouses",
+        "period": "2026-08-30",
+        "definition": "Total global warehouses operated"
+      }
+    },
+    {
+      "id": "claim_paid_members_fy2026",
+      "label": "Paid members at end of 2026",
+      "value": 84100000,
+      "display": "84.1 million paid members",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 776,
+        "quote": "Paid members ... 84,100",
+        "period": "2026-08-30",
+        "definition": "Number of paid membership accounts (thousands)"
+      }
+    },
+    {
+      "id": "claim_membership_renewal_us_ca",
+      "label": "Membership renewal rate in U.S. and Canada",
+      "value": 92.3,
+      "display": "92.3%",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 783,
+        "quote": "Our member renewal rate was 92.3% in the U.S. and Canada",
+        "period": "2026-08-30",
+        "definition": "Trailing membership renewal subscription rate"
+      }
+    },
+    {
+      "id": "claim_executive_members_fy2026",
+      "label": "Number of Executive members at end of 2026",
+      "value": 42300000,
+      "display": "42.3 million Executive members",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 782,
+        "quote": "Executive members represented 42,300 ... of total paid members in 2026",
+        "period": "2026-08-30",
+        "definition": "Executive membership count (thousands)"
+      }
+    },
+    {
+      "id": "claim_executive_sales_penetration_fy2026",
+      "label": "Penetration of sales to Executive members in 2026",
+      "value": 75.2,
+      "display": "75.2% of worldwide net sales",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 782,
+        "quote": "The penetration of sales to Executive members represented approximately 75.2% of worldwide net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Percentage of net sales attributable to Executive members"
+      }
+    },
+    {
+      "id": "claim_net_income_fy2026",
+      "label": "Net income for fiscal year 2026",
+      "value": 9.226,
+      "display": "$9.226 billion",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 49,
+        "quote": "Net income for the fiscal year was $9.226 billion",
+        "period": "2026-08-30",
+        "definition": "Net income for fiscal year 2026"
+      }
+    },
+    {
+      "id": "claim_ecommerce_sales_growth_fy2026",
+      "label": "Digitally-Enabled Sales Growth for Fiscal Year 2026",
+      "value": 20.9,
+      "display": "20.9%",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 18,
+        "quote": "Digitally-Enabled ... 20.9%",
+        "period": "2026-08-30",
+        "definition": "Comparable sales growth in digitally-enabled operations"
+      }
+    },
+    {
+      "id": "claim_gasoline_net_sales_percentage_fy2026",
+      "label": "Gasoline business net sales percentage",
+      "value": 11,
+      "display": "11% of total net sales",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "Our gasoline business represented 11% of total net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Percentage contribution of gasoline to net sales"
+      }
+    },
+    {
+      "id": "claim_fy2026_cash_and_cash_equivalents",
+      "label": "Cash and cash equivalents at August 30, 2026",
+      "value": 20207,
+      "display": "$20,207 million",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 64,
+        "quote": "Cash and cash equivalents ... $20,207",
+        "period": "2026-08-30",
+        "definition": "Cash and cash equivalents at fiscal year end"
+      }
+    },
+    {
+      "id": "claim_fy2026_total_employees",
+      "label": "Total employees worldwide at end of 2026",
+      "value": 355000,
+      "display": "355,000 employees",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 789,
+        "quote": "At the end of 2026, we employed 355,000 employees worldwide",
+        "period": "2026-08-30",
+        "definition": "Total headcount globally"
+      }
+    },
+    {
+      "id": "claim_Insight",
+      "label": "Insight",
+      "value": "Costco's gasoline business represented a significant 11% of total net sales in fiscal 2026, highlighting the importance of ancillary services to its overall revenue mix, a fact often less emphasized in headline financial summaries.",
+      "display": "Insight: Costco's gasoline business represented 11% of total net sales in 2026, underscoring the importance of ancillary services [10-K accession 0000909832-26-000093 L000764].",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 764,
+        "quote": "Our gasoline business represented 11% of total net sales in 2026",
+        "period": "2026-08-30",
+        "definition": "Gasoline business contribution to net sales"
+      }
+    }
+  ]
+}

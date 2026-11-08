@@ -1,0 +1,41 @@
+{
+  "investment_recommendation": "Hold provisional. The strongest supported metric is the 15.1% revenue growth from fiscal 2025 to 2026 [C:revenue_growth], which is positive but does not alone confirm an undervaluation or excessive valuation when balanced against a high P/E of 38.4 and operating margin below that of the primary peer Microsoft. Uncertainties from supply chain constraints and capex decline limit confident Buy conviction; however, growth and profitability remain solid, suggesting retention rather than Sell.",
+  "claims": [
+    {
+      "id": "revenue_growth",
+      "label": "Revenue Growth",
+      "value": 0.1505979656911628,
+      "display": "15.1%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "Revenue growth from fiscal 2025 to 2026",
+        "inputs": {
+          "a": {
+            "value": "478834000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-09-26",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "b": {
+            "value": "416161000000",
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2025-09-27",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2025-09-27",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "Insight": "Apple’s supply constraints and rising costs, driven by industry-wide imbalances in advanced semiconductors, memory, and storage components, are expected to intensify, posing a material operational headwind beyond reported revenue growth [10-K line 1230]."
+}

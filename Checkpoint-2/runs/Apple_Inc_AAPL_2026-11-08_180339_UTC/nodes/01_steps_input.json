@@ -1,0 +1,11 @@
+{
+  "ticker": "AAPL",
+  "peers": [
+    "MSFT",
+    "GOOGL",
+    "ORCL"
+  ],
+  "price": 344.63,
+  "price_date": "2026-10-30",
+  "source_run": ""
+}

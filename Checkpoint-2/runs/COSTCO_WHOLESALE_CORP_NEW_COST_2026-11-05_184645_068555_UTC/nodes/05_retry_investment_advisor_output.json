@@ -1,0 +1,90 @@
+{
+  "investment_recommendation": "## Provisional Buy\nThe provisional Buy recommendation is supported primarily by the annual revenue growth of 10.14% for fiscal year 2026 [C:revenue_growth], evidencing strong top-line expansion that outweighs the moderate operating margin of 3.85%. However, investors should monitor the concentration risk in U.S. and Canadian markets and potential regulatory hurdles as noted by the Research Analyst, which temper the outlook and warrant vigilance.",
+  "insight": "Insight: The increase in digital sales growth to 20.9% for fiscal 2026 highlights Costco's successful expansion into e-commerce channels, a key strategic area for future revenue diversification and growth [EX-99.1 accession 0000909832-26-000084, L000018].",
+  "claims": [
+    {
+      "id": "revenue_growth",
+      "label": "Annual Revenue Growth",
+      "value": 0.10143695387577888,
+      "display": "10.14%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "revenue growth percentage",
+        "inputs": {
+          "a": {
+            "value": 303154000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "CY2026",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "b": {
+            "value": 275235000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "CY2025",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2025-08-31",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "operating_margin",
+      "label": "Operating Margin",
+      "value": 0.03854476602650798,
+      "display": "3.85%",
+      "source": {
+        "kind": "ratio",
+        "formula": "OperatingIncome / TotalRevenue",
+        "definition": "Operating margin calculated from reported operating income and total revenue",
+        "inputs": {
+          "OperatingIncome": {
+            "value": 11685000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "CY2026",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "TotalRevenue": {
+            "value": 303154000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "CY2026",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "digital_sales_growth_2026",
+      "label": "Digitally-Enabled Sales Growth 2026",
+      "value": 20.9,
+      "display": "20.9%",
+      "source": {
+        "kind": "line",
+        "document": "EX-99.1",
+        "line": 18,
+        "quote": "Digitally-Enabled | 19.5% |  | 19.8% |  | 20.9% |  | 20.7%",
+        "period": "2026-08-30",
+        "definition": "Comparable digitally-enabled sales growth for fiscal year 2026"
+      }
+    }
+  ]
+}

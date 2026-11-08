@@ -1,0 +1,44 @@
+{
+  "investment_recommendation": "Hold (provisional) based on 10.14% annual revenue growth [C:revenue_growth_2026]",
+  "claims": [
+    {
+      "id": "revenue_growth_2026",
+      "label": "Revenue Growth FY 2026",
+      "value": 0.1014,
+      "display": "10.14%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "revenue growth percentage",
+        "inputs": {
+          "a": {
+            "value": "303154000000",
+            "source": {
+              "kind": "xbrl",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "b": {
+            "value": "275235000000",
+            "source": {
+              "kind": "xbrl",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2025-08-31",
+              "end": "2025-08-31",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "Identity": "As the investment advisor, I consolidate the given research and financial analyst outputs to form a single provisional directional recommendation. My role is to identify one specific, well-supported number that justifies the investment call, without speculating on price targets or using unverified data.",
+  "Reading approach": "I first examine the Financial Analyst's claims and evidence to extract objective numerical facts with clear structured sources. Then, I consider qualitative context from the Research Analyst's overview, positioning, and future developments to understand why these numbers matter. I do not introduce any outside valuation or market assumptions.",
+  "Data given": "My recommendation is solely based on the two analyst JSON submissions and their cited claims and evidentiary sources. No external data or invented inputs are used.",
+  "Scored criteria": "I assess evidence quality by the completeness and clarity of the financial metrics, checking GAAP consistency and explicit periods. I evaluate the risk/reward balance using revenue growth direction (both annual and quarterly), operating margin relative to peers, leverage (debt to equity), and free cash flow. I also note that while revenue grew by 10.14%, the operating margin is modest at 3.85%, below peers, and the P/E ratio is high at about 43.58, introducing valuation uncertainty.",
+  "What changes my view": "If the next quarterly filing shows a reversal in net sales growth from the current positive 11.2% quarterly growth to a decline, or if the upcoming 10-K restates the revenue or earnings metrics materially changing the growth narrative or margin profile, I would reconsider this Hold recommendation toward a Buy or Sell.",
+  "Output and Insight": "I am responsible for setting the provisional investment_recommendation selecting one key numerical fact that supports it. Insight: Costco's dependency on concentrated U.S. and Canadian markets, particularly California with 26% of U.S. sales, creates material geographic risk, which may pressure future performance [10-K line L000836]."
+}

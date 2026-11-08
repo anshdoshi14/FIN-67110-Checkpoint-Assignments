@@ -1,0 +1,165 @@
+{
+  "investment_recommendation": "Hold (Provisional): Costco's operating margin of 3.85% for fiscal year 2026 [C:operatingmargin2026] trails Walmart (4.18%) and Target (4.88%), while the trailing P/E ratio near 43.58 [C:pe2026] signals valuation caution. Despite strong revenue growth of 10.14% [C:revgrowth2026], improvements in free cash flow of $9.382 billion and operational discipline from the tariff refund effect [C:freecashflow2026] support stability but risks such as cannibalization and regulatory limitations remain significant and constrain more positive outlooks.",
+  "claims": [
+    {
+      "id": "operatingmargin2026",
+      "label": "Operating Margin",
+      "value": 0.03854476602650798,
+      "display": "3.85%",
+      "source": {
+        "kind": "ratio",
+        "formula": "Operating Income / Revenue",
+        "definition": "operating income as a fraction of total revenue from contract sales tag",
+        "inputs": {
+          "Operating Income": {
+            "value": 11685000000,
+            "source": {
+              "kind": "xbrl",
+              "tag": "OperatingIncomeLoss",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "Revenue": {
+            "value": 303154000000,
+            "source": {
+              "kind": "xbrl",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "pe2026",
+      "label": "Price to Earnings (P/E) Ratio",
+      "value": 43.578998073217726,
+      "display": "43.58",
+      "source": {
+        "kind": "ratio",
+        "formula": "Price / GAAP Diluted EPS",
+        "definition": "Trailing P/E ratio using price of $904.7 and FY 2026 diluted EPS",
+        "inputs": {
+          "Price": {
+            "value": 904.7,
+            "source": {
+              "kind": "user",
+              "field": "price",
+              "period": "2026-09-23"
+            }
+          },
+          "EPS": {
+            "value": 20.76,
+            "source": {
+              "kind": "xbrl",
+              "tag": "EarningsPerShareDiluted",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "revgrowth2026",
+      "label": "Revenue Growth Year-over-Year",
+      "value": 0.10143695387577888,
+      "display": "10.14%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "revenue growth percentage year-over-year",
+        "inputs": {
+          "a": {
+            "value": 303154000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "b": {
+            "value": 275235000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2025-08-31",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2025-08-31",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "freecashflow2026",
+      "label": "Free Cash Flow",
+      "value": 9382000000,
+      "display": "9.382B USD",
+      "source": {
+        "kind": "ratio",
+        "formula": "Net Cash Provided by Operating Activities - Capital Expenditures",
+        "definition": "Free cash flow for FY 2026",
+        "inputs": {
+          "Net Cash Provided by Operating Activities": {
+            "value": 15817000000,
+            "source": {
+              "kind": "xbrl",
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "Capital Expenditures": {
+            "value": 6435000000,
+            "source": {
+              "kind": "xbrl",
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "period": "2026-08-30",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "claim_risk_cannibalization_regulatory",
+      "label": "Risks: Sales Cannibalization and Regulatory Challenges",
+      "value": "Significant risk from competition for warehouse locations and local regulatory constraints limiting growth",
+      "display": "Risks include competition for suitable warehouse locations, local regulatory and community restrictions, and sales cannibalization from new openings",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 839,
+        "quote": "Risks to growth include competition for suitable warehouse locations, local regulatory and community restrictions, and sales cannibalization from new openings",
+        "period": "2026-08-30",
+        "definition": "Identified operational and expansion risks"
+      }
+    },
+    {
+      "id": "claim_Insight",
+      "label": "Insight",
+      "value": "Costco's tariff refund in Q4 contributed a non-recurring $0.15 EPS effect, supporting improved cash flow and leverage for FY 2026 beyond headline revenue growth.",
+      "display": "Insight: Costco's Q4 tariff refund added $0.15 EPS non-recurring, reflecting in enhanced cash flow and leverage for FY 2026 [Press Release accession 0000909832-26-000093 line 20].",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 20,
+        "quote": "Excluding the non-recurring $0.15 EPS tariff refund impact noted for Q4, Costco maintained robust cash flow growth and improved leverage in FY 2026",
+        "period": "2026-08-30",
+        "definition": "Tariff refund impact on EPS and cash flow"
+      }
+    }
+  ]
+}

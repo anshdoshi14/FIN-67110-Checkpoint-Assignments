@@ -1,0 +1,90 @@
+{
+  "investment_recommendation": "Hold (provisional): The key figure guiding this decision is Costco’s operating margin of 3.85% for fiscal 2026 [C:M1], which remains below Walmart’s 4.18% and Target’s 4.88% despite positive revenue growth of 10.14% [C:G1]. This gap suggests solid growth momentum but also margin pressure that introduces uncertainty around sustained profitability and competitive positioning.",
+  "insight": "Insight: Costco faces meaningful execution risk in its growth strategy due to local regulatory and community opposition when acquiring and developing new warehouse sites, which could impede warehouse expansion and weigh on future comparable sales growth. Source: Costco 10-K 2026-08-30 accession 0000909832-26-000093, line L000839, L000123.",
+  "claims": [
+    {
+      "id": "M1",
+      "label": "Operating Margin",
+      "value": 0.03854476602650798,
+      "display": "3.85%",
+      "source": {
+        "kind": "ratio",
+        "formula": "OperatingIncome / Revenue",
+        "definition": "Operating margin ratio",
+        "inputs": {
+          "OperatingIncome": {
+            "value": 11685000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-08-30",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "Revenue": {
+            "value": 303154000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "G1",
+      "label": "Revenue Growth",
+      "value": 0.10143695387577888,
+      "display": "10.14%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "annual total revenue growth percentage",
+        "inputs": {
+          "a": {
+            "value": 303154000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-08-30",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-08-30",
+              "accession": "0000909832-26-000093"
+            }
+          },
+          "b": {
+            "value": 275235000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2025-08-31",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2025-08-31",
+              "accession": "0000909832-26-000093"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "1",
+      "label": "Growth risk from site acquisitions and regulations",
+      "value": "Execution risk due to regulatory and community opposition",
+      "display": "Growth is dependent on acquiring property and building or leasing warehouses; local regulations and community opposition pose risks",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 839,
+        "quote": "Our growth is dependent, in part, on our ability to acquire property and build or lease new warehouses and depots. We compete with other retailers and businesses for suitable locations. Local land use and other regulations restricting the construction and operation of our warehouses and depots, as well as local community actions opposed to the location of our warehouses or depots at specific sites and the adoption of local laws restricting our operations and environmental regulations, may impact",
+        "period": "2026-08-30",
+        "definition": "Risk factor regarding growth dependency and operational restrictions"
+      }
+    }
+  ]
+}

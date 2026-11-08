@@ -1,0 +1,124 @@
+{
+  "counts": {
+    "correct": 10,
+    "wrong": 1,
+    "unsupported": 0
+  },
+  "marks": [
+    {
+      "id": "registry-size",
+      "claim": "Registry coverage",
+      "reported": 11,
+      "status": "correct",
+      "corrected": null,
+      "evidence": "Parsed embedded evidence-json",
+      "reason": ""
+    },
+    {
+      "id": "revenue",
+      "claim": "FY revenue",
+      "reported": 303154000000,
+      "status": "correct",
+      "corrected": "303154000000",
+      "evidence": "10-K 0000909832-26-000093, RevenueFromContractWithCustomerExcludingAssessedTax, 2026-08-30: 303154000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "revenue_prior",
+      "claim": "Prior FY revenue",
+      "reported": 275235000000,
+      "status": "correct",
+      "corrected": "275235000000",
+      "evidence": "10-K 0000909832-26-000093, RevenueFromContractWithCustomerExcludingAssessedTax, 2025-08-31: 275235000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "operating_income",
+      "claim": "FY operating income",
+      "reported": 11685000000,
+      "status": "correct",
+      "corrected": "11685000000",
+      "evidence": "10-K 0000909832-26-000093, OperatingIncomeLoss, 2026-08-30: 11685000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "net_income",
+      "claim": "FY net income",
+      "reported": 9226000000,
+      "status": "correct",
+      "corrected": "9226000000",
+      "evidence": "10-K 0000909832-26-000093, NetIncomeLoss, 2026-08-30: 9226000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "diluted_eps",
+      "claim": "FY diluted EPS",
+      "reported": 20.76,
+      "status": "correct",
+      "corrected": "20.76",
+      "evidence": "10-K 0000909832-26-000093, EarningsPerShareDiluted, 2026-08-30: 20.76 USD/shares; 10-K L1057: Net income increased 14% to $9,226, $20.76 per diluted share, compared to $8,099, $18.21 per diluted share in 2025; and",
+      "reason": "Model semantic review unavailable: set API_KEY in .env locally"
+    },
+    {
+      "id": "equity",
+      "claim": "FY closing shareholder equity",
+      "reported": 35803000000,
+      "status": "correct",
+      "corrected": "35803000000",
+      "evidence": "10-K 0000909832-26-000093, StockholdersEquity, 2026-08-30: 35803000000 USD",
+      "reason": ""
+    },
+    {
+      "id": "revenue_growth",
+      "claim": "FY revenue growth",
+      "reported": 14.14,
+      "status": "wrong",
+      "corrected": "10.14",
+      "evidence": "(a-b)/b*100 = 10.14369538757788798662960743; definition: (2026 total revenue - 2025 total revenue)/2025 total revenue ×100; sourced inputs: a=303154000000, b=275235000000",
+      "reason": "Recompute from cited inputs gives 10.14"
+    },
+    {
+      "id": "operating_margin",
+      "claim": "FY operating margin",
+      "reported": 3.85,
+      "status": "correct",
+      "corrected": "3.85",
+      "evidence": "a/b*100 = 3.854476602650797944279145253; definition: FY operating income / FY total revenue ×100; sourced inputs: a=11685000000, b=303154000000",
+      "reason": ""
+    },
+    {
+      "id": "roe",
+      "claim": "Return on average equity",
+      "reported": 28.4,
+      "status": "correct",
+      "corrected": "28.40",
+      "evidence": "a/((b+c)/2)*100 = 28.40211184139640124986531624; definition: net income / average of end-2026 and end-2025 stockholders equity ×100; sourced inputs: a=9226000000, b=35803000000, c=29164000000",
+      "reason": ""
+    },
+    {
+      "id": "debt_equity",
+      "claim": "Debt to equity (including current maturities)",
+      "reported": 0.1721,
+      "status": "correct",
+      "corrected": "0.1721",
+      "evidence": "(a+b)/c = 0.1721084825293969779068793118; definition: (current and noncurrent long-term debt) / closing equity; sourced inputs: a=3914000000, b=2248000000, c=35803000000",
+      "reason": ""
+    },
+    {
+      "id": "free_cash_flow",
+      "claim": "Free cash flow (CFO less capex)",
+      "reported": 9382000000,
+      "status": "correct",
+      "corrected": "9382000000",
+      "evidence": "a-b = 9382000000; definition: cash from operations less capital expenditures USD; sourced inputs: a=15817000000, b=6435000000",
+      "reason": ""
+    }
+  ],
+  "semantic_model_requested": false,
+  "filing_sources": [
+    "10-K",
+    "10-Q",
+    "earnings_8-K",
+    "release_EX-99.1"
+  ]
+}

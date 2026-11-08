@@ -1,0 +1,40 @@
+{
+  "investment_recommendation": "### Provisional Hold\nThe recommendation is provisional Hold, primarily guided by the Price-to-Earnings ratio of 38.38 times, which indicates a premium valuation and signals limited margin of safety at current prices [C:price_to_earnings]. Despite Apple’s robust 15.06% revenue growth and strong profitability evidenced by $8.98 diluted EPS, the relatively high P/E constrains a Buy view absent clearer margin expansion or valuation support. Monitoring future quarterly sales trends and operating margin shifts above the current 33.01% is advisable before considering an upgrade.",
+  "claims": [
+    {
+      "id": "price_to_earnings",
+      "label": "Price-to-Earnings Ratio (P/E)",
+      "value": 38.38,
+      "display": "38.38",
+      "source": {
+        "kind": "ratio",
+        "formula": "price / diluted_eps",
+        "definition": "Price-to-earnings ratio using stock price and annual diluted EPS",
+        "inputs": {
+          "price": {
+            "value": "344.63",
+            "source": {
+              "kind": "line",
+              "document": "10-K",
+              "line": 12,
+              "quote": "Stock price as of October 30, 2026 is $344.63.",
+              "period": "2026-10-30",
+              "definition": "External stock price at date closest to report"
+            }
+          },
+          "diluted_eps": {
+            "value": "8.98",
+            "source": {
+              "kind": "xbrl",
+              "field": "EarningsPerShareDiluted",
+              "period": "2026-09-26",
+              "tag": "EarningsPerShareDiluted",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

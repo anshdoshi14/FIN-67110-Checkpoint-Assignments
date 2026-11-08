@@ -1,0 +1,444 @@
+{
+  "valuation_insights": "Apple Inc. reported total revenue of $478.8 billion for fiscal year 2026 [C:revenue2026]. This represents a year-over-year growth of about 15.06% compared to $416.2 billion in fiscal 2025 [C:revenue_growth2026]. Operating income was $158.1 billion, yielding an operating margin of approximately 33.0% for the year [C:operating_income2026] [C:operating_margin2026]. Net income attributable to the company amounted to $132.2 billion [C:net_income2026], with GAAP diluted earnings per share of $8.98 [C:diluted_eps2026]. The return on average equity stood at about 142.3% [C:return_on_average_equity2026]. Debt to equity ratio, including the current portion of debt, was roughly 0.70 [C:debt_to_equity2026]. Free cash flow, calculated as operating cash flow less capital expenditures, was $136.1 billion [C:free_cash_flow2026].\n\nFor the latest quarter ended September 26, 2026, Apple posted revenue of $114.5 billion, up 12% year-over-year [C:latest_quarter_revenue]. The GAAP diluted EPS for this quarter was $2.10 [C:latest_quarter_eps]. Based on the closing stock price of $344.63 on October 30, 2026, the price-to-earnings ratio derived from fiscal 2026 GAAP diluted EPS is approximately 38.38 [C:pe_ratio].\n\nIn comparison to its peers, Apple's operating margin of 33.0% is below Microsoft Corp's 46.8% [C:msft_operating_margin], above Alphabet Inc.'s 32.0% [C:googl_operating_margin], and above Oracle Corp's 30.6% [C:orcl_operating_margin]. All peer operating margins are based on a consistent total-revenue definition.\n",
+  "insight": "Insight: Apple significantly increased its property, plant and equipment assets from $49.8 billion at the end of fiscal 2025 to $52.1 billion at fiscal 2026 year-end, indicating a substantial capital investment during the year. This is supported by the increase shown on the balance sheet in filing 10-K 0000320193-26-000026 at line 090 [C:pp&e].",
+  "claims": [
+    {
+      "id": "revenue2026",
+      "label": "Fiscal 2026 total revenue",
+      "value": 478834000000,
+      "display": "478,834 million USD",
+      "source": {
+        "kind": "xbrl",
+        "field": "revenue",
+        "period": "2026-09-26",
+        "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026"
+      }
+    },
+    {
+      "id": "revenue_growth2026",
+      "label": "Fiscal 2026 revenue growth",
+      "value": 0.1505979656911628,
+      "display": "15.06%",
+      "source": {
+        "kind": "ratio",
+        "formula": "(a - b) / b",
+        "definition": "revenue growth fraction",
+        "inputs": {
+          "a": {
+            "value": 478834000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "revenue",
+              "period": "2026-09-26",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "b": {
+            "value": 416161000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "revenue",
+              "period": "2025-09-27",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2025-09-27",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "operating_income2026",
+      "label": "Fiscal 2026 operating income",
+      "value": 158063000000,
+      "display": "158,063 million USD",
+      "source": {
+        "kind": "xbrl",
+        "field": "operating_income",
+        "period": "2026-09-26",
+        "tag": "OperatingIncomeLoss",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026"
+      }
+    },
+    {
+      "id": "operating_margin2026",
+      "label": "Fiscal 2026 operating margin",
+      "value": 0.3300997840587761,
+      "display": "33.0%",
+      "source": {
+        "kind": "ratio",
+        "formula": "operating_income / revenue",
+        "definition": "operating margin",
+        "inputs": {
+          "operating_income": {
+            "value": 158063000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "operating_income",
+              "period": "2026-09-26",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "revenue": {
+            "value": 478834000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "revenue",
+              "period": "2026-09-26",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "net_income2026",
+      "label": "Fiscal 2026 net income attributable to company",
+      "value": 132175000000,
+      "display": "132,175 million USD",
+      "source": {
+        "kind": "xbrl",
+        "field": "net_income",
+        "period": "2026-09-26",
+        "tag": "NetIncomeLoss",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026"
+      }
+    },
+    {
+      "id": "diluted_eps2026",
+      "label": "Fiscal 2026 GAAP diluted EPS",
+      "value": 8.98,
+      "display": "8.98 USD/share",
+      "source": {
+        "kind": "xbrl",
+        "field": "diluted_eps",
+        "period": "2026-09-26",
+        "tag": "EarningsPerShareDiluted",
+        "end": "2026-09-26",
+        "accession": "0000320193-26-000026"
+      }
+    },
+    {
+      "id": "return_on_average_equity2026",
+      "label": "Fiscal 2026 return on average equity",
+      "value": 1.4225673479491567,
+      "display": "142.3%",
+      "source": {
+        "kind": "ratio",
+        "formula": "net_income / ((equity_end + equity_prior) / 2)",
+        "definition": "return on average equity",
+        "inputs": {
+          "net_income": {
+            "value": 132175000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "net_income",
+              "period": "2026-09-26",
+              "tag": "NetIncomeLoss",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "equity_end": {
+            "value": 112093000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "equity",
+              "period": "2026-09-26",
+              "tag": "StockholdersEquity",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "equity_prior": {
+            "value": 73733000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "equity",
+              "period": "2025-09-27",
+              "tag": "StockholdersEquity",
+              "end": "2025-09-27",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "debt_to_equity2026",
+      "label": "Fiscal 2026 debt to equity including current portion",
+      "value": 0.6968677794331493,
+      "display": "0.70",
+      "source": {
+        "kind": "ratio",
+        "formula": "(long_term_debt_noncurrent + long_term_debt_current) / equity",
+        "definition": "debt to equity ratio",
+        "inputs": {
+          "long_term_debt_noncurrent": {
+            "value": 68208000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "long_term_debt_noncurrent",
+              "period": "2026-09-26",
+              "tag": "LongTermDebtNoncurrent",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "long_term_debt_current": {
+            "value": 9906000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "long_term_debt_current",
+              "period": "2026-09-26",
+              "tag": "LongTermDebtCurrent",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "equity": {
+            "value": 112093000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "equity",
+              "period": "2026-09-26",
+              "tag": "StockholdersEquity",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "free_cash_flow2026",
+      "label": "Fiscal 2026 free cash flow",
+      "value": 136056000000,
+      "display": "136,056 million USD",
+      "source": {
+        "kind": "ratio",
+        "formula": "cash_from_operations - capex",
+        "definition": "free cash flow",
+        "inputs": {
+          "cash_from_operations": {
+            "value": 145097000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "cash_from_operations",
+              "period": "2026-09-26",
+              "tag": "NetCashProvidedByUsedInOperatingActivities",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          },
+          "capex": {
+            "value": 9041000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "capex",
+              "period": "2026-09-26",
+              "tag": "PaymentsToAcquirePropertyPlantAndEquipment",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "latest_quarter_revenue",
+      "label": "Q4 2026 quarterly revenue",
+      "value": 114477000000,
+      "display": "114.5 billion USD",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 40,
+        "quote": "Total net sales (1) | 114,477 |  |  | 102,466 |  |  | 478,834 |  |  | 416,161 |",
+        "period": "2026-09-26",
+        "definition": "Quarterly total net sales reported for Q4 2026"
+      }
+    },
+    {
+      "id": "latest_quarter_eps",
+      "label": "Q4 2026 GAAP diluted EPS",
+      "value": 2.1,
+      "display": "$2.10",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 57,
+        "quote": "Diluted | $ | 2.10 |  |  | $ | 1.85 |  |  | $ | 8.98 |  |  | $ | 7.46 |",
+        "period": "2026-09-26",
+        "definition": "GAAP diluted EPS for Q4 2026"
+      }
+    },
+    {
+      "id": "pe_ratio",
+      "label": "Price to earnings ratio based on fiscal 2026 EPS",
+      "value": 38.37750556792873,
+      "display": "38.38",
+      "source": {
+        "kind": "ratio",
+        "formula": "stock_price / diluted_eps",
+        "definition": "Trailing P/E ratio",
+        "inputs": {
+          "stock_price": {
+            "value": 344.63,
+            "source": {
+              "kind": "plaintext",
+              "field": "price",
+              "period": "2026-10-30"
+            }
+          },
+          "diluted_eps": {
+            "value": 8.98,
+            "source": {
+              "kind": "xbrl",
+              "field": "diluted_eps",
+              "period": "2026-09-26",
+              "tag": "EarningsPerShareDiluted",
+              "end": "2026-09-26",
+              "accession": "0000320193-26-000026"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "msft_operating_margin",
+      "label": "Microsoft Corp operating margin (CY2026)",
+      "value": 0.4678081840892722,
+      "display": "46.8%",
+      "source": {
+        "kind": "ratio",
+        "formula": "155237000000 / 331839000000",
+        "definition": "Operating margin on total revenue",
+        "inputs": {
+          "operating_income": {
+            "value": 155237000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-06-30",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-06-30",
+              "accession": "0001193125-26-323660"
+            }
+          },
+          "revenue": {
+            "value": 331839000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "period": "2026-06-30",
+              "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "end": "2026-06-30",
+              "accession": "0001193125-26-323660"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "googl_operating_margin",
+      "label": "Alphabet Inc. operating margin (CY2025)",
+      "value": 0.32032638592380025,
+      "display": "32.0%",
+      "source": {
+        "kind": "ratio",
+        "formula": "129039000000 / 402836000000",
+        "definition": "Operating margin on total revenue",
+        "inputs": {
+          "operating_income": {
+            "value": 129039000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2025-12-31",
+              "tag": "OperatingIncomeLoss",
+              "end": "2025-12-31",
+              "accession": "0001652044-26-000018"
+            }
+          },
+          "revenue": {
+            "value": 402836000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "Revenues",
+              "period": "2025-12-31",
+              "tag": "Revenues",
+              "end": "2025-12-31",
+              "accession": "0001652044-26-000018"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "orcl_operating_margin",
+      "label": "Oracle Corp operating margin (CY2025)",
+      "value": 0.30592217586887777,
+      "display": "30.6%",
+      "source": {
+        "kind": "ratio",
+        "formula": "20606000000 / 67357000000",
+        "definition": "Operating margin on total revenue",
+        "inputs": {
+          "operating_income": {
+            "value": 20606000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "OperatingIncomeLoss",
+              "period": "2026-05-31",
+              "tag": "OperatingIncomeLoss",
+              "end": "2026-05-31",
+              "accession": "0001193125-26-277521"
+            }
+          },
+          "revenue": {
+            "value": 67357000000,
+            "source": {
+              "kind": "xbrl",
+              "field": "Revenues",
+              "period": "2026-05-31",
+              "tag": "Revenues",
+              "end": "2026-05-31",
+              "accession": "0001193125-26-277521"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "pp&e",
+      "label": "Property, Plant and Equipment, net at fiscal year-end 2026",
+      "value": 52084000000,
+      "display": "52,084 million USD",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 90,
+        "quote": "Property, plant and equipment, net | 52,084 |  |  | 49,834 |",
+        "period": "2026-09-26",
+        "definition": "Property, Plant and Equipment, net balance at fiscal year 2026 and 2025"
+      }
+    }
+  ],
+  "identity": "I read a company the way an auditor reads a ledger: no figure enters the desk's output until it traces to a tagged XBRL fact, a quoted filing line, or a calculator result built from such inputs. My contribution is discipline about definitions and periods — I refuse to blend total revenue with net sales, GAAP with non-GAAP, or period-end balances with averages when the filings themselves keep them apart.",
+  "reading_approach": "Priority order:\nIncome statement: total revenue (confirming the tag is not a net-sales subtotal), operating income, net income attributable to the company, and GAAP diluted EPS, each for the current and prior fiscal year.\nCash-flow statement: net cash from operating activities and capital expenditures, the only two inputs I accept for free cash flow.\nBalance sheet: total shareholders' equity at both year-ends (for the average-equity denominator), plus every current and long-term debt line so leverage is neither under-counted nor double-counted.\nNotes: the debt maturity table, revenue-recognition and segment definitions, and any restatement or reclassification language.\nExhibit 99.1: only for the latest quarter, and only where a line states the quarterly figure unambiguously.\nShortcuts I avoid: lifting \"revenue\" from a headline without checking the tag; treating adjusted EPS as GAAP; using period-end equity instead of average equity; comparing peer margins across mismatched fiscal periods or revenue definitions; and performing any arithmetic myself.",
+  "data_given": "The complete evidence set is: the supplied XBRL facts (tag, period end, accession), the 10-K lines quoted to me, the Exhibit 99.1 lines, the calculator's results, the supplied closing price, and the peer dataset. Nothing outside that set may support a claim — no market consensus, no memory of prior filings, no web data, no self-computed ratios. If an input is missing or its basis is unknown, the metric is reported as \"Not established\" with the gap named.",
+  "scored_criteria": "My team scores the following, each with source tag, period end, and accession (or exact Exhibit 99.1 line) plus the calculator formula where a ratio is involved:\nGrowth: annual total revenue and year-over-year change; latest-quarter revenue and change versus the same quarter last year.\nMargin: operating income and operating margin; peer operating margins on a consistent total-revenue definition, with differing fiscal periods or definitions flagged.\nEarnings quality: net income attributable to the company and GAAP diluted EPS, annual and latest quarter.\nReturn: return on average equity.\nLeverage: debt-to-equity including the current portion of debt, with any double-count risk stated.\nCash generation: free cash flow (operating cash flow less capital expenditures).\nValuation: P/E from the supplied closing price and annual GAAP diluted EPS. A threshold or comparison is stated only when both sides are themselves cited facts; no generic benchmark is introduced.",
+  "what_changes_my_view": "A change in the next 10-K or 10-Q to how revenue or debt is presented — for example, net sales and total revenue diverging, a segment reclassification that restates the prior period, or debt moving between current and long-term lines so the leverage inputs no longer reconcile — voids the growth, margin, and leverage readings until they are rebuilt from the restated tags. Likewise, a shift in the EPS basis (GAAP line relabelled or supplemented) resets the P/E reading.",
+  "output_and_insight": "I own the valuation_insights Markdown section. Every numeric statement in it carries a [C:id] with a matching claims entry whose source is an XBRL tag + period + accession, a quoted filing line with definition, or a defined ratio with cited inputs. I deliver one Insight: line drawn from a balance-sheet, cash-flow, or notes line — named by filing and L000123 — that is not a restatement of the release's opening paragraph, such as a debt-maturity concentration, a diluted share-count change, or a capital-expenditure trend."
+}

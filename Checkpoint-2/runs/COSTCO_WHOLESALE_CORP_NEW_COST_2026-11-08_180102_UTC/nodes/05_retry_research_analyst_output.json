@@ -1,0 +1,78 @@
+{
+  "overview": "Costco Wholesale Corporation operates membership warehouses and e-commerce sites principally in the United States and internationally in countries including Canada, Mexico, Japan, the U.K., Korea, Australia, Taiwan, China, Spain, France, Sweden, Iceland, and New Zealand. The company utilizes a membership model offering a limited selection of nationally-branded and private-label products at low prices, achieving high sales volumes and rapid inventory turnover through volume purchasing and efficient distribution. As of August 30, 2026, Costco operated 939 warehouses worldwide. The average warehouse size is approximately 148,000 square feet, featuring less than 4,000 SKUs per warehouse, while e-commerce platforms provide access to 9,000 to 11,000 SKUs, broadening product availability. Ancillary services offered adjacent to warehouses include gasoline, pharmacy, food court, optical, hearing aids, and tire installation. Membership fees are $65 annually in the U.S., with a member renewal rate of 92.3% in the U.S. and Canada and 89.8% worldwide at fiscal year-end 2026. (\"We operate membership warehouses and e-commerce sites...\"; \"Costco operated 939...warehouses worldwide at August 30, 2026.\"; \"Our average warehouse space is approximately 148,000 square feet\"; \"We carry less than 4,000 active stock keeping units (SKUs) per warehouse...\"; \"Our member renewal rate was 92.3% in the U.S. and Canada and 89.8% worldwide at the end of 2026.\") [10-K accession 0000909832-26-000093 lines L000733-L000745, L000742, L000783].",
+  "market_positioning_and_growth_outlook": "Costco's competitive advantage derives from its membership warehouse model that emphasizes a limited, fast-selling product assortment sold at low prices supported by high-volume sales and rapid inventory turnover, enabled through direct supplier purchasing and cross-docking distribution. The warehouse design emphasizes operational efficiencies, controlling labor costs and inventory shrinkage through methods such as restricted entry and membership exclusivity. Geographic diversification is broad, with warehouses in 939 locations globally and a complementary e-commerce platform that expands product availability. Executive memberships generate loyalty and contribute significantly to revenue. Growth catalysts include targeted warehouse count expansion — with 939 warehouses at fiscal year 2026 end — and increased penetration of Executive members, although specific numbers for Executive membership penetration are not explicitly cited in the excerpts. Ancillary services adjacent to warehouses support frequent shopping and contribute to net sales (e.g., gasoline stations are a key ancillary but quantitative financial contribution is not explicitly cited). Risks involve reliance on U.S. and Canadian markets, accounting for 86% of net sales in fiscal 2026, as well as challenges in real estate acquisition and market entry in new regions. (\"We operate membership warehouses and e-commerce sites...\"; \"Costco operated 939...warehouses worldwide at August 30, 2026.\"; \"Our financial and operational performance is highly dependent on our U.S. and Canadian operations, which comprised 86%...of net sales in 2026.\") [10-K accession 0000909832-26-000093 lines L000733, L000837, L000782 (note on Executive members lacks direct numerical verification for 42,300 thousands), L000764].",
+  "future_developments_and_strategic_recommendations": "Costco plans to continue growing through opening new warehouses in existing and new markets, expanding its e-commerce sales platform, and bolstering ancillary services such as fuel stations and business centers. The company aims to improve operational efficiency by diversifying its supply chain and expanding in-country production. Management acknowledges operational challenges such as local land use restrictions, competition for real estate, and cannibalization risks whereby new warehouses may reduce sales at existing locations. Strategic recommendations include focused market selection for warehouse expansion to optimize market share without adverse effects on comparable locations, continued strengthening of digital channels in synergy with physical warehouses, and leveraging the high engagement and renewal rates of Executive members. Ongoing surveillance of concentration risk due to the predominant U.S. and Canadian market dependency is also warranted. (\"Our growth is dependent...on our ability to acquire property and build or lease new warehouses...\"; \"We intend to continue to open warehouses in new markets...\"; \"We cannot ensure that new warehouses...\" may avoid cannibalization.) [10-K accession 0000909832-26-000093 lines L000838-L000841].",
+  "insight": "Insight: The company’s financial and operational performance is highly dependent on its U.S. and Canadian markets, which comprised 86% of net sales and 83% of operating income in 2026, highlighting geographic concentration risk if these markets underperform [10-K accession 0000909832-26-000093 line L000837].",
+  "claims": [
+    {
+      "id": "warehouse_count",
+      "label": "Number of warehouses worldwide",
+      "value": 939,
+      "display": "939 warehouses worldwide at August 30, 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 734,
+        "quote": "Costco operated 939, 914, and 890 warehouses worldwide at August 30, 2026, August 31, 2025, and September 1, 2024.",
+        "period": "2026-08-30",
+        "definition": "Number of warehouses operated worldwide"
+      }
+    },
+    {
+      "id": "warehouse_average_size",
+      "label": "Average warehouse size in square feet",
+      "value": 148000,
+      "display": "Average warehouse space is approximately 148,000 square feet",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 742,
+        "quote": "Our average warehouse space is approximately 148,000 square feet, with newer units being slightly larger.",
+        "period": "2026-08-30",
+        "definition": "Average warehouse size"
+      }
+    },
+    {
+      "id": "member_renewal_rate_us_canada",
+      "label": "Membership renewal rate in U.S. and Canada",
+      "value": 92.3,
+      "display": "Member renewal rate was 92.3% in the U.S. and Canada",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 783,
+        "quote": "Our member renewal rate was 92.3% in the U.S. and Canada and 89.8% worldwide at the end of 2026.",
+        "period": "2026-08-30",
+        "definition": "Membership renewal rate percentage"
+      }
+    },
+    {
+      "id": "us_canada_sales_percentage",
+      "label": "Percentage of net sales from U.S. and Canadian operations",
+      "value": 86,
+      "display": "U.S. and Canadian operations comprised 86% of net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 837,
+        "quote": "Our financial and operational performance is highly dependent on our U.S. and Canadian operations, which comprised 86% and 83% of net sales and operating income in 2026.",
+        "period": "2026-08-30",
+        "definition": "Percentage of net sales from U.S. and Canadian operations"
+      }
+    },
+    {
+      "id": "Insight_region_sales_dependency",
+      "label": "Dependency on U.S. and Canadian markets",
+      "value": 86,
+      "display": "Operational performance is significantly dependent on U.S. and Canadian markets which composed 86% of net sales in 2026",
+      "source": {
+        "kind": "line",
+        "document": "10-K",
+        "line": 837,
+        "quote": "Our financial and operational performance is highly dependent on our U.S. and Canadian operations, which comprised 86% and 83% of net sales and operating income in 2026.",
+        "period": "2026-08-30",
+        "definition": "Market concentration risk in U.S. and Canadian operations"
+      }
+    }
+  ]
+}

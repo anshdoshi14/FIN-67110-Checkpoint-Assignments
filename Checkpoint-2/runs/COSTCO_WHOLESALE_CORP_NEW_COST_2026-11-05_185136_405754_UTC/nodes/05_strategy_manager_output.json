@@ -1,0 +1,25 @@
+{
+  "status": "REVISE",
+  "issues": [
+    {
+      "role": "Research Analyst",
+      "reason": "The five report sections are present but the exact heading 'Financial Performance' is missing; ensure all five exact headings are included as required."
+    },
+    {
+      "role": "Research Analyst",
+      "reason": "Some core claims such as latest quarterly revenue data and GAAP diluted EPS in Valuation Insights are stated as 'Not established' without further info or source; these unsupported statements need addressing or removal."
+    },
+    {
+      "role": "Financial Analyst",
+      "reason": "Revenue figure is noted as total revenue from tag RevenueFromContractWithCustomerExcludingAssessedTax but caution flags that this should be verified that it includes total revenue and not net sales only; this ambiguity is not resolved in the narrative."
+    },
+    {
+      "role": "Financial Analyst",
+      "reason": "The Price-to-Earnings ratio calculation uses closing price and diluted EPS correctly, but the P/E is not explicitly sourced or stated in the 10-K or press release; the source line [C:pe1] is not explicitly shown or documented clearly in release context."
+    },
+    {
+      "role": "Investment Advisor",
+      "reason": "The three Insight lines are from Research Analyst and Valuation Insights repeating the same debt reduction insight; this duplicates and lacks a distinct Investment Advisor insight line on investment thesis or recommendation that adds separate perspective."
+    }
+  ]
+}

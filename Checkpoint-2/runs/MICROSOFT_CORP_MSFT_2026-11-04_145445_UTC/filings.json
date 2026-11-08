@@ -1,0 +1,41 @@
+{
+  "10-K": {
+    "form": "10-K",
+    "accession": "0001193125-26-323660",
+    "filing_date": "2026-07-29",
+    "report_date": "2026-06-30",
+    "accepted": "2026-07-29T20:08:01.000Z",
+    "primary_document": "msft-20260630.htm",
+    "items": "",
+    "cik": 789019,
+    "index_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/0001193125-26-323660-index.htm",
+    "primary_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+    "exhibit_url": ""
+  },
+  "10-Q": {
+    "form": "10-Q",
+    "accession": "0001193125-26-436133",
+    "filing_date": "2026-10-28",
+    "report_date": "2026-09-30",
+    "accepted": "2026-10-28T20:07:39.000Z",
+    "primary_document": "msft-20260930.htm",
+    "items": "",
+    "cik": 789019,
+    "index_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/0001193125-26-436133-index.htm",
+    "primary_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+    "exhibit_url": ""
+  },
+  "earnings_8-K": {
+    "form": "8-K",
+    "accession": "0001193125-26-436122",
+    "filing_date": "2026-10-28",
+    "report_date": "2026-10-28",
+    "accepted": "2026-10-28T20:04:44.000Z",
+    "primary_document": "msft-20261028.htm",
+    "items": "2.02,9.01",
+    "cik": 789019,
+    "index_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/0001193125-26-436122-index.htm",
+    "primary_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-20261028.htm",
+    "exhibit_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436122/msft-ex99_1.htm"
+  }
+}
