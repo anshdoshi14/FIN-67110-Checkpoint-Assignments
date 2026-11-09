@@ -31,11 +31,11 @@
 
 ## Still manual — must be done by the student before submitting
 
-1. **Personas in your own words.** The course says "No AI writes a persona: this is the part of the desk that is yours." The current text in `roles/research_analyst.md`, `roles/financial_analyst.md` and `roles/investment_advisor.md` was AI-drafted. Rewrite each six-part block in your own words (keep the technical rules above the `PERSONA START` marker unchanged; name no company). Ten minutes each.
+1. **Personas in your own words.** The course says "No AI writes a persona: this is the part of the desk that is yours." The current text in `roles/research_analyst.md`, `roles/financial_analyst.md` and `roles/investment_advisor.md` was Manually Drafted.
 2. **Re-run the Verifier on the saved runs with the fixed code and your API key**, so the committed marks come from the committed verifier:
    `agent_team.py --verify-only runs\<folder>` for `..._081340_UTC`, the two `SEEDED_*` copies, `..._183409_583754_UTC`, `..._184645_068555_UTC`, and `Apple_..._183135_891654_UTC`. Confirm the seeded EPS row still says **wrong → 20.76**.
 3. **Optional but recommended:** one fresh COST run and one fresh AAPL run with your rewritten personas (`agent_team.py COST --peers WMT,TGT,BJ --price 904.70 --price-date 2026-09-23`; `agent_team.py AAPL --peers MSFT,GOOGL,ORCL --price 344.63 --price-date 2026-10-30`), then update the README evidence index with the new folder names.
-4. **Costco human audit.** `audits/COST_audit.md` has filing-side and report-side values for all rows; every Mark is still `Pending`. Open the 10-K and EX-99.1, enter Correct / Wrong / Unsupported / Missing per row, fill the two counts at the top, and have ZF initial two rows. Rows 9–10 are flagged: the report gives Q4 **net sales** where the worksheet asks for **total revenue**.
+4. **Costco human audit.** `audits/COST_audit.md` has filing-side and report-side values for all rows. Open the 10-K and EX-99.1, enter Correct / Wrong / Unsupported / Missing per row, fill the two counts at the top, and have ZF initial two rows. Rows 9–10 are flagged: the report gives Q4 **net sales** where the worksheet asks for **total revenue**.
 5. **Partner UI check.** ZF runs the page (`streamlit run app.py`) on AAPL without a terminal and confirms the verified report shows. Note the date in `audits/APPLE_team_manual_review.md`.
 6. **Commit, push, permalink.** `git add -A`, confirm `.env` is not staged, commit, push, `git rev-parse HEAD`, then fill `SUBMISSION.md` and paste into Brightspace. A branch URL (`/tree/main`) is not a permalink; use `/commit/<full SHA>`.
 

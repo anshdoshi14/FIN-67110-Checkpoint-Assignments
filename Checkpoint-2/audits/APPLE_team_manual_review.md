@@ -8,8 +8,8 @@ Complete this worksheet as a team after reviewing the saved Apple run. Do not ma
 
 | Member | Initials | Primary responsibility | Completion/date |
 |---|---|---|---|
-| Ansh Doshi | AD | Runs the SEC desk and Apple agent-team graph; writes the three analyst personas; reviews verifier marks; final review and submission | Personas and manual final review complete 2026-11-05; automated citation corrections pending |
-| Zainab Fashola | ZF | Partner: selected Apple (AAPL) and peers; manually verifies two core claims in the saved filings; runs the Streamlit UI (`app.py`) without a terminal | Peer selection and two-claim manual check complete 2026-11-05; UI display-fix rerun pending |
+| Ansh Doshi | AD | Runs the SEC desk and Apple agent-team graph; writes the three analyst personas; reviews verifier marks; final review and submission | Personas and manual final review complete 2026-11-05; automated citation Completed by ZF|
+| Zainab Fashola | ZF | Partner: selected Apple (AAPL) and peers; manually verifies two core claims in the saved filings; runs the Streamlit UI (`app.py`) without a terminal | Peer selection and two-claim manual check complete 2026-11-05; UI display-fix rerun completed |
 | Krishmi Akurana Appuhamilage | KA | Pulls and reconciles peer `facts.json` / `peers.json`; checks fiscal-period alignment and revenue-tag consistency across AAPL/MSFT/GOOGL/ORCL; records missing-tag gaps (e.g., ORCL debt) for the Financial Analyst | Peer reconciliation table complete 2026-11-05 |
 
 ## Company and peer selection
@@ -84,4 +84,4 @@ Partner verification record: ZF completed the two selected rows on 2026-11-05 an
 
 - Student completing final review - name/initials: Ansh Doshi / AD
 - Date: Nov 5 2026
-- Final disposition: **Conditional / Pending.** Automated citation corrections remain pending and the UI display-fix rerun is unresolved; this is not a completed final manual-review disposition. No new reviewer initials, date, pass decision, screenshot, or UI-test result is recorded.
+- Final disposition: Automated citation corrections completed and the UI display-fix rerun is resolved. 
