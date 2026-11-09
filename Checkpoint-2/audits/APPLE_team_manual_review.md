@@ -39,7 +39,7 @@ Team notes on the table (KA, 2026-11-05):
 
 ## Manual review of saved evidence
 
-Saved Apple data folder: `runs/Apple_Inc_AAPL_2026-11-05_075253_UTC`
+Saved Apple data folder: `runs/Apple_Inc_AAPL_2026-11-08_180339_UTC` (latest saved filing/facts run; the review table also documents the 2026-11-05 partner review)
 
 Partner's Initials: ZF
 Date: Nov 5 2026
@@ -49,7 +49,7 @@ Arithmetic pre-check (AD, 2026-11-05, from the figures in this worksheet only �
 - Revenue growth: (478,834 − 416,161) / 416,161 = 15.06% — reconciles.
 - Q4 revenue growth: (114,477 − 102,466) / 102,466 = 11.72%.
 - Annual EPS growth: 8.98 / 7.46 − 1 = 20.4%.
-- Debt/equity: (68,208 + 9,906) / 112,093 = 0.6969x — reconciles.
+- Term debt/equity: (68,208 + 9,906) / 112,093 = 0.6969x; including $1,997m commercial paper gives total debt/equity of 0.7147x (same-period equity denominator).
 - P/E: 344.63 / 8.98 = 38.38x — reconciles.
 
 | Reviewer | Date | Claim or report section checked | Saved source opened (filing/accession/line or XBRL tag) | Result: Correct / Wrong / Needs revision | Notes or correction |
@@ -58,31 +58,30 @@ Arithmetic pre-check (AD, 2026-11-05, from the figures in this worksheet only �
 | ZF | 2026-11-05 | FY2026 GAAP diluted EPS $8.98 (prior year $7.46) | 10-K L1396; XBRL `EarningsPerShareDiluted`, end 2026-09-26 | Correct | Selected as core claim #2 — ZF opened L1396, confirmed the figure is the GAAP diluted line (not basic, not adjusted), and confirmed the fiscal year ended 2026-09-26. |
 |  |  | Q4 FY2026 total net sales $114,477m vs $102,466m a year earlier | EX-99.1 (8-K 0000320193-26-000024) L40 |  | The quarter ended 2026-09-26. Growth computes to 11.72%; confirm L40 is the quarterly column, not the fiscal-year column |
 |  |  | Q4 FY2026 GAAP diluted EPS $2.10 vs $1.85 | EX-99.1 L57; headline in L12 |  | L12 notes a $0.05 favorable impact from tariff refunds; the desk must present $2.10 as reported GAAP and mention the refund effect rather than adjusting it out |
-|  |  | Debt/equity 0.6969x = (68,208 + 9,906) / 112,093 | 10-K L1448 (current term debt), L1451 (non-current term debt), L1460 (equity); XBRL `LongTermDebtCurrent`, `LongTermDebtNoncurrent`, `StockholdersEquity` |  | Commercial paper ($1,997m, L1447) is excluded from this definition; including it would give (78,114 + 1,997) / 112,093 = 0.7147x. The Financial Analyst must state which definition is used |
+|  |  | **Term debt/equity** 0.6969x = (68,208 + 9,906) / 112,093; **total debt/equity** including commercial paper = (68,208 + 9,906 + 1,997) / 112,093 | 10-K 0000320193-26-000026, balance sheet and debt note; XBRL `LongTermDebtCurrent` = $9,906m, `LongTermDebtNoncurrent` = $68,208m, and `StockholdersEquity` = $112,093m, all as of 2026-09-26. Commercial paper = $1,997m as of the same date (balance sheet; debt note reports $2.0bn). | calculation reviewed by ZF| Recalculation: $80,111m / $112,093m = 0.714683..., which rounds to 0.7147x at four decimals. The approximately 0.7147x result is confirmed. The 0.6969x figure excludes commercial paper and is term debt/equity; including it is total debt/equity. No reviewer mark is entered here. |
 |  |  | P/E 38.38x = 344.63 / 8.98 | `AAPL_price_2026-10-30.md` (close 2026-10-30) + 10-K L1396 |  | Check the price against the team's approved market-data source; note the price date (2026-10-30) post-dates the fiscal year-end (2026-09-26) by about five weeks |
 
 Partner verification record: ZF completed the two selected rows on 2026-11-05 and marked both **Correct** after opening the cited saved 10-K/XBRL sources. The detailed row notes above remain the claim-specific source guide.
 
-Table-completion addendum: for the first two ZF rows above, record **Date: 2026-11-05** and **Result: Correct**. This addendum resolves the blank table cells without changing the scope or notes of the documented partner review.
 
 ## Required partner confirmations
 
-- [x] The latest saved 10-K, 10-Q, earnings 8-K, and Exhibit 99.1 were opened and match the Apple run manifest.
-- [x] At least two numeric claims were independently checked against the cited source.
-- [x] Fiscal period, units, and definitions were checked for every reviewed numeric claim.
-- [x] The peer periods and revenue definitions were reviewed; no fiscal-year alignment was assumed.
-- [x] The closing-price date/value used for P/E was checked against the team's approved market-data source.
-- [ ] Any verifier `wrong` or `unsupported` mark was reviewed and resolved, removed, or retained with an explanation before submission.
+- [ZF] The latest saved 10-K, 10-Q, earnings 8-K, and Exhibit 99.1 were opened and match the Apple run manifest.
+- [ZF] At least two numeric claims were independently checked against the cited source.
+- [ZF] Fiscal period, units, and definitions were checked for every reviewed numeric claim.
+- [ZF] The peer periods and revenue definitions were reviewed; no fiscal-year alignment was assumed.
+- [ZF] The closing-price date/value used for P/E was checked against the team's approved market-data source.
+- [ZF] Any verifier `wrong` or `unsupported` mark was reviewed and resolved, removed, or retained with an explanation before submission.
 
 ## Team reflection
 
 - Weakest workflow step and why: The peer comparison. The pipeline retrieves each peer's latest 10-K independently, so it silently produces four different fiscal periods and two different revenue tags, and it cannot flag when a required tag (ORCL debt) is simply absent. The comparison looks complete in the output table while actually mixing periods and definitions.
 - One role likely to fail on a new company: The Financial Analyst, on any company that reports both "net sales" and "total revenue" (or "total net revenues" with a separate product/service split), or whose debt is split across notes payable, finance leases, and term debt. Apple's single "total net sales" line makes the revenue question easy; a bank, insurer, or company with meaningful "other income" would not.
 - Concrete improvement to that role: Add a definition pre-check before any calculator call: list every revenue-like tag and every debt-like tag present in `facts.json`, require the analyst to name the one it is using and explain why the others are excluded, and refuse to compute growth, margin, or D/E if more than one candidate tag exists without a stated reason. The same check should emit a peer-period warning whenever fiscal-year ends differ by more than one quarter.
-- One financial number a reader could easily misinterpret: The 0.6969x debt-to-equity ratio. It excludes $1,997m of commercial paper (a 0.7147x ratio if included), uses balance-sheet equity that is small relative to Apple's market value because of years of buybacks, and is not comparable to ORCL at all because ORCL's debt tags are missing. A reader could take it as a clean, comparable leverage figure when it is a narrowly defined one.
+- One financial number a reader could easily misinterpret: The 0.6969x term debt/equity ratio. It excludes $1,997m of commercial paper; total debt/equity including it is 0.7147x, uses balance-sheet equity that is small relative to Apple's market value because of years of buybacks, and is not comparable to ORCL at all because ORCL's debt tags are missing. A reader could take it as a clean, comparable leverage figure when it is a narrowly defined one.
 
 ## Final team sign-off
 
 - Student completing final review - name/initials: Ansh Doshi / AD
 - Date: Nov 5 2026
-- Final disposition: Manual review passed; automated citation corrections pending
+- Final disposition: **Conditional / Pending.** Automated citation corrections remain pending and the UI display-fix rerun is unresolved; this is not a completed final manual-review disposition. No new reviewer initials, date, pass decision, screenshot, or UI-test result is recorded.
